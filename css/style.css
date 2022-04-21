@@ -1,0 +1,24 @@
+.page {
+    display: flex;
+}
+
+.left-bar {
+    width: 25%;
+    height: 100%;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-image {
+    margin: 25px 0;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+}
+
+.main-content {
+    width: 75%;
+    background-color: aquamarine;
+}
