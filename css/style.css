@@ -13,12 +13,32 @@
 
 .profile-image {
     margin: 25px 0;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 250px;
+    max-height: 250px;
     border-radius: 50%;
 }
 
 .main-content {
     width: 75%;
     background-color: aquamarine;
+}
+
+.left-bar__section {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+}
+
+.left-bar__section-title {
+    margin: 0 0 0 50px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+list__item-header {
+    margin: 0 0 0 50px;
 }
