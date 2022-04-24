@@ -1,44 +1,208 @@
 .page {
-    display: flex;
+  display: grid;
+  box-sizing: border-box;
+  background-color: #ebf2fa;
+  grid-template-columns: 25% 95%;
 }
 
+/* Side Bar rules */
 .left-bar {
-    width: 25%;
-    height: 100%;
-    background-color: beige;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  height: 100%;
+  background-color: rgba(61, 142, 133, 0.85);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2.5px 0 5px #3d8e85;
+  z-index: 1;
+  overflow: hidden;
 }
 
 .profile-image {
-    margin: 25px 0;
-    max-width: 250px;
-    max-height: 250px;
-    border-radius: 50%;
+  margin: 25px 0;
+  max-width: 225px;
+  max-height: 225px;
+  border-radius: 50%;
+  box-shadow: 2.5px 2.5px 10px #3d8e85;
+}
+
+.title {
+  color: #f8f8f8;
+  width: 75%;
+  line-height: 1.25;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+}
+
+.subtitle {
+  color: #f8f8f8;
+  margin: 10px auto 10px auto;
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-style: italic;
 }
 
 .main-content {
-    width: 75%;
-    background-color: aquamarine;
+  width: 75%;
 }
 
 .left-bar__section {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 25px 0 0 0;
+  width: 100%;
 }
 
 .left-bar__section-title {
-    margin: 0 0 0 50px;
+  color: #f8f8f8;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 5px 0 5px 50px;
+  width: 100%;
+  background-color: #3d8e85;
 }
 
 .list {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-list__item-header {
-    margin: 0 0 0 50px;
+.list__item {
+  color: #f8f8f8;
+  font-size: 0.9rem;
+  margin: 15px 0;
+}
+
+.list__item-header {
+  color: #f8f8f8;
+  font-size: 1.05rem;
+  font-weight: bold;
+  margin: 0 0 0 50px;
+}
+
+.list__item a {
+  text-decoration: none;
+  color: #f8f8f8;
+}
+
+.skills-bar {
+  margin: 0 0 25px 0;
+}
+
+.skills-bar__title {
+  color: #f8f8f8;
+  font-size: 1.05rem;
+  font-weight: bold;
+  margin: 15px 0 0 50px;
+}
+
+.skills-bar__base {
+  width: 75%;
+  height: 15px;
+  border-radius: 7.5px;
+  background-color: #3d8e85;
+  margin: 5px 0 0 50px;
+  display: flex;
+}
+
+.skills-bar__level {
+  height: 15px;
+  border-radius: 7.5px;
+  background-color: #fff;
+  margin: 0;
+}
+
+.skills-bar__level_100 {
+  width: 100%;
+}
+
+.skills-bar__level_90 {
+  width: 85%;
+}
+
+.skills-bar__level_75 {
+  width: 75%;
+}
+
+.skills-bar__level_50 {
+  width: 50%;
+}
+
+.skills-bar__level_25 {
+  width: 25%;
+}
+
+/* Main Content rules */
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.summary {
+  font-size: 1.05rem;
+  text-align: justify;
+  margin: 25px 0 25px 50px;
+}
+
+.section__div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.main__title {
+  font-size: 1.15rem;
+  font-weight: bold;
+  margin: 5px 0 5px 50px;
+}
+
+.main__title-line {
+  height: 1px;
+  background-color: #101010;
+  margin: 0 0 0 50px;
+  box-shadow: 0.25px 0.25px 0.75px #101010;
+}
+
+.two-columns {
+  margin: 20px 0 0 50px;
+  align-self: center;
+  display: grid;
+  grid-template-areas:
+    "title title title title title"
+    "date description description description description"
+    ". description description description description";
+  column-gap: 15px;
+}
+
+.two-columns__title {
+  grid-area: title;
+  color: #101010;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.two-columns__date {
+  grid-area: date;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.two-columns__description {
+  grid-area: description;
+  font-size: 1.1rem;
+  font-weight: normal;
+  text-align: justify;
+}
+
+.line-break {
+  display: block;
 }
