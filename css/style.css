@@ -1,13 +1,16 @@
 .page {
   display: grid;
   box-sizing: border-box;
-  background-color: #ebf2fa;
-  grid-template-columns: 25% 95%;
+  background-color: #f7f9fd;
+  grid-template-columns: 25% 75%;
 }
 
 /* Side Bar rules */
 .left-bar {
-  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%;
   background-color: rgba(61, 142, 133, 0.85);
   display: flex;
   flex-direction: column;
@@ -140,8 +143,10 @@
 
 /* Main Content rules */
 .main-content {
+  grid-column: 2;
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 .summary {
