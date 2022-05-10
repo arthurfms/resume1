@@ -286,17 +286,21 @@
 .slide {
   margin: 0 auto;
   padding: 0;
-  display: none;
   color: #3f3f3f;
   background-color: #fff;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 2.5px 2.5px 10px rgba(74, 117, 55, 0.5);
-  width: 50%;
-  display: flex;
+  width: 70%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  display: none;
 }
+
+.slide:first-child {
+  display: flex;
+}
+
 
 .slide__title {
   font-size: 18px;
@@ -327,7 +331,7 @@
   font-size: 12px;
   line-height: 1.12;
   font-weight: 400;
-  margin: 15px 0;
+  margin: 40px 0;
 }
 
 .slides__prev,
