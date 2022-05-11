@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <script src="./js/script.js"></script>
+    <script src="./js/test.js"></script>
   </head>
   <body class="page">
     <nav class="menu">
@@ -37,7 +38,7 @@
       </ul>
     </nav>
     <header class="header">
-      <h1 class="header__title">Arthur Santos</h1>
+      <h1 class="header__title">Arthur Fernandes</h1>
       <h2 class="header__subtitle">Front-End Developer</h2>
       <ul class="social-links">
         <li class="social-links__item">
@@ -567,9 +568,17 @@
               </li>
             </ul>
           </nav>
-          <form class="contact-form"></form>
+          <form class="contact-form">
+            <input type="text" id="name" class="form__name" placeholder="Full name" onkeydown="return event.key != 'Enter';">
+            <input type="text" id="subject" class="form__subject" placeholder="Subject" onkeydown="return event.key != 'Enter';">
+            <textarea type="text" id="message" class="form__message" placeholder="Message"></textarea>
+            <button class="form__submit">Submit</button>
+          </form>
         </div>
       </section>
+      <footer class="footer">
+        <p class="footer__copyright">&#169; 2022 - Arthur Fernandes</p>
+      </footer>
     </main>
   </body>
 </html>
