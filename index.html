@@ -30,9 +30,6 @@
           <a href="#">Education</a>
         </li>
         <li class="menu__link">
-          <a href="#">Portifolio</a>
-        </li>
-        <li class="menu__link">
           <a href="#">Contact</a>
         </li>
       </ul>
@@ -569,10 +566,11 @@
             </ul>
           </nav>
           <form class="contact-form">
-            <input type="text" id="name" class="form__name" placeholder="Full name" onkeydown="return event.key != 'Enter';">
-            <input type="text" id="subject" class="form__subject" placeholder="Subject" onkeydown="return event.key != 'Enter';">
-            <textarea type="text" id="message" class="form__message" placeholder="Message"></textarea>
-            <button class="form__submit">Submit</button>
+            <input type="text" class="form__name" id="form__name" placeholder="Full name" onkeydown="return event.key != 'Enter';">
+            <input type="text" class="form__email" id="form__email" placeholder="Your E-mail" onkeydown="return event.key != 'Enter';">
+            <input type="text" class="form__subject" id="form__subject" placeholder="Subject" onkeydown="return event.key != 'Enter';">
+            <textarea type="text" class="form__message" id="form__message" placeholder="Message"></textarea>
+            <button class="form__submit" type="button" onclick="send_form ()">Submit</button>
           </form>
         </div>
       </section>

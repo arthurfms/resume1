@@ -449,7 +449,7 @@
   grid-column: 2;
   display: grid;
   grid-template-areas: 
-  "name name"
+  "name email"
   "subject subject"
   "message message"
   "message message"
@@ -465,6 +465,17 @@
 }
 
 .form__name::placeholder {
+  padding-left: 5px;
+}
+
+.form__email {
+  grid-area: email;
+  height: 30px;
+  border: none;
+  outline: none;
+}
+
+.form__email::placeholder {
   padding-left: 5px;
 }
 
