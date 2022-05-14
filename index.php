@@ -1,3 +1,5 @@
+<?php include "sendemail.php"; ?>
+
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
@@ -36,7 +38,7 @@
     </nav>
     <header class="header">
       <h1 class="header__title">Arthur Fernandes</h1>
-      <h2 class="header__subtitle">Front-End Developer</h2>
+      <h2 class="header__subtitle" id="header__subtitle"></h2>
       <ul class="social-links">
         <li class="social-links__item">
           <a href="https://www.linkedin.com/in/arthur-fms/" target="_blank">
@@ -565,12 +567,47 @@
               </li>
             </ul>
           </nav>
-          <form class="contact-form">
-            <input type="text" class="form__name" id="form__name" placeholder="Full name" onkeydown="return event.key != 'Enter';">
-            <input type="text" class="form__email" id="form__email" placeholder="Your E-mail" onkeydown="return event.key != 'Enter';">
-            <input type="text" class="form__subject" id="form__subject" placeholder="Subject" onkeydown="return event.key != 'Enter';">
-            <textarea type="text" class="form__message" id="form__message" placeholder="Message"></textarea>
-            <button class="form__submit" type="button" onclick="send_form ()">Submit</button>
+          <form class="contact-form" method="post">
+            <input
+              name="form__name"
+              type="text"
+              class="form__name"
+              id="form__name"
+              placeholder="Full name"
+              onkeydown="return event.key != 'Enter';"
+            />
+            <input
+              name="form__email"
+              type="text"
+              class="form__email"
+              id="form__email"
+              placeholder="Your E-mail"
+              onkeydown="return event.key != 'Enter';"
+            />
+            <input
+              name="form__subject"
+              type="text"
+              class="form__subject"
+              id="form__subject"
+              placeholder="Subject"
+              onkeydown="return event.key != 'Enter';"
+            />
+            <textarea
+              name="form__message"
+              type="text"
+              class="form__message"
+              id="form__message"
+              placeholder="Message"
+            ></textarea>
+            <button
+              name="form__submit"
+              class="form__submit"
+              type="button"
+              onclick="send_form ()"
+            >
+              Submit
+            </button>
+            <p class="success"><?php echo $success;  ?></p>
           </form>
         </div>
       </section>

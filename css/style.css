@@ -15,6 +15,7 @@
   color: #fff;
   display: flex;
   flex-direction: column;
+  cursor: default;
 }
 .menu {
   z-index: 2;
@@ -42,7 +43,7 @@
   text-decoration: none;
   text-transform: uppercase;
   color: #929292;
-  transition: color 0.75s;
+  transition: color 0.5s;
 }
 .menu__link a:hover {
   color: #4a7537;
@@ -75,6 +76,7 @@
   font-weight: 400;
   line-height: 1.15;
   font-style: italic;
+  min-height: 55px;
 }
 .social-links {
   width: 25%;
@@ -448,12 +450,12 @@
   width: 90%;
   grid-column: 2;
   display: grid;
-  grid-template-areas: 
-  "name email"
-  "subject subject"
-  "message message"
-  "message message"
-  "submit submit";
+  grid-template-areas:
+    "name email"
+    "subject subject"
+    "message message"
+    "message message"
+    "submit submit";
   gap: 20px;
 }
 
@@ -498,7 +500,6 @@
   border: none;
   outline: none;
 }
-
 
 .form__message::placeholder {
   padding-left: 5px;

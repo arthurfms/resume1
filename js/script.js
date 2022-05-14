@@ -13,7 +13,6 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "flex";
 }
 
-
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -27,3 +26,19 @@ function currentSlide(n) {
   showSlides((slideIndex = n));
 }
 
+//tyewritter
+var i = 0;
+var text = "Front-End Developer";
+var speed = 125;
+
+setTimeout(function typeWriter() {
+  if (i < text.length) {
+    document.getElementById("header__subtitle").innerHTML += text.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}, 1000);
+
+window.onload = function () {
+  typeWriter();
+};
