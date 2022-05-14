@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <script src="./js/script.js"></script>
-    <script src="./js/test.js"></script>
+    <script src="./js/form.js"></script>
   </head>
   <body class="page">
     <nav class="menu">
@@ -601,13 +601,14 @@
             ></textarea>
             <button
               name="form__submit"
+              id="form__submit"
               class="form__submit"
               type="button"
               onclick="send_form ()"
             >
               Submit
             </button>
-            <p class="success"><?php echo $success;  ?></p>
+            <p class="form__confirmation" id="form__confirmation"></p>
           </form>
         </div>
       </section>
