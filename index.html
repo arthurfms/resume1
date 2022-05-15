@@ -12,9 +12,10 @@
     <link rel="stylesheet" href="./css/style.css" />
     <script src="./js/script.js"></script>
     <script src="./js/form.js"></script>
+    <script src="./js/test.js"></script>
   </head>
   <body class="page">
-    <nav class="menu">
+    <nav class="menu" id="menu">
       <ul class="menu__list">
         <li class="menu__link">
           <a href="#">Home</a>
@@ -36,9 +37,12 @@
         </li>
       </ul>
     </nav>
-    <header class="header">
+    <header class="header" id="header">
       <h1 class="header__title">Arthur Fernandes</h1>
-      <h2 class="header__subtitle" id="header__subtitle"></h2>
+      <div class="header__subtitle">
+        <h2 class="header__subtitle-text" id="header__subtitle-text"></h2>
+        <span class="header__typing"></span>
+      </div>
       <ul class="social-links">
         <li class="social-links__item">
           <a href="https://www.linkedin.com/in/arthur-fms/" target="_blank">
@@ -297,7 +301,8 @@
       </ul>
     </header>
     <main>
-      <section class="profile">
+      <div class="share" id="share"></div>
+      <section class="profile" id="profile">
         <div class="section-header">
           <h2 class="section-header__title">About Me</h2>
           <div class="section-header__line"></div>
@@ -326,58 +331,92 @@
           </div>
         </div>
       </section>
-      <section class="skills">
+      <section class="skills" id="skills">
         <div class="section-header">
           <h2 class="section-header__title">Skills</h2>
           <div class="section-header__line"></div>
           <h3 class="section-header__subtitle">Some of my main skills</h3>
         </div>
         <ul class="skills__list">
-          <li class="skills__item">
-            <div class="skills__level">
-              <p>75</p>
-            </div>
-            <h4 class="skills__name">HTML</h4>
+          <li class="skill">
+            <svg viewBox="0 0 36 36" class="circle">
+              <path
+                class="circle__background"
+                d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+              />
+              <path
+                class="circle__percentage"
+                stroke-dasharray="75, 100"
+                d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+              />
+              <text x="18" y="20.35" class="skill__percentage">75%</text>
+            </svg>
+            <p class="skill__name">HTML</p>
           </li>
-          <li class="skills__item">
-            <div class="skills__level">
-              <p>75</p>
-            </div>
-            <h4 class="skills__name">CSS</h4>
+          <li class="skill">
+            <svg viewBox="0 0 36 36" class="circle">
+              <path
+                class="circle__background"
+                d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+              />
+              <path
+                class="circle__percentage"
+                stroke-dasharray="75, 100"
+                d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+              />
+              <text x="18" y="20.35" class="skill__percentage">75%</text>
+            </svg>
+            <p class="skill__name">CSS</p>
           </li>
-          <li class="skills__item">
-            <div class="skills__level">
-              <p>50</p>
-            </div>
-            <h4 class="skills__name">JavaScript</h4>
+          <li class="skill">
+            <svg viewBox="0 0 36 36" class="circle">
+              <path
+                class="circle__background"
+                d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+              />
+              <path
+                class="circle__percentage"
+                stroke-dasharray="50, 100"
+                d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+              />
+              <text x="18" y="20.35" class="skill__percentage">50%</text>
+            </svg>
+            <p class="skill__name">JavaScript</p>
           </li>
-          <li class="skills__item">
-            <div class="skills__level">
-              <p>75</p>
-            </div>
-            <h4 class="skills__name">SQL</h4>
-          </li>
-          <li class="skills__item">
-            <div class="skills__level">
-              <p>100</p>
-            </div>
-            <h4 class="skills__name">Portuguese</h4>
-          </li>
-          <li class="skills__item">
-            <div class="skills__level">
-              <p>80</p>
-            </div>
-            <h4 class="skills__name">English</h4>
-          </li>
-          <li class="skills__item">
-            <div class="skills__level">
-              <p>100</p>
-            </div>
-            <h4 class="skills__name">Spanish</h4>
+          <li class="skill">
+            <svg viewBox="0 0 36 36" class="circle">
+              <path
+                class="circle__background"
+                d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+              />
+              <path
+                class="circle__percentage"
+                stroke-dasharray="75, 100"
+                d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+              />
+              <text x="18" y="20.35" class="skill__percentage">75%</text>
+            </svg>
+            <p class="skill__name">SQL</p>
           </li>
         </ul>
       </section>
-      <section class="education">
+      <section class="education" id="education">
         <div class="section-header">
           <h2 class="section-header__title">Education</h2>
           <div class="section-header__line"></div>
@@ -442,7 +481,7 @@
           </div>
         </div>
       </section>
-      <section class="experience">
+      <section class="experience" id="experience">
         <div class="section-header">
           <h2 class="section-header__title">Experience</h2>
           <div class="section-header__line"></div>
@@ -525,7 +564,7 @@
           </div>
         </div>
       </section>
-      <section class="contact">
+      <section class="contact" id="contact">
         <div class="section-header section-header_light">
           <h2 class="section-header__title">Contact</h2>
           <div class="section-header__line section-header__line_light"></div>
@@ -608,7 +647,10 @@
             >
               Submit
             </button>
-            <p class="form__confirmation" id="form__confirmation"></p>
+            <p
+              class="form__confirmation form__confirmation_error"
+              id="form__confirmation"
+            ></p>
           </form>
         </div>
       </section>

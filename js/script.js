@@ -5,15 +5,12 @@ var speed = 125;
 
 setTimeout(function typeWriter() {
   if (i < text.length) {
-    document.getElementById("header__subtitle").innerHTML += text.charAt(i);
+    document.getElementById("header__subtitle-text").innerHTML +=
+      text.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
   }
-}, 1000);
-
-window.onload = function () {
-  typeWriter();
-};
+}, 1500);
 
 function showSlides(n) {
   let i;

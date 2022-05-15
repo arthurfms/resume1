@@ -1,10 +1,3 @@
-function form(name, email, subject, message) {
-  this.name = name;
-  this.email = email;
-  this.subject = subject;
-  this.message = message;
-}
-
 function link_gen(info) {
   var gen = info
     .replaceAll("+", "%2B")
@@ -193,14 +186,6 @@ function send_form() {
 
   ValidateEmail(form__email);
 
-  /*
-  if (confirm("This form will be sent by google forms")) {
-    form__confirmation =
-      "Message sent. Thanks a lot, I'll be answering you as soon as possible!";
-  } else {
-    form__confirmation = "Message not sent. Thanks a lot anyway!";
-  } */
-
   if (
     notnull(form__name) &&
     notnull(form__email) &&
@@ -208,6 +193,10 @@ function send_form() {
     notnull(form__message)
   ) {
     if (ValidateEmail(form__email)) {
+      document
+        .getElementById("form__confirmation")
+        .classList.remove("form__confirmation_error");
+      form__confirmation = "Message sent! Soon, I'll be answering you.";
       document.getElementById("form__confirmation").innerHTML =
         form__confirmation;
       document
@@ -226,11 +215,14 @@ function send_form() {
         input.value = "";
       });
     } else {
+      form__confirmation = "Please, insert a valid e-mail.";
       document.getElementById("form__confirmation").innerHTML =
-        "Please, insert a valid e-mail!";
+        form__confirmation;
     }
   } else {
+    form__confirmation = "Please, insert valid information in all fields.";
+
     document.getElementById("form__confirmation").innerHTML =
-      "Please, insert valid information in all fields!";
+      form__confirmation;
   }
 }

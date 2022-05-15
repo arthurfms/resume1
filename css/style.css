@@ -8,6 +8,27 @@
   }
 }
 
+@keyframes typer {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
 .page {
   box-sizing: border-box;
   font-family: "Oxygen", sans-serif;
@@ -72,12 +93,28 @@
 }
 .header__subtitle {
   margin: 0;
+  min-height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__subtitle-text {
+  margin: 0;
   font-size: 24px;
   font-weight: 400;
   line-height: 1.15;
   font-style: italic;
-  min-height: 55px;
 }
+
+.header__typing {
+  margin-left: 5px;
+  height: 25px;
+  border: 1.5px solid #4a7537;
+  background-color: #4a7537;
+  animation: typer 0.6s linear infinite alternate;
+}
+
 .social-links {
   width: 25%;
   list-style: none;
@@ -208,34 +245,49 @@
   list-style: none;
   color: #3f3f3f;
   padding: 0;
-  margin: 75px auto 0;
+  margin: 50px auto 0;
   width: 80%;
 }
 
-.skills__item {
+.skill {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-}
-.skills__level {
-  width: 125px;
-  height: 125px;
-  border: #4a7537 2px solid;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.skills__level p {
-  font-size: 16px;
-  margin: 0;
-  width: 50%;
-  text-align: center;
 }
 
-.skills__level p::after {
-  content: "%";
+.circle {
+  display: block;
+  margin: 10px auto;
+  width: 125px;
+  height: 125px;
+}
+
+.circle__background {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 3.8;
+}
+
+.circle__percentage {
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  stroke: #4a7537;
+  animation: progress 1s ease-out forwards;
+}
+
+.skill__percentage {
+  fill: #3f3f3f;
+  font-family: sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
+}
+
+.skill__name {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
 }
 
 .education {
@@ -523,10 +575,15 @@
 
 .form__confirmation {
   min-width: 150px;
+  height: 50px;
   grid-area: confirmation;
   margin: 0;
   text-align: center;
   font-weight: 600;
+}
+
+.form__confirmation_error {
+  color: #dc3030;
 }
 
 .footer {
@@ -543,4 +600,19 @@
   margin: 0;
   align-self: center;
   color: #fff;
+}
+
+.share {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px 5px 25px 25px;
+  background-color: #4a7537;
+  transition: width 1.5s ease;
+}
+
+.share:hover {
+  width: 150px;
 }
