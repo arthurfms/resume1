@@ -1,17 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
-<desc>Created with Fabric.js 1.7.22</desc>
-<defs>
-</defs>
-<g transform="translate(128 128) scale(0.72 0.72)" style="">
-	<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(-175.05 -175.05000000000004) scale(3.89 3.89)" >
-	<path d="M 86.554 26.164 v 58.519 c 0 2.937 -2.381 5.317 -5.317 5.317 H 22.076 c -2.937 0 -5.317 -2.381 -5.317 -5.317 V 71.549 V 5.317 C 16.759 2.381 19.139 0 22.076 0 h 38.315 C 68.66 0.135 86.554 16.011 86.554 26.164 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(226,226,226); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-	<path d="M 16.833 21.859 H 57.1 c 3.218 0 5.827 2.609 5.827 5.827 v 18.341 c 0 3.218 -2.609 5.827 -5.827 5.827 H 9.273 c -3.218 0 -5.827 -2.609 -5.827 -5.827 V 16.032" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(241,86,66); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-	<path d="M 3.446 16.032 c 0 3.218 2.609 5.827 5.827 5.827 h 7.56 V 10.552 h -7.56 c -3.218 0 -5.827 2.609 -5.827 5.827" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(190,64,48); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-	<path d="M 60.391 0 h 6.662 c 2.826 0 5.536 1.123 7.534 3.121 l 8.847 8.847 c 1.998 1.998 3.121 4.708 3.121 7.534 v 6.662 c 0 -3.419 -2.772 -6.19 -6.19 -6.19 h -7.866 c -3.268 0 -5.917 -2.649 -5.917 -5.917 c 0 0 0 -7.866 0 -7.866 v 0 C 66.581 2.772 63.81 0 60.391 0 C 60.391 0 60.391 0 60.391 0 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(183,183,183); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-	<path d="M 20.708 27.68 h -5.489 c -0.829 0 -1.5 0.671 -1.5 1.5 v 9.1 v 6.231 c 0 0.829 0.671 1.5 1.5 1.5 s 1.5 -0.671 1.5 -1.5 V 39.78 h 3.989 c 2.272 0 4.122 -1.849 4.122 -4.121 v -3.858 C 24.829 29.529 22.98 27.68 20.708 27.68 z M 21.829 35.659 c 0 0.618 -0.503 1.121 -1.122 1.121 h -3.989 v -6.1 h 3.989 c 0.619 0 1.122 0.503 1.122 1.121 V 35.659 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-	<path d="M 34.554 27.68 h -5.22 c -0.829 0 -1.5 0.671 -1.5 1.5 v 15.332 c 0 0.829 0.671 1.5 1.5 1.5 h 5.22 c 2.421 0 4.391 -1.97 4.391 -4.391 v -9.55 C 38.945 29.65 36.976 27.68 34.554 27.68 z M 35.945 41.621 c 0 0.767 -0.624 1.391 -1.391 1.391 h -3.72 V 30.68 h 3.72 c 0.767 0 1.391 0.624 1.391 1.391 V 41.621 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-	<path d="M 51.841 27.68 h -8.11 c -0.829 0 -1.5 0.671 -1.5 1.5 v 15.332 c 0 0.829 0.671 1.5 1.5 1.5 s 1.5 -0.671 1.5 -1.5 v -6.166 h 3.812 c 0.828 0 1.5 -0.671 1.5 -1.5 s -0.672 -1.5 -1.5 -1.5 H 45.23 V 30.68 h 6.61 c 0.828 0 1.5 -0.671 1.5 -1.5 S 52.669 27.68 51.841 27.68 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-	<path d="M 45.142 72.219 c -0.587 -0.586 -1.536 -0.586 -2.122 0 l -5.248 5.248 V 61.825 c 0 -0.828 -0.671 -1.5 -1.5 -1.5 s -1.5 0.672 -1.5 1.5 v 15.642 l -5.248 -5.248 c -0.586 -0.586 -1.535 -0.586 -2.121 0 s -0.586 1.535 0 2.121 l 6.323 6.323 c 0.625 0.625 1.424 0.955 2.243 1.024 c 0.098 0.02 0.2 0.031 0.304 0.031 s 0.206 -0.011 0.304 -0.031 c 0.818 -0.069 1.618 -0.399 2.243 -1.024 l 6.323 -6.323 C 45.727 73.754 45.727 72.805 45.142 72.219 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(183,183,183); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-</g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 520 520" style="enable-background:new 0 0 520 520;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F7F7F7;stroke:#A4A5A4;stroke-miterlimit:10;}
+	.st1{fill:#CCCCCC;stroke:#A4A5A4;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;}
+</style>
+<g>
+	<path id="sheet" class="st0" d="M218.43,35.58h188.63c3.24,0,5.86,2.63,5.86,5.86v437.12c0,3.24-2.63,5.86-5.86,5.86H112.94
+		c-3.24,0-5.86-2.63-5.86-5.86V146.92"/>
+	<path id="sheet_1_" class="st1" d="M218.43,35.57v105.48c0,3.24-2.63,5.86-5.86,5.86H107.08"/>
+	<g id="file">
+		<path class="st1" d="M456.3,368H63.7c-3.24,0-5.86-2.63-5.86-5.86V188.37c0-3.24,2.63-5.86,5.86-5.86h392.6
+			c3.24,0,5.86,2.63,5.86,5.86v173.77C462.16,365.37,459.54,368,456.3,368z"/>
+		<g>
+			<path class="st2" d="M99.35,340.53V209.97h44.11c10.24,0,18.62,1.84,25.15,5.51c6.52,3.68,11.36,8.64,14.5,14.89
+				c3.14,6.25,4.72,13.22,4.72,20.91c0,7.69-1.56,14.68-4.69,20.97c-3.12,6.29-7.94,11.29-14.44,15.01
+				c-6.5,3.72-14.83,5.58-24.99,5.58H112.1v-14.02h31.11c7.01,0,12.64-1.21,16.89-3.63c4.25-2.42,7.34-5.71,9.28-9.85
+				c1.93-4.14,2.9-8.83,2.9-14.06c0-5.23-0.97-9.9-2.9-14.02c-1.93-4.12-5.05-7.36-9.34-9.72c-4.29-2.36-9.99-3.54-17.08-3.54
+				h-27.79v116.53H99.35z"/>
+			<path class="st2" d="M253.63,340.53h-40.29V209.97h42.07c12.66,0,23.5,2.6,32.51,7.81c9.01,5.21,15.91,12.67,20.72,22.38
+				c4.8,9.71,7.2,21.32,7.2,34.84c0,13.6-2.42,25.3-7.27,35.09c-4.85,9.8-11.9,17.32-21.17,22.57
+				C278.15,337.91,266.88,340.53,253.63,340.53z M229.14,326.51h23.46c10.79,0,19.74-2.08,26.84-6.25
+				c7.1-4.16,12.39-10.09,15.87-17.79c3.49-7.69,5.23-16.85,5.23-27.48c0-10.54-1.72-19.62-5.16-27.25
+				c-3.44-7.63-8.59-13.49-15.43-17.59c-6.84-4.1-15.36-6.15-25.56-6.15h-25.24V326.51z"/>
+			<path class="st2" d="M342.36,340.53V209.97h78.28V224h-62.47v44.11h56.61v14.02h-56.61v58.39H342.36z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M119.5,475h4c0.55,0,1-0.45,1-1v-40c0-0.55-0.45-1-1-1h-4c-0.55,0-1,0.45-1,1v40
+				C118.5,474.55,118.95,475,119.5,475z"/>
+			<path class="st1" d="M144.68,475h4c0.55,0,1-0.45,1-1v-40c0-0.55-0.45-1-1-1h-4c-0.55,0-1,0.45-1,1v40
+				C143.68,474.55,144.13,475,144.68,475z"/>
+			<path class="st1" d="M169.86,475h4c0.55,0,1-0.45,1-1v-40c0-0.55-0.45-1-1-1h-4c-0.55,0-1,0.45-1,1v40
+				C168.86,474.55,169.31,475,169.86,475z"/>
+			<path class="st1" d="M195.05,475h4c0.55,0,1-0.45,1-1v-40c0-0.55-0.45-1-1-1h-4c-0.55,0-1,0.45-1,1v40
+				C194.05,474.55,194.49,475,195.05,475z"/>
+			<path class="st1" d="M220.23,475h4c0.55,0,1-0.45,1-1v-40c0-0.55-0.45-1-1-1h-4c-0.55,0-1,0.45-1,1v40
+				C219.23,474.55,219.67,475,220.23,475z"/>
+			<path class="st1" d="M245.41,475h4c0.55,0,1-0.45,1-1v-40c0-0.55-0.45-1-1-1h-4c-0.55,0-1,0.45-1,1v40
+				C244.41,474.55,244.86,475,245.41,475z"/>
+			<path class="st1" d="M270.59,475h4c0.55,0,1-0.45,1-1v-40c0-0.55-0.45-1-1-1h-4c-0.55,0-1,0.45-1,1v40
+				C269.59,474.55,270.04,475,270.59,475z"/>
+			<path class="st1" d="M295.77,475h4c0.55,0,1-0.45,1-1v-40c0-0.55-0.45-1-1-1h-4c-0.55,0-1,0.45-1,1v40
+				C294.77,474.55,295.22,475,295.77,475z"/>
+			<path class="st1" d="M320.95,475h4c0.55,0,1-0.45,1-1v-40c0-0.55-0.45-1-1-1h-4c-0.55,0-1,0.45-1,1v40
+				C319.95,474.55,320.4,475,320.95,475z"/>
+			<path class="st1" d="M346.14,475h4c0.55,0,1-0.45,1-1v-40c0-0.55-0.45-1-1-1h-4c-0.55,0-1,0.45-1,1v40
+				C345.14,474.55,345.58,475,346.14,475z"/>
+			<path class="st1" d="M371.32,475h4c0.55,0,1-0.45,1-1v-40c0-0.55-0.45-1-1-1h-4c-0.55,0-1,0.45-1,1v40
+				C370.32,474.55,370.77,475,371.32,475z"/>
+			<path class="st1" d="M396.5,475h4c0.55,0,1-0.45,1-1v-40c0-0.55-0.45-1-1-1h-4c-0.55,0-1,0.45-1,1v40
+				C395.5,474.55,395.95,475,396.5,475z"/>
+		</g>
+	</g>
 </g>
 </svg>

@@ -202,7 +202,7 @@
   display: grid;
   grid-template-columns: 1fr 3fr;
   margin: 15px auto;
-  width: 75%;
+  width: 65%;
 }
 .two-columns__head {
   grid-column: 1;
@@ -307,13 +307,13 @@
 }
 
 .card {
-  width: 30%;
+  width: 25%;
   color: #3f3f3f;
   text-align: justify;
 }
 
 .card_main {
-  width: 40%;
+  width: 35%;
 }
 
 .card__title {
@@ -609,10 +609,46 @@
   width: 50px;
   height: 50px;
   border-radius: 25px 5px 25px 25px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   background-color: #4a7537;
   transition: width 1.5s ease;
 }
 
 .share:hover {
   width: 150px;
+}
+
+.share__icon {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 0;
+  max-height: 30px;
+  margin: 0 auto;
+  height: 30px;
+  width: 30px;
+}
+
+.share__text {
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0;
+  max-height: 30px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  height: 0px;
+  width: 0px;
+  color: #fff;
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 1s 0.25s ease, width 1s 0.25s ease, height 1s 0.25s ease;
+}
+
+.share:hover .share__text {
+  opacity: 100%;
+  height: 30px;
+  width: 70%;
 }
