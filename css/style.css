@@ -246,7 +246,9 @@
 
 .skills {
   display: grid;
-  grid-template-areas: "languages skills skills skills" "languages skills skills skills";
+  grid-template-areas: 
+  "languages skills skills skills skills skills skills skills"
+  "languages skills skills skills skills skills skills skills";
   width: 90%;
   margin: auto;
 }
@@ -286,7 +288,7 @@
   fill: none;
   stroke-width: 2.8;
   stroke-linecap: round;
-  stroke: #4a7537;
+  stroke: rgba(74, 117, 55,0.85);
   animation: progress-circle 1s ease-out forwards;
 }
 
@@ -311,21 +313,23 @@
   margin: 50px auto;
   display: flex;
   flex-direction: column;
+  row-gap: 15px;
   list-style: none;
 }
 
 .languages__item {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 5px;
   padding: 0;
   margin: 0;
 }
 
 .languages__name {
   color: #fff;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 600;
   margin: 0;
   text-align: center;
@@ -333,22 +337,36 @@
 
 .languages__level {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
-  height: 15px;
-  width: 150px;
+  height: 18px;
+  width: 200px;
+  margin: 0;
+  padding: 2px;
   border-radius: 15px;
   background-color: #fff;
 }
 
 .languages__level-fill {
-  margin: auto 0 auto 1px;
-  height: 87%;
-  background-color: #4a7537;
+  display: block;
+  padding: 0;
+  height: 100%;
+  border-radius: 15px;
+  background-color: rgba(74, 117, 55,0.85);
 }
 
 .languages__level-fill_100 {
-  width: 99%;
+  width: 100%;
+  animation: progress-line 1s ease-out forwards;
+}
+
+.languages__level-fill_95 {
+  width: 95%;
+  animation: progress-line 1s ease-out forwards;
+}
+
+.languages__level-fill_90 {
+  width: 90%;
   animation: progress-line 1s ease-out forwards;
 }
 
