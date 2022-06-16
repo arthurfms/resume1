@@ -246,131 +246,10 @@
 
 .skills {
   display: grid;
-  grid-template-areas: 
-  "languages skills skills skills skills skills skills skills"
-  "languages skills skills skills skills skills skills skills";
   width: 90%;
   margin: auto;
 }
 
-.skills__list {
-  grid-area: skills;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  list-style: none;
-  color: #fff;
-  padding: 0;
-  margin: 50px auto 0;
-  width: 80%;
-}
-
-.skill {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.circle {
-  display: block;
-  margin: 10px auto;
-  width: 125px;
-  height: 125px;
-}
-
-.circle__background {
-  fill: none;
-  stroke: #fff;
-  stroke-width: 3.8;
-}
-
-.circle__percentage {
-  fill: none;
-  stroke-width: 2.8;
-  stroke-linecap: round;
-  stroke: rgba(74, 117, 55,0.85);
-  animation: progress-circle 1s ease-out forwards;
-}
-
-.skill__percentage {
-  fill: #fff;
-  font-family: sans-serif;
-  font-size: 0.5em;
-  text-anchor: middle;
-}
-
-.skill__name {
-  font-size: 18px;
-  font-weight: 600;
-  margin: 0;
-  text-align: center;
-}
-
-/* SKILLS LANGUAGE START */
-
-.languages {
-  grid-area: languages;
-  margin: 50px auto;
-  display: flex;
-  flex-direction: column;
-  row-gap: 15px;
-  list-style: none;
-}
-
-.languages__item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-  padding: 0;
-  margin: 0;
-}
-
-.languages__name {
-  color: #fff;
-  font-size: 22px;
-  font-weight: 600;
-  margin: 0;
-  text-align: center;
-}
-
-.languages__level {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  height: 18px;
-  width: 200px;
-  margin: 0;
-  padding: 2px;
-  border-radius: 15px;
-  background-color: #fff;
-}
-
-.languages__level-fill {
-  display: block;
-  padding: 0;
-  height: 100%;
-  border-radius: 15px;
-  background-color: rgba(74, 117, 55,0.85);
-}
-
-.languages__level-fill_100 {
-  width: 100%;
-  animation: progress-line 1s ease-out forwards;
-}
-
-.languages__level-fill_95 {
-  width: 95%;
-  animation: progress-line 1s ease-out forwards;
-}
-
-.languages__level-fill_90 {
-  width: 90%;
-  animation: progress-line 1s ease-out forwards;
-}
-
-/* SKILLS LANGUAGE END */
 .education {
   padding: 50px 0;
   margin: 0 auto;
@@ -430,6 +309,8 @@
   box-shadow: 2.5px 2.5px 10px #f5f5f5;
 }
 
+/* SLIDER */
+
 .slider {
   max-width: 1000px;
   position: relative;
@@ -444,56 +325,47 @@
   border-radius: 10px;
   box-shadow: 10px 10px 20px rgba(74, 117, 55, 0.25);
   width: 70%;
-  min-height: 250px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  display: none;
+  min-height: 300px;
+  display: grid;
+  grid-template-areas: "title" "subtitle" "description" "description" "description";
+  justify-items: center;
+  align-items: flex-start;
   transition: box-shadow 0.5s ease;
+  animation: fade 1.5s;
 }
 
 .slide:hover {
   box-shadow: 10px 10px 20px rgba(74, 117, 55, 0.35);
 }
 
-.slide:first-child {
-  display: flex;
-}
-
 .slide__title {
-  font-size: 18px;
-  line-height: 1;
+  grid-area: title;
+  font-size: 22px;
+  line-height: 1.2;
   font-weight: 600;
-  margin: 15px 0 0;
+  margin: 25px 0 0;
 }
 
 .slide__subtitle {
-  font-size: 12px;
+  grid-area: subtitle;
+  font-size: 16px;
   line-height: 1.1;
   font-weight: 400;
   font-style: italic;
-  margin: 15px 0 0;
-}
-
-.slide__date-range {
-  font-size: 12px;
-  line-height: 1.1;
-  font-weight: 400;
-  font-style: italic;
-  margin: 5px 0 0;
+  margin: 15px 0 15px;
 }
 
 .slide__description {
+  grid-area: description;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   width: 80%;
   text-align: justify;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.2;
   font-weight: 400;
-  margin: 40px 0;
-}
-
-.slide__description_break-line {
-  display: block;
+  margin: 5px 0;
 }
 
 .slides__prev,
@@ -520,10 +392,7 @@
   color: #4a7537;
 }
 
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
+/* SLIDER */
 
 .contact {
   padding: 50px 0;
