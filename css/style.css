@@ -23,19 +23,6 @@
   }
 }
 
-@keyframes progress-circle {
-  0% {
-    stroke-dasharray: 0 100;
-  }
-}
-
-@keyframes progress-line {
-  0% {
-    width: 0%;
-  }
-}
-
-
 .page {
   box-sizing: border-box;
   font-family: "Oxygen", sans-serif;
@@ -248,48 +235,61 @@
 }
 
 .skills {
-  display: grid;
-  width: 90%;
-  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 15px;
+  width: 50%;
+  padding: 0 100px;
+  margin: 25px auto;
 }
 
 .skill {
-  width: 75px;
-  height: 75px;
+  width: 80px;
+  height: 80px;
   border-radius: 15px;
   background-color: #f9f9f9;
   display: flex;
   flex-direction: column-reverse;
   align-items: flex-end;
-  transition: width 1s ease;
-
+  transition: width 0.75s ease;
 }
 
-
 .skill:hover {
-  width: 200px;
+  width: 100px;
+}
+
+.skill_size-g {
+  width: 125px;
+}
+
+.skill_size-g:hover {
+  width: 145px;
 }
 
 .skill__title {
   font-size: 20px;
   font-weight: 600;
   color: #4a7537;
-  margin: 5px;
+  margin: 5px 5px 5px 10px;
 }
 
-
 .skill__description {
-  display: none;
+  visibility: hidden;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #4a7537;
+
   opacity: 0;
-  transition: opacity 5s ease;
+  margin: 5px;
+  transition: opacity 1s ease 0.3s;
 }
 
 .skill:hover .skill__description {
-  font-size: 20px;
-  font-weight: 600;
-  color: #4a7537;
-  margin: 5px;
-  display: block;
+  visibility: visible;
+  margin: 2.5px;
   opacity: 1;
 }
 
