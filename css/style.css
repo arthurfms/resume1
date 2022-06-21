@@ -257,7 +257,7 @@
 }
 
 .skill:hover {
-  width: 100px;
+  width: 110px;
 }
 
 .skill_size-g {
@@ -265,7 +265,7 @@
 }
 
 .skill_size-g:hover {
-  width: 145px;
+  width: 155px;
 }
 
 .skill__title {
@@ -295,62 +295,10 @@
 
 /* SKILLS */
 
-.education {
-  padding: 50px 0;
-  margin: 0 auto;
-  width: 100%;
-}
-.cards {
-  align-self: center;
-  width: 90%;
-  margin: 50px auto 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-  flex-wrap: wrap;
-}
-
-.card {
-  width: 25%;
-  color: #3f3f3f;
-  text-align: justify;
-}
-
-.card_main {
-  width: 35%;
-}
-
-.card__title {
-  font-size: 18px;
-  line-height: 1.2;
-  font-weight: 600;
-  margin: 0;
-}
-
-.card__subtitle {
-  font-size: 15px;
-  line-height: 1.1;
-  font-weight: 400;
-  font-style: italic;
-  margin: 10px 0;
-}
-.card__subtitle span {
-  font-weight: 600;
-}
-
-.card__description {
-  font-size: 14px;
-  line-height: 1.12;
-  font-weight: 400;
-  margin: 10px 0;
-}
-
 .experience {
   padding: 50px 0;
   margin: 0 auto;
   width: 100%;
-  background-color: #f5f5f5;
   box-shadow: 2.5px 2.5px 10px #f5f5f5;
 }
 
@@ -364,7 +312,7 @@
   margin: 0 auto;
   padding: 0;
   color: #3f3f3f;
-  background-color: #fff;
+  background-color: #f5f5f5;
   border-radius: 10px;
   box-shadow: 10px 10px 20px rgba(74, 117, 55, 0.25);
   width: 70%;
@@ -434,6 +382,67 @@
 .slides__next:hover {
   color: #4a7537;
 }
+
+.education {
+  padding: 50px 0;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+.cards {
+  align-self: center;
+  width: 90%;
+  margin: 50px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 25%;
+  color: #3f3f3f;
+  text-align: justify;
+}
+
+.card_main {
+  width: 35%;
+}
+
+.card__title {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 600;
+  margin: 0;
+}
+
+.card__subtitle {
+  font-size: 15px;
+  line-height: 1.1;
+  font-weight: 400;
+  font-style: italic;
+  margin: 10px 0;
+}
+.card__subtitle span {
+  font-weight: 600;
+}
+
+.card__description {
+  font-size: 14px;
+  line-height: 1.12;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+/* portfolio */
+.portfolio {
+  padding: 50px 0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* portfolio */
 
 .contact {
   padding: 50px 0;
@@ -612,6 +621,7 @@
 
 .share:hover {
   width: 140px;
+  cursor: pointer;
 }
 
 .share__icon {
