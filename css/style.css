@@ -51,12 +51,12 @@
   text-decoration: none;
   color: #fff;
   margin: 0;
-  transition: color 1s ease;
+  transition: color 0.5s ease;
 }
 
 .menu a:hover,
 .menu_active a:hover {
-  color: #c3c3c3;
+  color: #b1b1b1;
 }
 
 .menu_active a {
@@ -87,12 +87,12 @@
   height: 380px;
   object-fit: cover;
   border-radius: 7.5px;
-  box-shadow: 0 0 27px rgb(96 96 96 / 35%);
+  box-shadow: 0 0 27px rgb(96 96 96 / 30%);
   transition: box-shadow 0.5s ease;
 }
 
 .header__image:hover {
-  box-shadow: 0 0 27px rgb(96 96 96 / 65%);
+  box-shadow: 0 0 27px rgb(96 96 96 / 60%);
 }
 
 .header__content {
@@ -213,7 +213,7 @@
   padding-left: 25px;
   padding-bottom: 50px;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   gap: 5px;
 }
 
@@ -232,12 +232,11 @@
   border: #3d8e85 2.5px solid;
 }
 
-
 .timeline__item-title {
   font-size: 18px;
   line-height: 18px;
   text-transform: uppercase;
-  font-family: Roboto Mono,monospace;
+  font-family: Roboto Mono, monospace;
   font-weight: 700;
   margin: 0;
 }
@@ -249,7 +248,7 @@
 .timeline__item-subtitle {
   font-size: 16px;
   text-transform: uppercase;
-  font-family: Roboto Mono,monospace;
+  font-family: Roboto Mono, monospace;
   font-weight: 500;
   opacity: 0.75;
   margin: 0;
@@ -258,4 +257,77 @@
 .timeline__item-paragraph {
   text-align: justify;
   margin: 0;
+}
+
+.education {
+  background-color: #f0f0f0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 45px 0;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.main-skills {
+  background-color: #fff;
+  width: 75%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 45px 0;
+}
+
+.skills {
+  margin: 50px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  column-gap: 200px;
+}
+
+.skill {
+  width: 40%;
+  display: grid;
+  grid-template-areas: "title . . percentage" "bar bar bar bar";
+}
+
+.skill__title {
+  grid-area: title;
+  margin: 0 0 5px;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-family: Roboto Mono, monospace;
+  font-weight: 700;
+}
+
+.skill__percentage {
+  grid-area: percentage;
+  margin: 0 0 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: Roboto Mono, monospace;
+  font-weight: 500;
+  opacity: 0.75;
+  text-align: right;
+}
+
+.skill-bar {
+  display: flex;
+  grid-area: bar;
+  width: 100%;
+  height: 6.5px;
+  border-radius: 3px;
+  background-color: #b1b1b1;
+}
+
+.skill-bar__progress {
+  margin: 0;
+  width: 0;
+  height: 6.5px;
+  border-radius: 3.5px;
+  background-color: #3d8e85;
+  transition: width 2.5s ease;
 }

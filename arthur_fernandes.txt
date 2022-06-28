@@ -1,5 +1,5 @@
 WEBSITE:
-https://preview.themeforest.net/item/spirit-portfolioresume-html-template-for-developers-programmers-and-freelancers/full_screen_preview/17094383
+https://previews.aspirity.com/spirit/
 -----
 https://preview.themeforest.net/item/trueman-cv-resume-wordpress-theme/full_screen_preview/37364785
 
@@ -18,11 +18,5 @@ https://themes.3rdwavemedia.com/demo/bs5/orbit/
 #3d8e85
 
 
-
-Provide support for employees and users with doubts, bugs corrections with scripts on SaaS, Marketplace and financial system. Report weakness, find solutions to prevent bugs, and notify developers about necessary corrections by Jiras. Data report creation and analysis based on Support and Customer Success actions and needs.
-
-Helped client migration service improvement on support side actions, changing the avarege time from +20 working hours to a 4 working hours.
-
-Helped to stablish a data implementation process improving support side actions, reducing +16 hours of work and ensuring scalability to the service.
 
 
