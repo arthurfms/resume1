@@ -1,18 +1,28 @@
-function scrolling() {
-  const menu = document.querySelector(".menu");
-  if (window.scrollY != 0) {
-    menu.classList.add("menu_active");
-  } else if (window.scrollY == 0) {
-    menu.classList.remove("menu_active");
-  }
-}
-
-window.addEventListener("scroll", scrolling);
-
 window.onload = function () {
   const skills = document.querySelector(".main-skills");
+  window.addEventListener("scroll", handleScroll);
 
-  skills.addEventListener("click", skillsOnFocus);
+  function handleScroll() {
+    toggleMenu();
+    activeScrollSkills();
+  }
+
+  function activeScrollSkills() {
+    if (window.scrollY > 2054) {
+      skillsOnFocus();
+    }
+  }
+
+  function toggleMenu() {
+    console.clear();
+    console.log(window.scrollY);
+    const menu = document.querySelector(".menu");
+    if (window.scrollY != 0) {
+      menu.classList.add("menu_active");
+    } else if (window.scrollY == 0) {
+      menu.classList.remove("menu_active");
+    }
+  }
 
   function skillsOnFocus() {
     console.log("worked");
