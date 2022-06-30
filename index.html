@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <!-- http://authenticgoods.co/wrapbootstrap/themes/articulate-v1.2/ -->
     <meta name="author" content="Arthur Fernandes" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,7 +29,9 @@
           alt="Arthur Fernandes profile image"
         />
         <div class="header__content">
-          <h1 class="header__title">Arthur Fernandes</h1>
+          <div class="header__title">
+            <h1></h1><div class="typing"></div>
+          </div>
           <h2 class="header__subtitle">frontend developer</h2>
           <ul class="header__list">
             <li class="header__list-item">
@@ -181,7 +182,9 @@
     </header>
     <main class="main-content">
       <section class="about">
-        <h2 class="section-title">Hi</h2>
+        <div class="section-title">
+          <h2>Hi</h2><div class="typing"></div>
+        </div>
         <p class="about__paragraph">
           I am a junior frontend developer, recently graduated in Software
           Analysis and Development from Unicesumar (Brazil), able to create
@@ -195,7 +198,9 @@
       </section>
       <section class="work-experience">
         <div class="timeline">
-          <h2 class="section-title">Work Experience</h2>
+          <div class="section-title">
+            <h2>Work Experience</h2><div class="typing"></div>
+          </div>
           <div class="timeline__itens">
             <div class="timeline__item">
               <span class="timeline__item-dot"></span>
@@ -290,7 +295,9 @@
       </section>
       <section class="education">
         <div class="timeline">
-          <h2 class="section-title">Education</h2>
+          <div class="section-title">
+            <h2>Education</h2><div class="typing"></div>
+          </div>
           <div class="timeline__itens">
             <div class="timeline__item">
               <span class="timeline__item-dot"></span>
@@ -324,7 +331,9 @@
         </div>
       </section>
       <section class="main-skills">
-        <h2 class="section-title">Main Skills</h2>
+        <div class="section-title">
+          <h2>Main Skills</h2><div class="typing"></div>
+        </div>
         <div class="skills">
           <div class="skill">
             <h3 class="skill__title">HTML5</h3>
@@ -396,6 +405,86 @@
               <span class="skill-bar__progress"></span>
             </div>
           </div>
+        </div>
+      </section>
+      <section class="portfolio">
+        <div class="section-title">
+          <h2>Portfolio</h2><div class="typing"></div>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <img class="card__image" src="./images/Around the U.S..png"/>
+            <div class="card__content">
+              <a href="https://arthurfms.github.io/web_project_4/"><h3 class="card__title">Around The U.S.</h3></a>
+              <p class="card__description">Bootcamp project to develop a web page with different cards that allow the user to change the name and job position, and to add a new card. The project includes handling popups and form validation with JS.</p>
+              <p class="card__skills-title">Used Stack:</p>
+              <div class="card__skills">
+                <div class="card__skill">
+                  <p class="card__skill-title">HTML</p>
+                </div>
+                <div class="card__skill">
+                  <p class="card__skill-title">CSS</p>
+                </div>
+                <div class="card__skill">
+                  <p class="card__skill-title">JavaScript</p>
+                </div>
+                <div class="card__skill">
+                  <p class="card__skill-title">BEM Metodology</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card__image" src="./images/De Pátria para Pátria.png"/>
+            <div class="card__content">
+              <a href="https://arthurfms.github.io/web_project_3_ptbr/"><h3 class="card__title">From Homeland to Homeland</h3></a>
+              <p class="card__description">Responsive page bootcamp project, here we used CSS responsive techniques to make a page work smoothly in different devices</p>
+              <p class="card__skills-title">Used Stack:</p>
+              <div class="card__skills">
+                <div class="card__skill">
+                  <p class="card__skill-title">HTML</p>
+                </div>
+                <div class="card__skill">
+                  <p class="card__skill-title">CSS</p>
+                </div>
+                <div class="card__skill">
+                  <p class="card__skill-title">BEM Metodology</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card__image" src="./images/Aprendendo a Aprender2.jpg"/>
+            <div class="card__content">
+              <a href="https://arthurfms.github.io/web_project_1_ptbr/"><h3 class="card__title">Learning How to Learn</h3></a>
+              <p class="card__description">Landing page project about learning techniques. The project included CSS media animations and itens display, also HTML form basics to advanced.</p>
+              <p class="card__skills-title">Used Stack:</p>
+              <div class="card__skills">
+                <div class="card__skill">
+                  <p class="card__skill-title">HTML</p>
+                </div>
+                <div class="card__skill">
+                  <p class="card__skill-title">CSS</p>
+                </div>
+                <div class="card__skill">
+                  <p class="card__skill-title">BEM Metodology</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="courses">
+        <h2 class="courses__title">Courses</h2>
+        <div class="slideshow">
+          <p class="slideshow__button slideshow__button_backwards">&#60;</p>
+          <div class="slides">
+            <h3 class="slide__title"></h3>
+            <h4 class="slide__subtitle"></h4>
+            <span class="slide__line"></span>
+            <p class="slide__description"></p>
+          </div>
+          <p class="slideshow__button slideshow__button_forwards">&#62;</p>
         </div>
       </section>
     </main>

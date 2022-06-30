@@ -4,12 +4,14 @@ window.onload = function () {
 
   function handleScroll() {
     toggleMenu();
-    activeScrollSkills();
+    handleSkills();
   }
 
-  function activeScrollSkills() {
-    if (window.scrollY > 2054) {
+  function handleSkills() {
+    if (window.scrollY > 2100 && window.scrollY < 2950) {
       skillsOnFocus();
+    } else {
+      skillsOffFocus();
     }
   }
 
@@ -25,10 +27,37 @@ window.onload = function () {
   }
 
   function skillsOnFocus() {
-    console.log("worked");
     skills.querySelectorAll(".skill").forEach(function (item) {
-      let width = item.querySelector(".skill__percentage").textContent;
+      const width = item.querySelector(".skill__percentage").textContent;
       item.querySelector(".skill-bar__progress").style = `width: ${width}`;
     });
   }
+
+  function skillsOffFocus() {
+    skills.querySelectorAll(".skill").forEach(function (item) {
+      const width = item.querySelector(".skill__percentage").textContent;
+      item.querySelector(".skill-bar__progress").style = `width: 0`;
+    });
+  }
+ //----------------------------------------
+
+ typeWriter();
+
+  function typeWriter() {
+    var i = 0;
+    var text = "Arthur Fernandes";
+    var speed = 125;
+    
+    setTimeout(function typeWriter() {
+      const element = document.querySelector("h1");
+      if (i < text.length) {
+        element.textContent +=
+          text.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }, 1500);
+  }
+
+
 };
