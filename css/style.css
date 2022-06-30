@@ -16,7 +16,6 @@
   }
 }
 
-
 .page {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
@@ -208,7 +207,7 @@
 .section-title h2 {
   color: #3d8e85;
   font-size: 28px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   font-family: "Roboto Mono", monospace;
   margin: 0;
