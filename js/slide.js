@@ -28,10 +28,10 @@ const slides = [
     description:
       "2 courses with two months each about Java development, foccusing on Web Applications and Object-Oriented programming.",
     skills: ["Java"],
-  }
+  },
 ];
 
-const slideSection = document.querySelector(".slide");
+let currentSlide = 0;
 const slideTemplate = document.querySelector("#slide").content;
 const skillTemplate = document.querySelector("#skill").content;
 
@@ -52,10 +52,48 @@ function generateSlide(title, subtitle, description, skills) {
   return slide;
 }
 
-function createSlide (slide) {
-  
-  console.log(generateSlide(slide.title, slide.subtitle, slide.description, slide.skills));
+function newSlide(slide) {
+  return generateSlide(
+    slide.title,
+    slide.subtitle,
+    slide.description,
+    slide.skills
+  );
 }
 
-createSlide(slides[0]);
+function replaceSlide(slide) {
+  const actualSlide = document.querySelector(".slide");
+  actualSlide.replaceWith(newSlide(slide));
+}
 
+function nextSlide() {
+  if (currentSlide == slides.length - 1) {
+    replaceSlide(slides[0]);
+    currentSlide = 0;
+  } else {
+    replaceSlide(slides[currentSlide + 1]);
+    currentSlide = currentSlide + 1;
+  }
+}
+
+function previousSlide() {
+  if (currentSlide == 0) {
+    replaceSlide(slides[slides.length - 1]);
+    currentSlide = slides.length - 1;
+  } else {
+    replaceSlide(slides[currentSlide - 1]);
+    currentSlide = currentSlide - 1;
+  }
+}
+
+document
+  .querySelector(".slideshow__button_backwards")
+  .addEventListener("click", function () {
+    previousSlide();
+  });
+
+document
+  .querySelector(".slideshow__button_forwards")
+  .addEventListener("click", function () {
+    nextSlide();
+  });
