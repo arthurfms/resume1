@@ -505,6 +505,7 @@
         <h2 class="courses__title">Courses</h2>
         <div class="slideshow">
           <div class="slideshow__button slideshow__button_backwards"></div>
+          <div class="slideshow__button slideshow__button_forwards"></div>
           <div class="slide">
             <h3 class="slide__title">Web Development Bootcamp</h3>
             <h4 class="slide__subtitle">
@@ -530,9 +531,26 @@
               </div>
             </div>
           </div>
-          <div class="slideshow__button slideshow__button_forwards"></div>
         </div>
       </section>
+      <template id="slide">
+        <div class="slide">
+          <h3 class="slide__title"></h3>
+          <h4 class="slide__subtitle">
+          </h4>
+          <span class="slide__line"></span>
+          <p class="slide__description">
+          </p>
+          <div class="slide__skills">
+          </div>
+        </div>
+      </template>
+      <template id="skill">
+        <div class="slide__skill">
+          <p></p>
+        </div>
+      </template>
     </main>
+    <script src="./js/slide.js"></script>
   </body>
 </html>

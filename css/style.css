@@ -482,9 +482,11 @@
 }
 
 .slideshow {
-  width: 80%;
+  width: 75%;
   margin: 25px 0;
-  display: flex;
+  display: grid;
+  grid-template-areas: "backward slide forward";
+  column-gap: 100px;
   justify-content: space-between;
   align-items: center;
 }
@@ -502,21 +504,24 @@
 }
 
 .slideshow__button_backwards {
+  grid-area: backward;
   background: url(../images/backward.svg) no-repeat center;
 }
 
 .slideshow__button_forwards {
+  grid-area: forward;
   background: url(../images/forward.svg) no-repeat center;
 }
 
 .slide {
-  width: 65%;
+  grid-area: slide;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
 
 .slide__title {
-  margin: 50px 35px 0;
+  margin: 50px 50px 0;
   font-size: 18px;
   line-height: 18px;
   text-transform: uppercase;
@@ -525,7 +530,7 @@
 }
 
 .slide__subtitle {
-  margin: 10px 35px 15px;
+  margin: 10px 50px 15px;
   font-size: 16px;
   text-transform: uppercase;
   font-style: italic;
@@ -535,7 +540,7 @@
 }
 
 .slide__line {
-  margin-left: 35px;
+  margin-left: 50px;
   width: 90%;
   height: 0.25px;
   background-color: #3d8e85;
@@ -543,14 +548,14 @@
 
 .slide__description {
   width: 90%;
-  margin: 15px 35px 0;
+  margin: 15px 50px 0;
   text-align: justify;
 }
 
 .slide__skills {
   display: flex;
   column-gap: 15px;
-  margin: 35px;
+  margin: 35px 50px;
 }
 
 .slide__skill {
