@@ -91,7 +91,7 @@
           and programming. I have experience working with data manipulation,
           data analysis and customer support, working in big teams and
           multicultural enviroment. As a journalism graduated, I learned how to
-          comunicate, understand people and their complexit and how to get
+          comunicate, understand people and their complexity and how to get
           messages passed by without losing its meaning.
         </p>
       </section>
@@ -438,7 +438,7 @@
           </div>
           <div class="contact-information">
             <ul class="list">
-              <li class="list__item list__item_dark">
+              <li class="list__item">
                 <p>Phone:</p>
                 <span>
                   <a
@@ -448,7 +448,7 @@
                   >
                 </span>
               </li>
-              <li class="list__item list__item_dark">
+              <li class="list__item">
                 <p>Email:</p>
                 <span>
                   <a href="mailto:arthurfms@yahoo.com" target="_blank"
@@ -456,23 +456,24 @@
                   >
                 </span>
               </li>
-              <li class="list__item list__item_dark">
+              <li class="list__item">
                 <div class="social-icons">
                   <a
                     href="https://www.linkedin.com/in/arthur-fms/"
                     target="_blank"
                   >
-                    <img src="./images/linkedin_b.svg" alt="LinkedIn icon" />
+                    <img src="./images/linkedin_w.svg" alt="LinkedIn icon" />
                   </a>
                   <a href="https://github.com/arthurfms" target="_blank">
-                    <img src="./images/github_b.svg" alt="GitHub icon" />
+                    <img src="./images/github_w.svg" alt="GitHub icon" />
                   </a>
                 </div>
               </li>
             </ul>
-            <form class="contact-form">
-              <h2 class="form__title">Send me a message</h2>
-              <input
+            <form class="form">
+              <h3 class="form__title">Send me a message</h3>
+              <div class="form__field">
+                <input
                 class="form__input"
                 id="name-input"
                 type="text"
@@ -480,34 +481,43 @@
                 minlength="2"
                 maxlength="100"
                 placeholder="Name"
-              />
-              <span class="form__input-error name-input-error"></span>
-              <input
-                class="form__input"
-                id="email-input"
-                type="email"
-                required
-                maxlength="200"
-                placeholder="Email"
-              />
-              <input
-                class="form__input"
-                id="subject-input"
-                type="text"
-                required
-                minlength="4"
-                maxlength="150"
-                placeholder="Subject"
-              />
-              <textarea
-                class="form__input"
-                id="message-input"
-                type="text"
-                required
-                maxlength="500"
-                placeholder="Message"
-              ></textarea>
-              <span class="form__input-error job-input-error"></span>
+                />
+                <p class="form__input-error name-input-error"></p>
+              </div>
+              <div class="form__field">
+                <input
+                  class="form__input"
+                  id="email-input"
+                  type="email"
+                  required
+                  maxlength="200"
+                  placeholder="Email"
+                />
+                <p class="form__input-error email-input-error"></p>
+              </div>
+              <div class="form__field">
+                <input
+                  class="form__input"
+                  id="subject-input"
+                  type="text"
+                  required
+                  minlength="4"
+                  maxlength="150"
+                  placeholder="Subject"
+                />
+                <p class="form__input-error subject-input-error"></p>
+              </div>
+              <div class="form__field">
+                <textarea
+                  class="form__input"
+                  id="message-input"
+                  type="text"
+                  required
+                  maxlength="500"
+                  placeholder="Message"
+                ></textarea>
+                <p class="form__input-error message-input-error"></p>
+              </div>
               <button class="form__submit" type="submit">Send</button>
             </form>
           </div>
