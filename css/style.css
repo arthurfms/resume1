@@ -482,6 +482,10 @@
 }
 
 .courses__title {
+  font-size: 28px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: "Roboto Mono", monospace;
   width: 250px;
   height: 35px;
   padding: 10px;
@@ -713,3 +717,10 @@
 .form__input_type_error {
   border-bottom: 1px solid #ff0000;
 }
+
+.form__temp {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
