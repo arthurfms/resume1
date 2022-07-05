@@ -336,9 +336,9 @@
 .skills {
   margin: 50px 0 0;
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 30px;
-  column-gap: 200px;
 }
 
 .skill {
@@ -623,7 +623,7 @@
 
 .contact-information {
   display: flex;
-  gap: 200px;
+  justify-content: space-between;
 }
 
 .contact-information .list {
@@ -728,3 +728,6 @@
   opacity: 0;
 }
 
+@media (max-width: 1355px) {
+
+}
