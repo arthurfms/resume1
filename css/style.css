@@ -59,7 +59,7 @@
   padding: 0 10px;
 }
 
-.menu a {
+.menu__item a {
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -70,8 +70,12 @@
   transition: color 0.5s ease;
 }
 
-.menu a:hover,
-.menu_active a:hover {
+.menu__item_active {
+  color: #3d8e85;
+}
+
+.menu__item a:hover,
+.menu__item_active a:hover {
   color: #b1b1b1;
 }
 
