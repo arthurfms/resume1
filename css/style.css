@@ -16,6 +16,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .page {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
@@ -729,5 +733,4 @@
 }
 
 @media (max-width: 1355px) {
-
 }
