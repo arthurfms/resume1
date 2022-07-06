@@ -1,7 +1,39 @@
 window.onload = function () {
-  // Menu Handler
   const menu = document.querySelector(".menu");
+  const about = document.querySelector(".about");
+  const work = document.querySelector(".work-experience");
+  const education = document.querySelector(".education");
+  const skills = document.querySelector(".main-skills");
+  const portfolio = document.querySelector(".portfolio");
+  const courses = document.querySelector(".courses");
+  const contact = document.querySelector(".contact");
 
+  const menuAbout = document.querySelector("#menu__about");
+  const menuWork = document.querySelector("#menu__work");
+  const menuEducation = document.querySelector("#menu__education");
+  const menuSkills = document.querySelector("#menu__skills");
+  const menuPortfolio = document.querySelector("#menu__portfolio");
+  const menuCourses = document.querySelector("#menu__courses");
+  const menuContact = document.querySelector("#menu__contact");
+
+  defineMenuObserver(about, menuAbout, 0.65);
+  defineMenuObserver(work, menuWork, 0.3);
+  defineMenuObserver(education, menuEducation, 0.65);
+  defineMenuObserver(skills, menuSkills, 0.65);
+  defineMenuObserver(portfolio, menuPortfolio, 0.3);
+  defineMenuObserver(courses, menuCourses, 0.65);
+  defineMenuObserver(contact, menuContact, 0.65);
+
+
+
+
+  function activateMenuItem (item) {
+    item.classList.add("menu__item_active");
+  }
+  function deactivateMenuItem (item) {
+    item.classList.remove("menu__item_active");
+  }
+  // Menu Handler
   function activateMenu() {
     menu.classList.remove("menu_active");
   }
@@ -22,8 +54,29 @@ window.onload = function () {
 
   menuHandler.observe(document.querySelector(".header"));
 
+//test
+function defineMenuObserver (section, menuSection, thresh) {
+  let skillsObserver = new IntersectionObserver(
+    function (entries) {
+      if (entries[0].isIntersecting === true) {
+        activateMenuItem (menuSection);
+      } else {
+        deactivateMenuItem (menuSection);
+      }
+    },
+    { threshold: thresh }
+  );
+
+  skillsObserver.observe(section);
+}
+
+//test
+
+
+
+
+
   // Skills Handler
-  const skills = document.querySelector(".main-skills");
 
   function activateSkills() {
     skills.querySelectorAll(".skill").forEach(function (item) {
@@ -50,7 +103,7 @@ window.onload = function () {
     { threshold: [0.25] }
   );
 
-  skillsObserver.observe(document.querySelector(".main-skills"));
+  skillsObserver.observe(skills);
 
   //Typewriter
 
