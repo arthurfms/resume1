@@ -61,7 +61,6 @@ html {
   box-shadow: 0 5px 8px 0 rgb(0 0 0 / 14%);
 }
 
-
 .menu__content {
   display: flex;
   justify-content: space-between;
@@ -85,10 +84,9 @@ html {
   color: #555;
 }
 
-.menu__item_active a{
+.menu__item_active a {
   color: #3d8e85;
 }
-
 
 .typing {
   width: 20px;
@@ -124,8 +122,6 @@ html {
   box-shadow: 0 0 27px rgb(96 96 96 / 30%);
   transition: box-shadow 0.5s ease;
 }
-
-
 
 .header__content {
   margin-left: 100px;
@@ -198,8 +194,6 @@ html {
   opacity: 0.75;
   transition: opacity 0.5s ease;
 }
-
-
 
 .main-content {
   margin-top: 55px;
@@ -288,7 +282,7 @@ html {
 
 .timeline__item-title {
   font-size: 18px;
-  line-height: 18px;
+  line-height: 1;
   text-transform: uppercase;
   font-family: Roboto Mono, monospace;
   font-weight: 700;
@@ -411,7 +405,6 @@ html {
   box-shadow: 0 2.5px 5px 0 rgba(0, 0, 0, 0.1);
   transition: box-shadow 1s ease;
 }
-
 
 .card__image {
   grid-column: 1;
@@ -663,7 +656,6 @@ html {
 .form__field {
   display: flex;
   flex-direction: column;
-
   min-height: 67.5px;
 }
 
@@ -721,9 +713,17 @@ html {
 }
 
 @media (hover: hover) {
-    .menu__item:hover a, .menu__item_active:hover a {
+  .menu__item:hover a,
+  .menu__item_active:hover a {
     color: #b1b1b1;
   }
+
+  .menu__button:hover,
+  .menu__button_active:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
   .header__image:hover {
     box-shadow: 0 0 27px rgb(96 96 96 / 50%);
   }
@@ -743,7 +743,6 @@ html {
 }
 
 @media (max-width: 1370px) and (min-width: 999px) {
-
   .menu {
     height: 100px;
   }
@@ -770,7 +769,7 @@ html {
     font-size: 38px;
     line-height: 42px;
   }
-  
+
   .header__image {
     width: 250px;
     height: 301px;
@@ -779,7 +778,7 @@ html {
   .main-content {
     margin-top: 5px;
   }
-  
+
   .about {
     width: 90%;
     padding: 25px 0;
@@ -845,7 +844,7 @@ html {
   }
 }
 
-@media (max-width: 999px) and (min-width: 600px) {
+@media (max-width: 999px) and (min-width: 300px) {
   .menu {
     height: 50px;
     justify-content: flex-start;
@@ -855,6 +854,7 @@ html {
 
   .menu__button {
     margin-left: 25px;
+    visibility: visible;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -867,11 +867,6 @@ html {
   .menu__button_active {
     flex-direction: row;
     justify-content: space-around;
-  }
-
-  .menu__button:hover, .menu__button_active:hover {
-    opacity: 0.5;
-    cursor: pointer;
   }
 
   .menu__line {
@@ -896,6 +891,10 @@ html {
     display: flex;
   }
 
+  .header {
+    height: 65vh;
+  }
+
   .header__container {
     margin-bottom: 0;
   }
@@ -906,8 +905,24 @@ html {
     display: none;
   }
 
-  .main__content {
-    margin-top: 5px;
+  .header__title h1 {
+    font-size: 36px;
+  }
+
+  .main-content {
+    margin-top: 15px;
+  }
+
+  .section-title h2 {
+    font-size: 20px;
+  }
+
+  .list__item p {
+    min-width: 150px;
+  }
+
+  .list__item {
+    font-size: 16px;
   }
 
   .about {
@@ -915,6 +930,8 @@ html {
     padding: 10px 0;
   }
   .about__paragraph {
+    font-size: 14px;
+    line-height: 1.5;
     width: 100%;
   }
 
@@ -932,6 +949,22 @@ html {
 
   .timeline__itens {
     width: 100%;
+  }
+  .timeline__item {
+    padding-left: 15px;
+    padding-bottom: 25px;
+  }
+
+  .timeline__item-title {
+    font-size: 15px;
+  }
+  .timeline__item-subtitle {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .timeline__item-paragraph {
+    font-size: 14px;
+    line-height: 1.5;
   }
 
   .main-skills {
@@ -988,12 +1021,12 @@ html {
   }
 
   .card__skill p {
-    font-size: 14px;
+    font-size: 12px;
     padding: 2.5px 5px;
   }
 
   .courses__title {
-    font-size: 24px;
+    font-size: 20px;
     width: 200px;
     height: 30px;
   }
@@ -1001,7 +1034,7 @@ html {
   .slideshow {
     width: 95%;
   }
-  
+
   .slideshow__button {
     width: 30px;
     height: 30px;
@@ -1032,9 +1065,9 @@ html {
   }
 
   .slide__skill p {
-    font-size: 14px;
+    font-size: 12px;
   }
-  
+
   .contact {
     width: 90%;
   }
@@ -1043,4 +1076,27 @@ html {
     flex-direction: column;
   }
 
+  .form {
+    margin: 0 auto;
+    align-items: center;
+    min-width: 400px;
+    max-width: 400px;
+  }
+
+  .form__title {
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .form__field {
+    min-width: 400px;
+    max-width: 400px;
+  }
+
+  #message-input {
+    min-height: 100px;
+    min-width: 400px;
+    max-width: 400px;
+  }
 }
