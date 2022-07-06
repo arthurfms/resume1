@@ -721,13 +721,14 @@ html {
 }
 
 @media (hover: hover) {
-  .menu__item:hover a,
-  .menu__item_active:hover a {
+  .menu__item a:hover,
+  .menu__item_active a:hover {
     color: #b1b1b1;
   }
 
   .menu__button:hover,
-  .menu__button_active:hover {
+  .menu__button_active:hover,
+  .menu__close-button:hover {
     opacity: 0.5;
     cursor: pointer;
   }
@@ -856,6 +857,7 @@ html {
   .menu {
     height: 50px;
     justify-content: flex-start;
+    align-items: flex-start;
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 0 5px 8px 0 rgb(0 0 0 / 14%);
   }
@@ -907,15 +909,19 @@ html {
   }
 
   .menu__content {
-    min-width: 300px;
     grid-area: content;
-    display: none;
+    visibility: hidden;
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s ease 0.5s;
   }
 
   .menu_opened .menu__content {
-    display: flex;
+    transition: opacity 0.5s ease 0.5s;
+    opacity: 1;
+    visibility: visible;
   }
 
   .menu__item a {

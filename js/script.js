@@ -24,13 +24,10 @@ window.onload = function () {
   defineMenuObserver(courses, menuCourses, 0.65);
   defineMenuObserver(contact, menuContact, 0.65);
 
-
-
-
-  function activateMenuItem (item) {
+  function activateMenuItem(item) {
     item.classList.add("menu__item_active");
   }
-  function deactivateMenuItem (item) {
+  function deactivateMenuItem(item) {
     item.classList.remove("menu__item_active");
   }
   // Menu Handler
@@ -54,27 +51,20 @@ window.onload = function () {
 
   menuHandler.observe(document.querySelector(".header"));
 
-//test
-function defineMenuObserver (section, menuSection, thresh) {
-  let skillsObserver = new IntersectionObserver(
-    function (entries) {
-      if (entries[0].isIntersecting === true) {
-        activateMenuItem (menuSection);
-      } else {
-        deactivateMenuItem (menuSection);
-      }
-    },
-    { threshold: thresh }
-  );
+  function defineMenuObserver(section, menuSection, thresh) {
+    let skillsObserver = new IntersectionObserver(
+      function (entries) {
+        if (entries[0].isIntersecting === true) {
+          activateMenuItem(menuSection);
+        } else {
+          deactivateMenuItem(menuSection);
+        }
+      },
+      { threshold: thresh }
+    );
 
-  skillsObserver.observe(section);
-}
-
-//test
-
-
-
-
+    skillsObserver.observe(section);
+  }
 
   // Skills Handler
 
@@ -104,6 +94,61 @@ function defineMenuObserver (section, menuSection, thresh) {
   );
 
   skillsObserver.observe(skills);
+
+  //menu open
+  window.addEventListener("resize", verifyWindowREsize);
+
+  function verifyWindowREsize() {
+    if (window.innerWidth <= 999) {
+      setMenu();
+      console.log("window set");
+    } else {
+      unsetMenu();
+      console.log("window unset");
+    }
+  }
+
+  function setMenu() {
+    const menuButton = document.querySelector(".menu__button");
+    const menuCloseButton = document.querySelector(".menu__close-button");
+    const menuItens = document.querySelectorAll(".menu__item");
+
+    function addingEvent(item) {
+      item.addEventListener("click", handleMenu);
+    }
+
+    function handleMenu() {
+      menu.classList.toggle("menu_opened");
+    }
+
+    addingEvent(menuButton);
+    addingEvent(menuCloseButton);
+    menuItens.forEach(function (item) {
+      addingEvent(item.querySelector("a"));
+    });
+  }
+
+  function unsetMenu() {
+    const menuButton = document.querySelector(".menu__button");
+    const menuCloseButton = document.querySelector(".menu__close-button");
+    const menuItens = document.querySelectorAll(".menu__item");
+
+    function addingEvent(item) {
+      item.removeEventListener("click", handleMenu);
+    }
+
+    function handleMenu() {
+      menu.classList.toggle("menu_opened");
+    }
+
+    addingEvent(menuButton);
+    addingEvent(menuCloseButton);
+    menuItens.forEach(function (item) {
+      addingEvent(item.querySelector("a"));
+    });
+  }
+
+  //menu open
 
   //Typewriter
 
