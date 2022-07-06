@@ -888,8 +888,24 @@ html {
     flex-direction: column;
     justify-content: center;
   }
-  .menu__button_active .menu__content {
+
+  .menu_opened {
+    height: 75vh;
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu_opened .menu__content {
+    display: flex;
+  }
+
+  .menu__item a {
+    color: #555;
+  }
+
+  .menu__item_active a {
+    color: #555;
   }
 
   .header__container {
