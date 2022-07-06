@@ -16,7 +16,7 @@ window.onload = function () {
   const menuCourses = document.querySelector("#menu__courses");
   const menuContact = document.querySelector("#menu__contact");
 
-  defineMenuObserver(about, menuAbout, 0.65);
+  defineMenuObserver(about, menuAbout, 0.75);
   defineMenuObserver(work, menuWork, 0.3);
   defineMenuObserver(education, menuEducation, 0.65);
   defineMenuObserver(skills, menuSkills, 0.65);

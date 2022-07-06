@@ -50,6 +50,8 @@ html {
 
 .menu__button {
   display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
 
 .menu_active {
@@ -744,6 +746,10 @@ html {
 
   .menu {
     height: 100px;
+  }
+
+  .menu__content {
+    width: 90%;
   }
 
   .menu_active {
