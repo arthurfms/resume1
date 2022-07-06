@@ -844,7 +844,7 @@ html {
   }
 }
 
-@media (max-width: 999px) and (min-width: 300px) {
+@media screen and (max-width: 999px) and (min-width: 300px) {
   .menu {
     height: 50px;
     justify-content: flex-start;
@@ -891,11 +891,8 @@ html {
     display: flex;
   }
 
-  .header {
-    height: 65vh;
-  }
-
   .header__container {
+    width: 90%;
     margin-bottom: 0;
   }
   .header__content {
@@ -906,7 +903,11 @@ html {
   }
 
   .header__title h1 {
-    font-size: 36px;
+    font-size: 32px;
+  }
+
+  .header__subtitle {
+    font-size: 16px;
   }
 
   .main-content {
@@ -918,7 +919,7 @@ html {
   }
 
   .list__item p {
-    min-width: 150px;
+    min-width: 130px;
   }
 
   .list__item {
@@ -1014,6 +1015,7 @@ html {
 
   .card__skills {
     margin: 0 0 10px;
+    flex-wrap: wrap;
   }
   .card__skills-title {
     font-size: 14px;
@@ -1076,6 +1078,10 @@ html {
     flex-direction: column;
   }
 
+  .contact-information .list__item p {
+    min-width: 75px;
+  }
+
   .form {
     margin: 0 auto;
     align-items: center;
@@ -1098,5 +1104,56 @@ html {
     min-height: 100px;
     min-width: 400px;
     max-width: 400px;
+  }
+
+  @media screen and (max-width: 555px) and (min-width: 300px) {
+    .menu {
+      height: 35px;
+    }
+
+    .menu__button {
+      height: 25px;
+      width: 25px;
+    }
+
+    .header__title h1 {
+      font-size: 26px;
+    }
+
+    .list__item {
+      font-size: 14px;
+    }
+
+    .main-content {
+      margin-top: 14px;
+    }
+
+    .timeline__item-title span {
+      display: block;
+    }
+
+    .timeline__item-subtitle {
+      font-size: 12px;
+    }
+
+    .timeline__item-subtitle span {
+      display: block;
+    }
+
+    .form {
+      min-width: 250px;
+      max-width: 250px;
+    }
+
+    .form__field {
+      min-width: 250px;
+      max-width: 250px;
+    }
+
+    #message-input {
+      min-height: 100px;
+      min-width: 250px;
+      max-width: 250px;
+    }
   }
 }
