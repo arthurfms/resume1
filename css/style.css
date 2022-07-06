@@ -386,6 +386,7 @@ html {
   display: flex;
   flex-direction: column;
   padding: 45px 0;
+  z-index: 1;
 }
 
 .cards {
@@ -1138,6 +1139,11 @@ html {
 
     .timeline__item-subtitle span {
       display: block;
+    }
+
+    .skill__title {
+      font-size: 14px;
+      line-height: 1;
     }
 
     .form {
