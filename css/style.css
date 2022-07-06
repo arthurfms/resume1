@@ -1016,6 +1016,7 @@ html {
 
   .card__skills {
     margin: 0 0 10px;
+    row-gap: 5px;
     flex-wrap: wrap;
   }
   .card__skills-title {
