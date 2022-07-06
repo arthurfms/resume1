@@ -49,9 +49,16 @@ html {
 }
 
 .menu__button {
-  display: none;
+  visibility: hidden;
   opacity: 0;
   transition: opacity 0.5s ease;
+}
+
+.menu__close-button {
+  visibility: hidden;
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/close__button.svg);
 }
 
 .menu_active {
@@ -853,8 +860,16 @@ html {
     box-shadow: 0 5px 8px 0 rgb(0 0 0 / 14%);
   }
 
+  .menu_opened {
+    width: 100%;
+    height: 85vh;
+    display: grid;
+    grid-template-areas: "lines close" "content content";
+    justify-content: space-between;
+  }
+
   .menu__button {
-    margin-left: 25px;
+    margin: 5px auto 0 25px;
     visibility: visible;
     display: flex;
     flex-direction: column;
@@ -865,9 +880,17 @@ html {
     transition: opacity 0.5s ease;
   }
 
-  .menu__button_active {
+  .menu_opened .menu__button {
+    grid-area: lines;
     flex-direction: row;
     justify-content: space-around;
+  }
+
+  .menu_opened .menu__close-button {
+    visibility: visible;
+    grid-area: close;
+    display: block;
+    margin: 5px 25px 0 auto;
   }
 
   .menu__line {
@@ -878,22 +901,17 @@ html {
     transition: width 0.25s ease, height 0.25s ease;
   }
 
-  .menu__button_active .menu__line {
+  .menu_opened .menu__line {
     width: 2.5px;
     height: 90%;
   }
 
   .menu__content {
+    min-width: 300px;
+    grid-area: content;
     display: none;
     flex-direction: column;
     justify-content: center;
-  }
-
-  .menu_opened {
-    height: 75vh;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
   }
 
   .menu_opened .menu__content {
