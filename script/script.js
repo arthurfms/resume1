@@ -14,12 +14,16 @@ function settingLanguage(lang) {
   const idLang = identifyLanguage(lang);
   if (idLang == "en-US") {
     page.innerHTML = languages.en;
+    setHTMLLang(idLang);
   } else if (idLang == "pt-BR") {
     page.innerHTML = languages.pt;
+    setHTMLLang(idLang);
   } else if (idLang == "es-AR") {
     page.innerHTML = languages.es;
+    setHTMLLang(idLang);
   } else {
     page.innerHTML = languages.en;
+    setHTMLLang("en-US");
   }
 }
 
@@ -33,6 +37,11 @@ function identifyLanguage(lang) {
   } else {
     return "en-US";
   }
+}
+
+function setHTMLLang(lang) {
+  const htmlLang = document.querySelector("html");
+  htmlLang.lang = identifyLanguage(lang);
 }
 
 
