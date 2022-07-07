@@ -1602,5 +1602,11 @@ const languages = {en:
     </div>
   </template>
   </main>`};
+
+  const resumes = {
+    en: "https://arthurfernandes.me/documents/Arthur%20Fernandes_EN.pdf",
+    pt: "https://arthurfernandes.me/documents/Arthur%20Fernandes_PT.pdf",
+    es: "https://arthurfernandes.me/documents/Arthur%20Fernandes_ES.pdf"
+  };
   
-  export default languages;
+  export  {languages as languages, resumes as resumes};

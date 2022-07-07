@@ -1,5 +1,7 @@
-import languages from "./translate.js";
+import {languages, resumes} from "./translate.js";
 window.onload = function () {
+const page = document.querySelector(".page");
+
 const userLocale =
 navigator.languages && navigator.languages.length
   ? navigator.languages[0]
@@ -8,19 +10,27 @@ navigator.languages && navigator.languages.length
 
 settingLanguage(userLocale);
 
-function settingLanguage (lang) {
-  const page = document.querySelector(".page");
-  if (lang.substr(0, 2) == "en") {
+function settingLanguage(lang) {
+  const idLang = identifyLanguage(lang);
+  if (idLang == "en-US") {
     page.innerHTML = languages.en;
-    return "en-US";
-  } else if (lang.substr(0, 2) == "pt") {
-    page.innerHTML = languages.en;
-    return "pt-BR";
-  } else if (lang.substr(0, 2) == "es") {
+  } else if (idLang == "pt-BR") {
+    page.innerHTML = languages.pt;
+  } else if (idLang == "es-AR") {
     page.innerHTML = languages.es;
-    return "es-AR";
   } else {
     page.innerHTML = languages.en;
+  }
+}
+
+function identifyLanguage(lang) {
+  if (lang.substr(0, 2) == "en") {
+    return "en-US";
+  } else if (lang.substr(0, 2) == "pt") {
+    return "pt-BR";
+  } else if (lang.substr(0, 2) == "es") {
+    return "es-AR";
+  } else {
     return "en-US";
   }
 }
@@ -572,22 +582,35 @@ function settingLanguage (lang) {
 
   function DownloadFile() {
     //Download PDF
-    var url =
-      "https://arthurfernandes.me/documents/Arthur%20Fernandes_EN.pdf";
 
-    var req = new XMLHttpRequest();
+    function settingURL(lang) {
+      const idLang = identifyLanguage(lang);
+      if (idLang == "en-US") {
+        return resumes.en;
+      } else if (idLang == "pt-BR") {
+        return resumes.pt;
+      } else if (idLang == "es-AR") {
+        return resumes.es;
+      } else {
+        return resumes.en;
+      }
+    }
+
+    const url = settingURL(userLocale);
+
+    let req = new XMLHttpRequest();
     req.open("GET", url, true);
     req.responseType = "blob";
     req.onload = function () {
-      var blob = new Blob([req.response], { type: "application/octetstream" });
+      let blob = new Blob([req.response], { type: "application/octetstream" });
 
-      var isIE = false || !!document.documentMode;
+      let isIE = false || !!document.documentMode;
       if (isIE) {
         window.navigator.msSaveBlob(blob, fileName);
       } else {
-        var url = window.URL || window.webkitURL;
+        let url = window.URL || window.webkitURL;
         link = url.createObjectURL(blob);
-        var a = document.createElement("a");
+        let a = document.createElement("a");
         a.setAttribute("download", "Arthur Fernandes - CV.pdf");
         a.setAttribute("href", link);
         document.body.appendChild(a);
