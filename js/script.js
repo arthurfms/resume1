@@ -96,15 +96,19 @@ window.onload = function () {
   skillsObserver.observe(skills);
 
   //menu open
-  window.addEventListener("resize", verifyWindowREsize);
+  let menuSet = window.innerWidth <= 999 ? true : false;
+  if (menuSet) {
+    setMenu();
+  }
 
-  function verifyWindowREsize() {
-    if (window.innerWidth <= 999) {
+  window.addEventListener("resize", verifyWindowResize);
+
+  function verifyWindowResize() {
+
+    if (window.innerWidth <= 999 && menuSet == false) {
       setMenu();
-      console.log("window set");
-    } else {
+    } else if (window.innerWidth > 999 && menuSet == true) {
       unsetMenu();
-      console.log("window unset");
     }
   }
 
@@ -113,19 +117,13 @@ window.onload = function () {
     const menuCloseButton = document.querySelector(".menu__close-button");
     const menuItens = document.querySelectorAll(".menu__item");
 
-    function addingEvent(item) {
-      item.addEventListener("click", handleMenu);
-    }
-
-    function handleMenu() {
-      menu.classList.toggle("menu_opened");
-    }
-
     addingEvent(menuButton);
     addingEvent(menuCloseButton);
     menuItens.forEach(function (item) {
       addingEvent(item.querySelector("a"));
     });
+
+    menuSet = true;
   }
 
   function unsetMenu() {
@@ -133,23 +131,27 @@ window.onload = function () {
     const menuCloseButton = document.querySelector(".menu__close-button");
     const menuItens = document.querySelectorAll(".menu__item");
 
-    function addingEvent(item) {
-      item.removeEventListener("click", handleMenu);
-    }
-
-    function handleMenu() {
-      menu.classList.toggle("menu_opened");
-    }
-
-    addingEvent(menuButton);
-    addingEvent(menuCloseButton);
+    removingEvent(menuButton);
+    removingEvent(menuCloseButton);
     menuItens.forEach(function (item) {
-      addingEvent(item.querySelector("a"));
+      removingEvent(item.querySelector("a"));
     });
+
+    menuSet = false;
   }
 
-  //menu open
+  function addingEvent(item) {
+    item.addEventListener("click", handleMenu);
+  }
 
+  function removingEvent(item) {
+    item.removeEventListener("click", handleMenu);
+  }
+
+  function handleMenu() {
+    menu.classList.toggle("menu_opened");
+  }
+  
   //Typewriter
 
   typeWriter();
@@ -536,5 +538,36 @@ window.onload = function () {
 
     let link = genLink(name, email, subject, message);
     send(link);
+  }
+
+  const downloadButton = document.querySelector(".share");
+  downloadButton.addEventListener("click", DownloadFile);
+
+  function DownloadFile() {
+    //Download PDF
+    var url =
+      "https://arthurfernandes.me/documents/Arthur%20Fernandes_EN.pdf";
+
+    var req = new XMLHttpRequest();
+    req.open("GET", url, true);
+    req.responseType = "blob";
+    req.onload = function () {
+      var blob = new Blob([req.response], { type: "application/octetstream" });
+
+      var isIE = false || !!document.documentMode;
+      if (isIE) {
+        window.navigator.msSaveBlob(blob, fileName);
+      } else {
+        var url = window.URL || window.webkitURL;
+        link = url.createObjectURL(blob);
+        var a = document.createElement("a");
+        a.setAttribute("download", "Arthur Fernandes - CV.pdf");
+        a.setAttribute("href", link);
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      }
+    };
+    req.send();
   }
 };
