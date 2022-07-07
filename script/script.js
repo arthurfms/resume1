@@ -598,6 +598,7 @@ function identifyLanguage(lang) {
 
     const url = settingURL(userLocale);
 
+    let link;
     let req = new XMLHttpRequest();
     req.open("GET", url, true);
     req.responseType = "blob";
