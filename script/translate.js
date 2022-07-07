@@ -1,5 +1,5 @@
-const languages = {en: 
-  `<nav class="menu">
+const languages = {
+  en: `<nav class="menu">
   <div class="menu__button">
     <span class="menu__line"></span>
     <span class="menu__line"></span>
@@ -27,6 +27,11 @@ const languages = {en:
       <a href="#contact-section">Contact</a>
     </p>
   </div>
+  <ul class="lang__buttons">
+    <li class="lang__item" id="en-US">EN</li>
+    <li class="lang__item" id="pt-BR">PT</li>
+    <li class="lang__item" id="es-AR">ES</li>
+  </ul>
   </nav>
   <header class="header">
   <div class="header__container">
@@ -450,7 +455,7 @@ const languages = {en:
               <a
                 href="https://api.whatsapp.com/send?phone=34644350581"
                 target="_blank"
-                >+34 644 350 581</a
+                >+34 644350581 | +55 11 971071806</a
               >
             </span>
           </li>
@@ -524,7 +529,7 @@ const languages = {en:
             ></textarea>
             <p class="form__input-error message-input-error"></p>
           </div>
-          <button class="form__submit" type="submit">Send</button>
+          <button class="form__submit" type="submit">Send Message</button>
         </form>
       </div>
     </div>
@@ -550,8 +555,7 @@ const languages = {en:
     </div>
   </template>
   </main>`,
-  pt: 
-  `<nav class="menu">
+  pt: `<nav class="menu">
   <div class="menu__button">
     <span class="menu__line"></span>
     <span class="menu__line"></span>
@@ -579,6 +583,11 @@ const languages = {en:
       <a href="#contact-section">Contato</a>
     </p>
   </div>
+  <ul class="lang__buttons">
+    <li class="lang__item" id="en-US">EN</li>
+    <li class="lang__item" id="pt-BR">PT</li>
+    <li class="lang__item" id="es-AR">ES</li>
+  </ul>
   </nav>
   <header class="header">
   <div class="header__container">
@@ -1048,7 +1057,7 @@ const languages = {en:
             ></textarea>
             <p class="form__input-error message-input-error"></p>
           </div>
-          <button class="form__submit" type="submit">Enviar</button>
+          <button class="form__submit" type="submit">Enviar Mensagem</button>
         </form>
       </div>
     </div>
@@ -1074,8 +1083,7 @@ const languages = {en:
     </div>
   </template>
   </main>`,
-  es: 
-  `<nav class="menu">
+  es: `<nav class="menu">
   <div class="menu__button">
     <span class="menu__line"></span>
     <span class="menu__line"></span>
@@ -1103,6 +1111,11 @@ const languages = {en:
       <a href="#contact-section">Contacto</a>
     </p>
   </div>
+  <ul class="lang__buttons">
+    <li class="lang__item" id="en-US">EN</li>
+    <li class="lang__item" id="pt-BR">PT</li>
+    <li class="lang__item" id="es-AR">ES</li>
+  </ul>
   </nav>
   <header class="header">
   <div class="header__container">
@@ -1576,7 +1589,7 @@ const languages = {en:
             ></textarea>
             <p class="form__input-error message-input-error"></p>
           </div>
-          <button class="form__submit" type="submit">Send</button>
+          <button class="form__submit" type="submit">Enviar Mensaje</button>
         </form>
       </div>
     </div>
@@ -1601,12 +1614,116 @@ const languages = {en:
       <p></p>
     </div>
   </template>
-  </main>`};
+  </main>`,
+};
 
-  const resumes = {
-    en: "https://arthurfernandes.me/documents/Arthur%20Fernandes_EN.pdf",
-    pt: "https://arthurfernandes.me/documents/Arthur%20Fernandes_PT.pdf",
-    es: "https://arthurfernandes.me/documents/Arthur%20Fernandes_ES.pdf"
-  };
-  
-  export  {languages as languages, resumes as resumes};
+const resumes = {
+  en: "https://arthurfernandes.me/documents/Arthur%20Fernandes_EN.pdf",
+  pt: "https://arthurfernandes.me/documents/Arthur%20Fernandes_PT.pdf",
+  es: "https://arthurfernandes.me/documents/Arthur%20Fernandes_ES.pdf",
+};
+
+const slidesContent = {
+  en: [
+    {
+      title: "Web Development Bootcamp",
+      subtitle: "Practicum by Yandex. FEBRUARY, 2022 - JANUARY, 2023",
+      description:
+        "10 months Web Development bootcamp, foccusing on all frontend technologies, programming languages and methodologies. The course is separated in sprints, trying to generate a real world development enviroment.",
+      skills: ["HTML", "CSS", "JavaScript", "BEM Methodology", "React"],
+    },
+    {
+      title: "Frontend Engineering",
+      subtitle: "EBAC. JANUARY, 2022 - JANUARY, 2023",
+      description:
+        "A year long course about all frontend engineering framework, passing throughout web design, frontend programming and different profession frameworks.",
+      skills: [
+        "HTML",
+        "CSS",
+        "Sass",
+        "Bootstrap",
+        "JavaScript",
+        "JQuery",
+        "React",
+        "Ajax",
+      ],
+    },
+    {
+      title: "Java Object-Oriented Development",
+      subtitle: "Universidade Estadual do Ceará. MAY, 2020 - SEPTEMBER, 2020",
+      description:
+        "2 courses with two months each about Java development, foccusing on Web Applications and Object-Oriented programming.",
+      skills: ["Java"],
+    },
+  ],
+  pt: [
+    {
+      title: "Desenvolvimento WEB Bootcamp",
+      subtitle: "Practicum by Yandex. FEVEREIRO, 2022 - JANEIRO, 2023",
+      description:
+        "Bootcamp de 10 meses sobre desenvolvimento WEB, focando em todas as tecnologias, linguagens de programação e metodologias utilizadas no Frontend.",
+      skills: ["HTML", "CSS", "JavaScript", "BEM Methodology", "React"],
+    },
+    {
+      title: "Engenharia Frontend",
+      subtitle: "EBAC. JANEIRO, 2022 - JANEIRO, 2023",
+      description:
+        "Curso de um ano sobre engenharia frontend, abordando temas como design responsivo, programação e diferentes frameworks utilizados na profissão.",
+      skills: [
+        "HTML",
+        "CSS",
+        "Sass",
+        "Bootstrap",
+        "JavaScript",
+        "JQuery",
+        "React",
+        "Ajax",
+      ],
+    },
+    {
+      title: "Desenvolvimento Orientado a Objeto com Java",
+      subtitle: "Universidade Estadual do Ceará. MAIO, 2020 - SETEMBRO, 2020",
+      description:
+        "2 cursos de dois meses de duração cada sobre desenvolvimento com Java, focando em aplicações web e programação orientada a objetos.",
+      skills: ["Java"],
+    },
+  ],
+  es: [
+    {
+      title: "Web Development Bootcamp",
+      subtitle: "Practicum by Yandex. FEBRUARY, 2022 - JANUARY, 2023",
+      description:
+        "Bootcamp de 10 meses sobre desarrollo WEB, con enfoque en todas las tecnologías, lenguage de programación y metodologías utilizadas en el Frontend.",
+      skills: ["HTML", "CSS", "JavaScript", "BEM Methodology", "React"],
+    },
+    {
+      title: "Frontend Engineering",
+      subtitle: "EBAC. JANUARY, 2022 - JANUARY, 2023",
+      description:
+        "Curso de un año de duración sobre engenieria frontend, tratando temas cómo diseño responsivo, programación y distintos frameworks utilizados en la profesión.",
+      skills: [
+        "HTML",
+        "CSS",
+        "Sass",
+        "Bootstrap",
+        "JavaScript",
+        "JQuery",
+        "React",
+        "Ajax",
+      ],
+    },
+    {
+      title: "Desarrollo Orientado a Objeto con Java",
+      subtitle: "Universidade Estadual do Ceará. MAY, 2020 - SEPTEMBER, 2020",
+      description:
+        "2 cursos de dos meses cada uno sobre desarrollo con Java, con enfoque en aplicaciones web y programación orientada a objetos.",
+      skills: ["Java"],
+    },
+  ],
+};
+
+export {
+  languages as languages,
+  resumes as resumes,
+  slidesContent as slidesContent,
+};

@@ -31,6 +31,12 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.page_active {
+  opacity: 1;
 }
 
 .menu {
@@ -71,9 +77,9 @@ html {
 .menu__content {
   display: flex;
   justify-content: space-between;
-  width: 75%;
+  width: 67.5%;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 25px;
 }
 
 .menu__item a {
@@ -92,6 +98,41 @@ html {
 }
 
 .menu__item_active a {
+  color: #3d8e85;
+}
+
+.lang__buttons {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  column-gap: 10px;
+  margin: auto 0;
+  border-left: 2.5px solid #fff;
+}
+
+.menu_active .lang__buttons {
+  border-left: 2.5px solid #555;
+}
+
+.lang__item {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  margin: 0;
+  transition: color 0.5s ease;
+}
+
+.menu_active .lang__item {
+  color: #555;
+}
+
+.lang__item_active,
+.menu_active .lang__item_active {
   color: #3d8e85;
 }
 
@@ -721,7 +762,6 @@ html {
   opacity: 0;
 }
 
-
 .share {
   position: fixed;
   bottom: 25px;
@@ -775,13 +815,15 @@ html {
 
 @media (hover: hover) {
   .menu__item a:hover,
-  .menu__item_active a:hover {
+  .menu__item_active a:hover,
+  .lang__item:not(.lang__item_active):hover {
     color: #b1b1b1;
   }
 
   .menu__button:hover,
   .menu__button_active:hover,
-  .menu__close-button:hover {
+  .menu__close-button:hover,
+  .lang__item:not(.lang__item_active):hover {
     opacity: 0.5;
     cursor: pointer;
   }
@@ -946,6 +988,21 @@ html {
     transition: opacity 0.5s ease;
   }
 
+  .lang__buttons,
+  .menu_active .lang__buttons {
+    border-left: 0;
+  }
+
+  .lang__item {
+    color: #555;
+  }
+
+  .lang__item_active {
+    color: #3d8e85;
+  }
+  .menu_opened .lang__buttons {
+    display: none;
+  }
   .menu_opened .menu__button {
     grid-area: lines;
     flex-direction: row;
