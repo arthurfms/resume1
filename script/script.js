@@ -1,4 +1,31 @@
+import languages from "./translate.js";
 window.onload = function () {
+const userLocale =
+navigator.languages && navigator.languages.length
+  ? navigator.languages[0]
+  : navigator.language;
+
+
+settingLanguage(userLocale);
+
+function settingLanguage (lang) {
+  const page = document.querySelector(".page");
+  if (lang.substr(0, 2) == "en") {
+    page.innerHTML = languages.en;
+    return "en-US";
+  } else if (lang.substr(0, 2) == "pt") {
+    page.innerHTML = languages.en;
+    return "pt-BR";
+  } else if (lang.substr(0, 2) == "es") {
+    page.innerHTML = languages.es;
+    return "es-AR";
+  } else {
+    page.innerHTML = languages.en;
+    return "en-US";
+  }
+}
+
+
   const menu = document.querySelector(".menu");
   const about = document.querySelector(".about");
   const work = document.querySelector(".work-experience");

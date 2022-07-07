@@ -162,6 +162,7 @@ html {
   color: #fff;
   font-size: 20px;
   font-weight: 400;
+  text-transform: lowercase;
 }
 
 .list {
@@ -736,6 +737,7 @@ html {
   transition: width 1.5s ease;
   color: #fff;
   text-decoration: none;
+  z-index: 5;
 }
 
 .share__icon {
