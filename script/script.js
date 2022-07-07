@@ -75,13 +75,20 @@ window.onload = function () {
   }
 
   function pageGenerated() {
+    const activeLanguage = document.querySelector("html").lang;
     const langEN = page.querySelector("#en-US");
     const langPT = page.querySelector("#pt-BR");
     const langES = page.querySelector("#es-AR");
 
-    langEN.addEventListener("click", changingLanguage);
-    langPT.addEventListener("click", changingLanguage);
-    langES.addEventListener("click", changingLanguage);
+    if (activeLanguage != "en-US") {
+      langEN.addEventListener("click", changingLanguage);
+    }
+    if (activeLanguage != "pt-BR") {
+      langPT.addEventListener("click", changingLanguage);
+    }
+    if (activeLanguage != "es-AR") {
+      langES.addEventListener("click", changingLanguage);
+    }
 
     function changingLanguage(evt) {
       const lang = evt.target.id;
