@@ -61,7 +61,7 @@ const languages = {
             <a
               href="https://api.whatsapp.com/send?phone=34644350581"
               target="_blank"
-              >+34 644350581 | +55 11 971071806</a
+              >+34 644 350 581</a
             >
           </span>
         </li>
@@ -455,7 +455,7 @@ const languages = {
               <a
                 href="https://api.whatsapp.com/send?phone=34644350581"
                 target="_blank"
-                >+34 644350581 | +55 11 971071806</a
+                >+34 644 350 581 | +55 11 97107 1806</a
               >
             </span>
           </li>
@@ -617,7 +617,7 @@ const languages = {
             <a
               href="https://api.whatsapp.com/send?phone=34644350581"
               target="_blank"
-              >+34 644350581 | +55 11 971071806</a
+              >+34 644 350 581</a
             >
           </span>
         </li>
@@ -983,7 +983,7 @@ const languages = {
               <a
                 href="https://api.whatsapp.com/send?phone=34644350581"
                 target="_blank"
-                >+34 644350581 | +55 11 971071806</a
+                >+34 644 350 581 | +55 11 97107 1806</a
               >
             </span>
           </li>
@@ -1145,7 +1145,7 @@ const languages = {
             <a
               href="https://api.whatsapp.com/send?phone=34644350581"
               target="_blank"
-              >+34 644 350 581 | +55 11 97107 1806</a
+              >+34 644 350 581</a
             >
           </span>
         </li>
@@ -1515,7 +1515,7 @@ const languages = {
               <a
                 href="https://api.whatsapp.com/send?phone=34644350581"
                 target="_blank"
-                >+34 644350581 | +55 11 971071806</a
+                >+34 644 350 581 | +55 11 97107 1806</a
               >
             </span>
           </li>
