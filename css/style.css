@@ -639,7 +639,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 45px 0;
+  padding: 45px 0 105px;
 }
 
 .contact {
@@ -811,6 +811,20 @@ html {
   opacity: 0;
   transition: opacity 2s 0.3s ease, width 1.5s ease, height 1.5s ease,
     font-size 1.3s ease;
+}
+
+.footer {
+  margin-top: -50px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__copyright {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
 }
 
 @media (hover: hover) {
@@ -1233,6 +1247,10 @@ html {
     font-size: 12px;
   }
 
+  .contact-section {
+    padding-bottom: 75px;
+  }
+
   .contact {
     width: 90%;
   }
@@ -1267,6 +1285,14 @@ html {
     min-height: 100px;
     min-width: 400px;
     max-width: 400px;
+  }
+
+  .footer {
+    margin-top: -50px;
+  }
+
+  .footer__copyright {
+    font-size: 14px;
   }
 
   @media screen and (max-width: 555px) and (min-width: 300px) {
@@ -1330,6 +1356,10 @@ html {
       line-height: 1;
     }
 
+    .contact-section {
+      padding-bottom: 50px;
+    }
+
     .form {
       min-width: 250px;
       max-width: 250px;
@@ -1344,6 +1374,10 @@ html {
       min-height: 100px;
       min-width: 250px;
       max-width: 250px;
+    }
+
+    .footer__copyright {
+      font-size: 12px;
     }
   }
 }

@@ -534,6 +534,9 @@ const languages = {
       </div>
     </div>
   </section>
+  <section class="footer">
+      <p class="footer__copyright">&copy; Arthur Fernandes Menezes Santos - 2022</p>
+  </section>
   <div class="share">
     <div class="share__icon">
       <img src="./images/download.svg" class="share__icon-image" />
@@ -1061,6 +1064,9 @@ const languages = {
         </form>
       </div>
     </div>
+  </section>
+  <section class="footer">
+    <p class="footer__copyright">&copy; Arthur Fernandes Menezes Santos - 2022</p>
   </section>
   <div class="share">
     <div class="share__icon">
@@ -1593,6 +1599,9 @@ const languages = {
         </form>
       </div>
     </div>
+  </section>
+  <section class="footer">
+    <p class="footer__copyright">&copy; Arthur Fernandes Menezes Santos - 2022</p>
   </section>
   <div class="share">
     <div class="share__icon">
