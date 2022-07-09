@@ -1287,7 +1287,7 @@ html {
     .menu__button {
       margin-left: 10px;
       height: 25px;
-      width: 75px;
+      width: 55px;
     }
 
     .menu_opened .menu__button {
@@ -1295,6 +1295,10 @@ html {
       flex-direction: row;
       justify-content: space-around;
       width: 25px;
+    }
+
+    .header {
+      background-position: top;
     }
 
     .header__title h1 {
