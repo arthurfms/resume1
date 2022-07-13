@@ -459,6 +459,7 @@ html {
 .card__image {
   grid-column: 1;
   width: 520px;
+  height: 339px;
   border-radius: 5px 0 0 5px;
 }
 
@@ -940,6 +941,7 @@ html {
   }
   .card__image {
     width: 350px;
+    height: 229px;
   }
   .card__skills-title {
     font-size: 14px;
@@ -974,6 +976,19 @@ html {
 }
 
 @media screen and (max-width: 999px) and (min-width: 300px) {
+  @media screen and (min-width: 450px) {
+    .card {
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card__image {
+      width: 400px;
+      height: 261px;
+      border-radius: 5px 5px 0 0;
+    }
+  }
   .menu {
     height: 50px;
     justify-content: flex-start;
@@ -1166,11 +1181,18 @@ html {
     align-items: center;
   }
 
-  .card {
-    width: 75%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  @media screen and (max-width: 450px) {
+    .card {
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card__image {
+      width: 300px;
+      height: 196px;
+      border-radius: 5px 5px 0 0;
+    }
   }
 
   .card__content {
@@ -1183,10 +1205,6 @@ html {
   .card__description {
     font-size: 14px;
     line-height: 22px;
-  }
-  .card__image {
-    width: 100%;
-    border-radius: 5px 5px 0 0;
   }
 
   .card__skills {
