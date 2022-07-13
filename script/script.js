@@ -1,4 +1,4 @@
-import { languages, resumes, slidesContent } from "./languages.js";
+import { languages, resumes, slidesContent } from "./body.js";
 window.onload = function () {
   //GENERATING PAGE
   const page = document.querySelector(".page");
