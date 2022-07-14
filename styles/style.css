@@ -64,7 +64,7 @@ html {
   visibility: hidden;
   width: 30px;
   height: 30px;
-  background-image: url(../images/close__button.svg);
+  background-image: url(../images/close-button.svg);
 }
 
 .menu_active {
