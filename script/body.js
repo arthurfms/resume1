@@ -1627,9 +1627,9 @@ const languages = {
 };
 
 const resumes = {
-  en: "https://arthurfernandes.me/documents/Arthur%20Fernandes_EN.pdf",
-  pt: "https://arthurfernandes.me/documents/Arthur%20Fernandes_PT.pdf",
-  es: "https://arthurfernandes.me/documents/Arthur%20Fernandes_ES.pdf",
+  en: "https://www.arthurfernandes.me/documents/Arthur%20Fernandes_EN.pdf",
+  pt: "https://www.arthurfernandes.me/documents/Arthur%20Fernandes_PT.pdf",
+  es: "https://www.arthurfernandes.me/documents/Arthur%20Fernandes_ES.pdf",
 };
 
 const slidesContent = {
