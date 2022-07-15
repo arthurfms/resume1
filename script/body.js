@@ -222,7 +222,7 @@ const languages = {
           </h4>
           <p class="timeline__item-paragraph">
             2,5 years tech graduation, passing through the main issues and
-            skills for a developer, including system requisits, programming
+            skills for a developer, including system requisites, programming
             languages, UI and many others topics.
           </p>
         </div>
