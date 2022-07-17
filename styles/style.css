@@ -86,7 +86,7 @@
 .menu__content {
   display: flex;
   justify-content: space-between;
-  width: 67.5%;
+  width: 65%;
   margin: 0 auto;
   padding: 0 25px;
 }
@@ -118,7 +118,7 @@
   color: #b1d1ce;
 }
 
-.lang__buttons {
+.menu__buttons {
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -129,15 +129,15 @@
   border-left: 2.5px solid #fff;
 }
 
-.menu_active .lang__buttons {
+.menu_active .menu__buttons {
   border-left: 2.5px solid #555;
 }
 
-.menu_theme-dark.menu_active .lang__buttons {
+.menu_theme-dark.menu_active .menu__buttons {
   border-left: 2.5px solid #fff;
 }
 
-.lang__item {
+.button__item {
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -148,20 +148,22 @@
   transition: color 0.5s ease;
 }
 
-.menu_active .lang__item {
+/* teste */
+
+.menu_active .button__item {
   color: #555;
 }
 
-.menu_theme-dark.menu_active .lang__item {
+.menu_theme-dark.menu_active .button__item {
   color: #fff;
 }
 
-.lang__item_active,
-.menu_active .lang__item_active {
+.button__item_active,
+.menu_active .button__item_active {
   color: #3d8e85;
 }
 
-.menu_theme-dark.menu_active .lang__item_active {
+.menu_theme-dark.menu_active .button__item_active {
   color: #b1d1ce;
 }
 
@@ -933,14 +935,14 @@
 @media (hover: hover) {
   .menu__item a:hover,
   .menu__item_active a:hover,
-  .lang__item:not(.lang__item_active):hover {
+  .button__item:not(.button__item_active):hover {
     color: #b1b1b1;
   }
 
   .menu__button:hover,
   .menu__button_active:hover,
   .menu__close-button:hover,
-  .lang__item:not(.lang__item_active):hover {
+  .button__item:not(.button__item_active):hover {
     opacity: 0.5;
     cursor: pointer;
   }
@@ -1119,19 +1121,19 @@
     transition: opacity 0.5s ease;
   }
 
-  .lang__buttons,
-  .menu_active .lang__buttons {
+  .menu__buttons,
+  .menu_active .menu__buttons {
     border-left: 0;
   }
 
-  .lang__item {
+  .button__item {
     color: #555;
   }
 
-  .lang__item_active {
+  .button__item_active {
     color: #3d8e85;
   }
-  .menu_opened .lang__buttons {
+  .menu_opened .menu__buttons {
     display: none;
   }
   .menu_opened .menu__button {

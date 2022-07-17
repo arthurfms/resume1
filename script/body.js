@@ -27,10 +27,12 @@ const languages = {
       <a href="#contact-section">Contact</a>
     </p>
   </div>
-  <ul class="lang__buttons">
-    <li class="lang__item" id="en-US">EN</li>
-    <li class="lang__item" id="pt-BR">PT</li>
-    <li class="lang__item" id="es-AR">ES</li>
+  <ul class="menu__buttons">
+    <li class="button__item" id="en-US">EN</li>
+    <li class="button__item" id="pt-BR">PT</li>
+    <li class="button__item" id="es-AR">ES</li>
+    <li class="button__item" id="theme">
+    </li>
   </ul>
   </nav>
   <header class="header">
@@ -97,7 +99,7 @@ const languages = {
       <div class="typing"></div>
     </div>
     <p class="about__paragraph">
-      I recently graduated in Software Analysis and Development from
+      Graduating in Software Analysis and Development from
       Unicesumar (Brazil), able to create reponsive web pages from the
       scratch, creating designs, making layouts and programming. I have
       experience working with data manipulation, data analysis and customer
@@ -586,10 +588,11 @@ const languages = {
       <a href="#contact-section">Contato</a>
     </p>
   </div>
-  <ul class="lang__buttons">
-    <li class="lang__item" id="en-US">EN</li>
-    <li class="lang__item" id="pt-BR">PT</li>
-    <li class="lang__item" id="es-AR">ES</li>
+  <ul class="menu__buttons">
+    <li class="button__item" id="en-US">EN</li>
+    <li class="button__item" id="pt-BR">PT</li>
+    <li class="button__item" id="es-AR">ES</li>
+    <li class="button__item" id="theme"></li>
   </ul>
   </nav>
   <header class="header">
@@ -656,7 +659,7 @@ const languages = {
       <div class="typing"></div>
     </div>
     <p class="about__paragraph">
-      Recém-graduado em Análise e Desenvolvimento de Sistemas na Unicesumar, capaz de criar páginas responsivas do zero,
+      Graduando em Análise e Desenvolvimento de Sistemas na Unicesumar, capaz de criar páginas responsivas do zero,
       desde o design, até desenhos de layouts e programação. Tenho experiência trabalhando com manipulação de dados, análise
       de dados e suporte técnico, trabalhei em grandes equipes e ambientes multiculturais. Também graduado em Jornalismo,
       aprendi a me comunicar de maneira efetiva, entendo as pessoas e suas complexidades, garantindo que as mensagens sejam
@@ -1117,10 +1120,11 @@ const languages = {
       <a href="#contact-section">Contacto</a>
     </p>
   </div>
-  <ul class="lang__buttons">
-    <li class="lang__item" id="en-US">EN</li>
-    <li class="lang__item" id="pt-BR">PT</li>
-    <li class="lang__item" id="es-AR">ES</li>
+  <ul class="menu__buttons">
+    <li class="button__item" id="en-US">EN</li>
+    <li class="button__item" id="pt-BR">PT</li>
+    <li class="button__item" id="es-AR">ES</li>
+    <li class="button__item" id="theme"></li>
   </ul>
   </nav>
   <header class="header">
@@ -1187,7 +1191,7 @@ const languages = {
       <div class="typing"></div>
     </div>
     <p class="about__paragraph">
-      Recién recibido en Análisis y Desarrollo de Software en la universidad Unicesumar (Brazil), puedo crear aplicaciones desde
+      Estudiante en Análisis y Desarrollo de Software en la universidad Unicesumar (Brazil), puedo crear aplicaciones desde
       cero, desde el diseño hasta la programación. Tengo experiencia con manipulación de datos, análisis de datos y soporte
       tecnico, trabajé en grandes equipos y ambientes multiculturales. También soy graduado en Periodismo, lo que me hizo
       aprender a comunicarme de manera efectiva, comprender las personas y saber dejar el mensaje directo y claro.

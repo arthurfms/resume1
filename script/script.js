@@ -44,19 +44,21 @@ window.onload = function () {
   }
 
   function handleLanguage(lang) {
-    const langItens = document.querySelectorAll(".lang__item");
-    document.querySelector(".lang__item_active")
-      ? document.querySelector(".lang__item_active").remove("lang__item_active")
+    const langItens = document.querySelectorAll(".button__item");
+    document.querySelector(".button__item_active")
+      ? document
+          .querySelector(".button__item_active")
+          .remove("button__item_active")
       : "";
 
     if (lang == "en-US") {
-      langItens[0].classList.add("lang__item_active");
+      langItens[0].classList.add("button__item_active");
     } else if (lang == "pt-BR") {
-      langItens[1].classList.add("lang__item_active");
+      langItens[1].classList.add("button__item_active");
     } else if (lang == "es-AR") {
-      langItens[2].classList.add("lang__item_active");
+      langItens[2].classList.add("button__item_active");
     } else {
-      langItens[0].classList.add("lang__item_active");
+      langItens[0].classList.add("button__item_active");
     }
   }
 
