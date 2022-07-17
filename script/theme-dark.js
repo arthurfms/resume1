@@ -1,14 +1,24 @@
-class Itens {
-  constructor(itenSelector) {
-    this.itenSelector = itenSelector;
+class Theme {
+  constructor(itemSelectors) {
+    this.pageSelector = itemSelectors.page;
+    this.menuItem = itemSelectors.menuItem;
+    this.sectionTitleItem = itemSelectors.sectionTitleItem;
+    this.workItem = itemSelectors.workItem;
+    this.timelineItem = itemSelectors.timelineItem;
+    this.educationItem = itemSelectors.educationItem;
+    this.skillsItem = itemSelectors.skillsItem;
+    this.cardItem = itemSelectors.cardItem;
+    this.coursesItem = itemSelectors.coursesItem;
+    this.slideshowItem = itemSelectors.slideshowItem;
+    this.themeButton = itemSelectors.themeButton;
     this.darkClass = `${this.itenSelector}_theme-dark`;
   }
 
-  _getIten() {
+  _getItens() {
     return document.querySelector(`.${this.itenSelector}`);
   }
 
-  _itenAddEvent() {
+  _buttonAddEvent() {
     const currIten = _getIten();
     currIten.addEventListener("click", handleTheme);
   }
@@ -19,31 +29,19 @@ class Itens {
   }
 }
 
-const pageItem = new Itens("page");
-const menuItem = new Itens("menu");
-const sectionTitleItem = new Itens("section-title");
-const workItem = new Itens("work-experience");
-const timelineItem = new Itens("timeline__item");
-const educationItem = new Itens("education");
-const skillsItem = new Itens("main-skills");
-const cardItem = new Itens("card");
-const coursesItem = new Itens("courses");
-const slideshowItem = new Itens("slideshow");
-const themeButton = document.querySelector("#theme");
-
-const themeItens = [
-  pageItem,
-  menuItem,
-  sectionTitleItem,
-  workItem,
-  timelineItem,
-  educationItem,
-  skillsItem,
-  cardItem,
-  coursesItem,
-  slideshowItem,
-  themeButton,
-];
+const darkTheme = {
+  page: "page",
+  menuItem: "menu",
+  sectionTitleItem: "section-title",
+  workItem: "work-experience",
+  timelineItem: "timeline__item",
+  educationItem: "education",
+  skillsItem: "main-skills",
+  cardItem: "card",
+  coursesItem: "courses",
+  slideshowItem: "slideshow",
+  themeButton: document.querySelector("#theme"),
+};
 
 function generateItens(itensList) {
   itensList.forEach((element) => {});
