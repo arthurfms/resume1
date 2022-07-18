@@ -1,4 +1,6 @@
 import { languages, resumes, slidesContent } from "./body.js";
+import { definingTheme, reseteThemeLg } from "./themes.js";
+
 window.onload = function () {
   //GENERATING PAGE
   const page = document.querySelector(".page");
@@ -29,6 +31,7 @@ window.onload = function () {
     }
     activatePage();
     handleLanguage(idLang);
+    genThemes();
   }
 
   function identifyLanguage(lang) {
@@ -679,4 +682,10 @@ window.onload = function () {
       req.send();
     }
   }
+
+  function genThemes() {
+    definingTheme();
+    reseteThemeLg();
+  }
+
 };

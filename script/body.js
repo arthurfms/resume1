@@ -32,6 +32,13 @@ const languages = {
     <li class="button__item" id="pt-BR">PT</li>
     <li class="button__item" id="es-AR">ES</li>
     <li class="button__item" id="theme">
+      <?xml version="1.0" encoding="utf-8"?>
+      <!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+      <svg class="moon" width="20px" height="20px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+      <path class="st0" d="M22.39,18.49c-6.08,0-11-4.92-11-11c0-2.21,0.66-4.26,1.78-5.99C7.2,1.62,2.39,6.49,2.39,12.49
+        c0,6.08,4.92,11,11,11c2.66,0,5.1-0.94,7-2.51c0.86-0.71,1.61-1.56,2.22-2.5C22.54,18.49,22.46,18.49,22.39,18.49z"/>
+      </svg>
     </li>
   </ul>
   </nav>
@@ -592,7 +599,15 @@ const languages = {
     <li class="button__item" id="en-US">EN</li>
     <li class="button__item" id="pt-BR">PT</li>
     <li class="button__item" id="es-AR">ES</li>
-    <li class="button__item" id="theme"></li>
+    <li class="button__item" id="theme">
+      <?xml version="1.0" encoding="utf-8"?>
+      <!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+      <svg class="moon" width="20px" height="20px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+      <path class="st0" d="M22.39,18.49c-6.08,0-11-4.92-11-11c0-2.21,0.66-4.26,1.78-5.99C7.2,1.62,2.39,6.49,2.39,12.49
+        c0,6.08,4.92,11,11,11c2.66,0,5.1-0.94,7-2.51c0.86-0.71,1.61-1.56,2.22-2.5C22.54,18.49,22.46,18.49,22.39,18.49z"/>
+      </svg>
+    </li>
   </ul>
   </nav>
   <header class="header">
@@ -1124,7 +1139,15 @@ const languages = {
     <li class="button__item" id="en-US">EN</li>
     <li class="button__item" id="pt-BR">PT</li>
     <li class="button__item" id="es-AR">ES</li>
-    <li class="button__item" id="theme"></li>
+    <li class="button__item" id="theme">
+      <?xml version="1.0" encoding="utf-8"?>
+      <!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+      <svg class="moon" width="20px" height="20px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+      <path class="st0" d="M22.39,18.49c-6.08,0-11-4.92-11-11c0-2.21,0.66-4.26,1.78-5.99C7.2,1.62,2.39,6.49,2.39,12.49
+        c0,6.08,4.92,11,11,11c2.66,0,5.1-0.94,7-2.51c0.86-0.71,1.61-1.56,2.22-2.5C22.54,18.49,22.46,18.49,22.39,18.49z"/>
+      </svg>
+    </li>
   </ul>
   </nav>
   <header class="header">
