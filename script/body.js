@@ -47,7 +47,6 @@ const languages = {
         <h1></h1>
         <div class="typing"></div>
       </div>
-      <h2 class="header__subtitle">frontend developer</h2>
       <ul class="list">
         <li class="list__item">
           <p>Nationality:</p>
@@ -608,7 +607,6 @@ const languages = {
         <h1></h1>
         <div class="typing"></div>
       </div>
-      <h2 class="header__subtitle">desenvolvedor frontend</h2>
       <ul class="list">
         <li class="list__item">
           <p>Nacionalidade:</p>
