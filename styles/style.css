@@ -798,6 +798,10 @@
   padding: 45px 0 105px;
 }
 
+.page_theme-dark .contact-section {
+  background-color: rgb(55, 55, 55, 0.95);
+}
+
 .contact {
   margin: 25px 0;
   width: 75%;
