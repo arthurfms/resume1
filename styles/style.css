@@ -58,7 +58,7 @@
 
 .page::-webkit-scrollbar-thumb {
   background-color: #3d8e85;
-  border-radius: 10px;
+  border-radius: 3.5px;
   transition: background-color 1s ease;
 }
 .page.page_theme-dark::-webkit-scrollbar-thumb {
