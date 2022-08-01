@@ -330,7 +330,7 @@ const languages = {
       <div class="card">
         <img class="card__image" src="./images/Around-the-U.S.jpg" />
         <div class="card__content">
-          <a href="https://arthurfms.github.io/web_project_4/"
+          <a href="https://arthurfms.github.io/web_project_4/" target="_blank"
             ><h3 class="card__title">Around The U.S.</h3></a
           >
           <p class="card__description">
@@ -359,7 +359,7 @@ const languages = {
       <div class="card">
         <img class="card__image" src="./images/De Pátria para Pátria.jpg" />
         <div class="card__content">
-          <a href="https://arthurfms.github.io/web_project_3_ptbr/"
+          <a href="https://arthurfms.github.io/web_project_3_ptbr/" target="_blank"
             ><h3 class="card__title">From Homeland to Homeland</h3></a
           >
           <p class="card__description">
@@ -386,7 +386,7 @@ const languages = {
           src="./images/Aprendendo a Aprender2.jpg"
         />
         <div class="card__content">
-          <a href="https://arthurfms.github.io/web_project_1_ptbr/"
+          <a href="https://arthurfms.github.io/web_project_1_ptbr/" target="_blank"
             ><h3 class="card__title">Learning How to Learn</h3></a
           >
           <p class="card__description">
@@ -869,7 +869,7 @@ const languages = {
       <div class="card">
         <img class="card__image" src="./images/Around-the-U.S.jpg" />
         <div class="card__content">
-          <a href="https://arthurfms.github.io/web_project_4/"
+          <a href="https://arthurfms.github.io/web_project_4/" target="_blank"
             ><h3 class="card__title">Around The U.S.</h3></a
           >
           <p class="card__description">
@@ -895,7 +895,7 @@ const languages = {
       <div class="card">
         <img class="card__image" src="./images/De Pátria para Pátria.jpg" />
         <div class="card__content">
-          <a href="https://arthurfms.github.io/web_project_3_ptbr/"
+          <a href="https://arthurfms.github.io/web_project_3_ptbr/" target="_blank"
             ><h3 class="card__title">De Pátria para Pátria</h3></a
           >
           <p class="card__description">
@@ -921,7 +921,7 @@ const languages = {
           src="./images/Aprendendo a Aprender2.jpg"
         />
         <div class="card__content">
-          <a href="https://arthurfms.github.io/web_project_1_ptbr/"
+          <a href="https://arthurfms.github.io/web_project_1_ptbr/" target="_blank"
             ><h3 class="card__title">Aprendendo a Aprender</h3></a
           >
           <p class="card__description">
@@ -1405,7 +1405,7 @@ const languages = {
       <div class="card">
         <img class="card__image" src="./images/Around-the-U.S.jpg" />
         <div class="card__content">
-          <a href="https://arthurfms.github.io/web_project_4/"
+          <a href="https://arthurfms.github.io/web_project_4/" target="_blank"
             ><h3 class="card__title">Around The U.S.</h3></a
           >
           <p class="card__description">
@@ -1431,7 +1431,7 @@ const languages = {
       <div class="card">
         <img class="card__image" src="./images/De Pátria para Pátria.jpg" />
         <div class="card__content">
-          <a href="https://arthurfms.github.io/web_project_3_ptbr/"
+          <a href="https://arthurfms.github.io/web_project_3_ptbr/" target="_blank"
             ><h3 class="card__title">De País a País</h3></a
           >
           <p class="card__description">
@@ -1457,7 +1457,7 @@ const languages = {
           src="./images/Aprendendo a Aprender2.jpg"
         />
         <div class="card__content">
-          <a href="https://arthurfms.github.io/web_project_1_ptbr/"
+          <a href="https://arthurfms.github.io/web_project_1_ptbr/" target="_blank"
             ><h3 class="card__title">Aprendiendo a Aprender</h3></a
           >
           <p class="card__description">
