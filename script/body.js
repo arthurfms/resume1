@@ -330,7 +330,7 @@ const languages = {
       <div class="card">
         <img class="card__image" src="./images/Around-the-U.S.jpg" />
         <div class="card__content">
-          <a href="https://arthurfms.github.io/web_project_4/" target="_blank"
+          <a href="https://github.com/arthurfms/web_project_4" target="_blank"
             ><h3 class="card__title">Around The U.S.</h3></a
           >
           <p class="card__description">
@@ -869,7 +869,7 @@ const languages = {
       <div class="card">
         <img class="card__image" src="./images/Around-the-U.S.jpg" />
         <div class="card__content">
-          <a href="https://arthurfms.github.io/web_project_4/" target="_blank"
+          <a href="https://github.com/arthurfms/web_project_4" target="_blank"
             ><h3 class="card__title">Around The U.S.</h3></a
           >
           <p class="card__description">
@@ -1405,7 +1405,7 @@ const languages = {
       <div class="card">
         <img class="card__image" src="./images/Around-the-U.S.jpg" />
         <div class="card__content">
-          <a href="https://arthurfms.github.io/web_project_4/" target="_blank"
+          <a href="https://github.com/arthurfms/web_project_4" target="_blank"
             ><h3 class="card__title">Around The U.S.</h3></a
           >
           <p class="card__description">
