@@ -60,7 +60,7 @@ const languages = {
           <p>Phone:</p>
           <span>
             <a
-              href="https://api.whatsapp.com/send?phone=34644350581"
+              href="https://api.whatsapp.com/send?phone=5511971071806"
               target="_blank"
               >+55 11 97107 1806</a
             >
@@ -454,7 +454,7 @@ const languages = {
             <p>Phone:</p>
             <span>
               <a
-                href="https://api.whatsapp.com/send?phone=34644350581"
+                href="https://api.whatsapp.com/send?phone=5511971071806"
                 target="_blank"
                 >+55 11 97107 1806 | +55 11 97107 1806</a
               >
@@ -620,7 +620,7 @@ const languages = {
           <p>Telefone:</p>
           <span>
             <a
-              href="https://api.whatsapp.com/send?phone=34644350581"
+              href="https://api.whatsapp.com/send?phone=5511971071806"
               target="_blank"
               >+55 11 97107 1806</a
             >
@@ -986,7 +986,7 @@ const languages = {
             <p>Phone:</p>
             <span>
               <a
-                href="https://api.whatsapp.com/send?phone=34644350581"
+                href="https://api.whatsapp.com/send?phone=5511971071806"
                 target="_blank"
                 >+55 11 97107 1806 | +55 11 97107 1806</a
               >
@@ -1152,7 +1152,7 @@ const languages = {
           <p>Teléfono:</p>
           <span>
             <a
-              href="https://api.whatsapp.com/send?phone=34644350581"
+              href="https://api.whatsapp.com/send?phone=5511971071806"
               target="_blank"
               >+55 11 97107 1806</a
             >
@@ -1522,7 +1522,7 @@ const languages = {
             <p>Teléfono:</p>
             <span>
               <a
-                href="https://api.whatsapp.com/send?phone=34644350581"
+                href="https://api.whatsapp.com/send?phone=5511971071806"
                 target="_blank"
                 >+55 11 97107 1806 | +55 11 97107 1806</a
               >
