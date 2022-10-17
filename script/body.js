@@ -682,7 +682,7 @@ const languages = {
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
-            Frontend Developer<span> - InboundCycle</span>
+            Desenvolvedor Frontend<span> - InboundCycle</span>
           </h3>
           <h4 class="timeline__item-subtitle">
             Brasil. <span>August, 2022 - Atualmente</span>
