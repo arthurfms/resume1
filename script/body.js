@@ -118,7 +118,7 @@ const languages = {
             Frontend Developer<span> - InboundCycle</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Brazil. <span>Agosto, 2022 - Current</span>
+            Brazil. <span>August, 2022 - Current</span>
           </h4>
           <p class="timeline__item-paragraph">
             Create and maintain client's page following company's standarts and best practices. Using HTML, CSS, JavaScript and PHP to develop Wordpress, Hubspot and web pages. Mnaging databases, host and server informations to generate backups and updates for each client.
@@ -699,7 +699,7 @@ const languages = {
             Desenvolvedor Frontend<span> - InboundCycle</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Brasil. <span>August, 2022 - Atualmente</span>
+            Brasil. <span>Agosto, 2022 - Atualmente</span>
           </h4>
           <p class="timeline__item-paragraph">
             Criar e realizar alterações nas páginas dos clientes seguindo os padrões da empresa e melhores práticas de desenvolvimento. Utilizando HTML, CSS, JavaScript e PHP para desenvolver páginas web, Wordpress e Hubspot, gerenciando bases de dados, hospedagens e servidores para gerar backups e atualizações para cada cliente.
