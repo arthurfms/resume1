@@ -98,14 +98,11 @@ const languages = {
       <div class="typing"></div>
     </div>
     <p class="about__paragraph">
-      Graduating in Software Analysis and Development from
-      Unicesumar (Brazil), able to create reponsive web pages from the
+      Graduated in Software Analysis and Development from
+      Unicesumar (Brazil) and Journalism, able to create reponsive web pages from the
       scratch, creating designs, making layouts and programming. I have
       experience working with data manipulation, data analysis and customer
-      support, working in big teams and multicultural enviroment. As a
-      journalism graduated, I learned how to comunicate, understand people
-      and their complexity and how to get messages passed by without losing
-      its meaning.
+      support, working in big teams and multicultural enviroment.
     </p>
   </section>
   <section class="work-experience" id="work-experience">
@@ -118,10 +115,22 @@ const languages = {
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
+            Frontend Developer<span> - InboundCycle</span>
+          </h3>
+          <h4 class="timeline__item-subtitle">
+            Brazil. <span>Agosto, 2022 - Current</span>
+          </h4>
+          <p class="timeline__item-paragraph">
+            Create and maintain client's page following company's standarts and best practices. Using HTML, CSS, JavaScript and PHP to develop Wordpress, Hubspot and web pages. Mnaging databases, host and server informations to generate backups and updates for each client.
+          </p>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__item-dot"></span>
+          <h3 class="timeline__item-title">
             Data Implementation Specialist<span> - Doctoralia España</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Barcelona, Spain. <span>May, 2021 - Current</span>
+            Barcelona, Spain. <span>May, 2021 - August, 2022</span>
           </h4>
           <p class="timeline__item-paragraph">
             Management and manipulation of big databases to generate
@@ -658,11 +667,9 @@ const languages = {
       <div class="typing"></div>
     </div>
     <p class="about__paragraph">
-      Graduando em Análise e Desenvolvimento de Sistemas na Unicesumar, capaz de criar páginas responsivas do zero,
+      Graduado em Análise e Desenvolvimento de Sistemas na Unicesumar e em Jornalismo, capaz de criar páginas responsivas do zero,
       desde o design, até desenhos de layouts e programação. Tenho experiência trabalhando com manipulação de dados, análise
-      de dados e suporte técnico, trabalhei em grandes equipes e ambientes multiculturais. Também graduado em Jornalismo,
-      aprendi a me comunicar de maneira efetiva, entendo as pessoas e suas complexidades, garantindo que as mensagens sejam
-      claras e nenhuma informação se perca no caminho.
+      de dados e suporte técnico, trabalhei em grandes equipes e ambientes multiculturais.
     </p>
   </section>
   <section class="work-experience" id="work-experience">
@@ -675,10 +682,22 @@ const languages = {
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
+            Frontend Developer<span> - InboundCycle</span>
+          </h3>
+          <h4 class="timeline__item-subtitle">
+            Brasil. <span>August, 2022 - Atualmente</span>
+          </h4>
+          <p class="timeline__item-paragraph">
+            Criar e realizar alterações nas páginas dos clientes seguindo os padrões da empresa e melhores práticas de desenvolvimento. Utilizando HTML, CSS, JavaScript e PHP para desenvolver páginas web, Wordpress e Hubspot, gerenciando bases de dados, hospedagens e servidores para gerar backups e atualizações para cada cliente.
+          </p>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__item-dot"></span>
+          <h3 class="timeline__item-title">
             Data Implementation Specialist<span> - Doctoralia España</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Barcelona, Espanha. <span>Maio, 2021 - Atualmente</span>
+            Barcelona, Espanha. <span>Maio, 2021 - Agosto, 2022</span>
           </h4>
           <p class="timeline__item-paragraph">
             Gerenciamento e manipulação de bases de dados de grande porte para gerar formatos
@@ -1190,10 +1209,9 @@ const languages = {
       <div class="typing"></div>
     </div>
     <p class="about__paragraph">
-      Estudiante en Análisis y Desarrollo de Software en la universidad Unicesumar (Brazil), puedo crear aplicaciones desde
+      Recibido en Análisis y Desarrollo de Software en la universidad Unicesumar (Brazil) y Periodismo, puedo crear aplicaciones desde
       cero, desde el diseño hasta la programación. Tengo experiencia con manipulación de datos, análisis de datos y soporte
-      tecnico, trabajé en grandes equipos y ambientes multiculturales. También soy graduado en Periodismo, lo que me hizo
-      aprender a comunicarme de manera efectiva, comprender las personas y saber dejar el mensaje directo y claro.
+      tecnico, trabajé en grandes equipos y ambientes multiculturales.
     </p>
   </section>
   <section class="work-experience" id="work-experience">
@@ -1203,6 +1221,18 @@ const languages = {
         <div class="typing"></div>
       </div>
       <div class="timeline__itens">
+        <div class="timeline__item">
+          <span class="timeline__item-dot"></span>
+          <h3 class="timeline__item-title">
+            Desarrollador Frontend<span> - InboundCycle</span>
+          </h3>
+          <h4 class="timeline__item-subtitle">
+            Brazil. <span>Agosto, 2022 - Actualmente</span>
+          </h4>
+          <p class="timeline__item-paragraph">
+            Crear y realizar mantenimiento en páginas de clientes siguiendo todos los estándares de la empresa y mejores prácticas de desarrollo de software. Usando HTML, CSS, JavaScript y PHP para desarrollar páginas web, Wordpress y Hubspot, manejando bases de datos, hospedajes y servidores para hacer backups y actualizaciones para cada cliente.
+          </p>
+        </div>
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
