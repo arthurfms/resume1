@@ -280,8 +280,22 @@ const languages = {
         </div>
       </div>
       <div class="skill">
+        <h3 class="skill__title">PHP</h3>
+        <p class="skill__percentage">50%</p>
+        <div class="skill-bar">
+          <span class="skill-bar__progress"></span>
+        </div>
+      </div>
+      <div class="skill">
         <h3 class="skill__title">SQL</h3>
         <p class="skill__percentage">75%</p>
+        <div class="skill-bar">
+          <span class="skill-bar__progress"></span>
+        </div>
+      </div>
+      <div class="skill">
+        <h3 class="skill__title">Wordpress</h3>
+        <p class="skill__percentage">50%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
@@ -829,8 +843,22 @@ const languages = {
         </div>
       </div>
       <div class="skill">
+        <h3 class="skill__title">PHP</h3>
+        <p class="skill__percentage">50%</p>
+        <div class="skill-bar">
+          <span class="skill-bar__progress"></span>
+        </div>
+      </div>
+      <div class="skill">
         <h3 class="skill__title">SQL</h3>
         <p class="skill__percentage">75%</p>
+        <div class="skill-bar">
+          <span class="skill-bar__progress"></span>
+        </div>
+      </div>
+      <div class="skill">
+        <h3 class="skill__title">Wordpress</h3>
+        <p class="skill__percentage">50%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
@@ -1376,8 +1404,22 @@ const languages = {
         </div>
       </div>
       <div class="skill">
+        <h3 class="skill__title">PHP</h3>
+        <p class="skill__percentage">50%</p>
+        <div class="skill-bar">
+          <span class="skill-bar__progress"></span>
+        </div>
+      </div>
+      <div class="skill">
         <h3 class="skill__title">SQL</h3>
         <p class="skill__percentage">75%</p>
+        <div class="skill-bar">
+          <span class="skill-bar__progress"></span>
+        </div>
+      </div>
+      <div class="skill">
+        <h3 class="skill__title">Wordpress</h3>
+        <p class="skill__percentage">50%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
