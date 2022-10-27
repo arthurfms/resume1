@@ -479,7 +479,7 @@ const languages = {
               <a
                 href="https://api.whatsapp.com/send?phone=5511971071806"
                 target="_blank"
-                >+55 11 97107 1806 | +55 11 97107 1806</a
+                >+55 11 97107 1806</a
               >
             </span>
           </li>
@@ -1035,7 +1035,7 @@ const languages = {
               <a
                 href="https://api.whatsapp.com/send?phone=5511971071806"
                 target="_blank"
-                >+55 11 97107 1806 | +55 11 97107 1806</a
+                >+55 11 97107 1806/a
               >
             </span>
           </li>
@@ -1596,7 +1596,7 @@ const languages = {
               <a
                 href="https://api.whatsapp.com/send?phone=5511971071806"
                 target="_blank"
-                >+55 11 97107 1806 | +55 11 97107 1806</a
+                >+55 11 97107 1806</a
               >
             </span>
           </li>
