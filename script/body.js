@@ -1267,7 +1267,7 @@ const languages = {
             Data Implementation Specialist<span> - Doctoralia España</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Barcelona, España. <span>Mayo, 2021 - Actualmente</span>
+            Barcelona, España. <span>Mayo, 2021 - Agosto, 2022</span>
           </h4>
           <p class="timeline__item-paragraph">
             Gestionar y manipular bases con gran cantidad de datos para generar archivos de
