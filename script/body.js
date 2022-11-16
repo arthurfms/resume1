@@ -742,7 +742,7 @@ const languages = {
             Analista de Suporte<span> - Doctoralia Brasil</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Curitiba, Brasil. <span>September, 2019 - March, 2021</span>
+            Curitiba, Brasil. <span>Setembro, 2019 - Março, 2021</span>
           </h4>
           <p class="timeline__item-paragraph">
             Prestar auxílio para colaboradores da empresa e usuários com dúvidas e correções de
@@ -1298,7 +1298,7 @@ const languages = {
             Analista de Soporte<span> - Doctoralia Brasil</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Curitiba, Brazil. <span>Septiembro, 2019 - Marzo, 2021</span>
+            Curitiba, Brazil. <span>Septiembre, 2019 - Marzo, 2021</span>
           </h4>
           <p class="timeline__item-paragraph">
             Proveer soporte a los empleados y usuarios , hacer corrección de errores del sistema
@@ -1319,7 +1319,7 @@ const languages = {
             Analista de Customer Success LATAM<span> - Doctoralia Brasil</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Curitiba, Brazil. <span>Abril, 2019 - Septiembro, 2019</span>
+            Curitiba, Brazil. <span>Abril, 2019 - Septiembre, 2019</span>
           </h4>
           <p class="timeline__item-paragraph">
             Asesorar profesionales de la salud de Chile por teléfono y correo. Hacer entrenamientos
@@ -1333,7 +1333,7 @@ const languages = {
             Agente de Atención al Cliente Trilingüe<span> - Sykes Brasil</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Curitiba, Brazil. <span>Septiembro, 2018 - Abril, 2019</span>
+            Curitiba, Brazil. <span>Septiembre, 2018 - Abril, 2019</span>
           </h4>
           <p class="timeline__item-paragraph">
             Manejar las solicitudes de los clientes en Inglés, Español y Portugués. Cambio del límite
