@@ -40,7 +40,7 @@ const languages = {
     <img
       class="header__image"
       src="./images/profile__image.jpg"
-      alt="Arthur Fernandes profile image"
+      alt="Profile image"
     />
     <div class="header__content">
       <div class="header__title">
@@ -50,7 +50,7 @@ const languages = {
       <ul class="list">
         <li class="list__item">
           <p>Nationality:</p>
-          <span>brazilian</span>
+          <span>Country</span>
         </li>
         <li class="list__item">
           <p>Age:</p>
@@ -60,29 +60,29 @@ const languages = {
           <p>Phone:</p>
           <span>
             <a
-              href="https://api.whatsapp.com/send?phone=5511971071806"
+              href="#"
               target="_blank"
-              >+55 11 97107 1806</a
+              >+00 9 999 999 999</a
             >
           </span>
         </li>
         <li class="list__item">
           <p>Email:</p>
           <span>
-            <a href="mailto:arthurfms@yahoo.com" target="_blank"
-              >arthurfms@yahoo.com</a
+            <a href="mailto:" target="_blank"
+              >johndoe@notarealemail.com</a
             >
           </span>
         </li>
         <li class="list__item">
           <div class="social-icons">
             <a
-              href="https://www.linkedin.com/in/arthur-fms/"
+              href="#"
               target="_blank"
             >
               <img src="./images/linkedin_w.svg" alt="LinkedIn icon" />
             </a>
-            <a href="https://github.com/arthurfms" target="_blank">
+            <a href="#" target="_blank">
               <img src="./images/github_w.svg" alt="GitHub icon" />
             </a>
           </div>
@@ -98,11 +98,7 @@ const languages = {
       <div class="typing"></div>
     </div>
     <p class="about__paragraph">
-      Graduated in Software Analysis and Development from
-      Unicesumar (Brazil) and Journalism, able to create reponsive web pages from the
-      scratch, creating designs, making layouts and programming. I have
-      experience working with data manipulation, data analysis and customer
-      support, working in big teams and multicultural enviroment.
+      Sed nec iaculis sapien. Sed egestas suscipit maximus. Suspendisse et placerat quam. Praesent in turpis eros. Praesent at lorem nisi. Praesent aliquet, sapien id semper pretium, justo ante vehicula tellus, in aliquam felis nisl eget nunc. Mauris tellus leo, pretium sit amet lectus nec, ultrices ultrices turpis.
     </p>
   </section>
   <section class="work-experience" id="work-experience">
@@ -115,101 +111,76 @@ const languages = {
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
-            Frontend Developer<span> - InboundCycle</span>
+            Job Position<span> - Company</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Brazil. <span>August, 2022 - Current</span>
+            Country, city. <span>August, 2022 - Current</span>
           </h4>
           <p class="timeline__item-paragraph">
-            Create and maintain client's page following company's standarts and best practices. Using HTML, CSS, JavaScript and PHP to develop Wordpress, Hubspot and web pages. Mnaging databases, host and server informations to generate backups and updates for each client.
+            Aliquam sit amet tempus urna, ac porta mauris. Nam a lacus est. Praesent sed augue a mi vehicula feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec suscipit lorem varius enim hendrerit posuere vitae id dui. Mauris eget mauris vitae tellus pretium sollicitudin consectetur nec diam. Nullam egestas lectus nec velit sagittis tempor.
           </p>
         </div>
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
-            Data Implementation Specialist<span> - Doctoralia España</span>
+            Job Position<span> - Company</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Barcelona, Spain. <span>May, 2021 - August, 2022</span>
+            Country, city. <span>May, 2021 - August, 2022</span>
           </h4>
           <p class="timeline__item-paragraph">
-            Management and manipulation of big databases to generate
-            specific formats, necessaries to new clients implementations.
-            Process organization and maintenance to guarantee data
-            protection and information quality in company system. Contacting
-            with all involved teams, keeping the process flowing to ensure
-            that every step works as the company standards, and training new
-            import members.
+            Maecenas sodales volutpat turpis. Suspendisse lobortis at nunc vel facilisis. Nam sed mattis lacus. Etiam consequat quis mauris a ullamcorper. Proin non magna sed enim porttitor semper. Mauris vitae nisl a sem placerat molestie. Morbi ipsum mi, venenatis nec aliquet non, porta ut lacus. Nulla at elit facilisis, congue erat id, auctor quam. Praesent convallis sem at quam maximus semper. Sed feugiat quam a libero scelerisque ultrices. Etiam luctus ligula sit amet porta fermentum.
           </p>
         </div>
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
-            Data Analyst<span> - Doctoralia Brasil</span>
+            Job Position<span> - Company</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Curitiba, Brazil. <span>March, 2021 - May, 2021</span>
+            Country, city. <span>March, 2021 - May, 2021</span>
           </h4>
           <p class="timeline__item-paragraph">
-            Improve data analysis for Marketing, lead generation and DP
-            phone operations, update and maintenance workflows to optimize
-            data collection. Generate dashboards and data insights for all
-            related teams, focusing on new leads, keep and improve operation
-            control, goals update and team commission standard.
+            Quisque pellentesque rutrum elit vel vestibulum. Aenean viverra eros at arcu congue, non efficitur nisl consectetur. Curabitur ut eleifend lacus. Nunc ligula felis, suscipit et bibendum at, volutpat eget lectus. Cras non urna quis nisi ultrices varius a vel purus. Nunc in congue est. Donec porttitor dapibus sem non condimentum. In congue fringilla ante eget pellentesque.
           </p>
         </div>
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
-            Support Analyst<span> - Doctoralia Brasil</span>
+            Job Position<span> - Company</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Curitiba, Brazil. <span>September, 2019 - March, 2021</span>
+            Country, city. <span>September, 2019 - March, 2021</span>
           </h4>
           <p class="timeline__item-paragraph">
-            Provide support for employees and users with doubts, bugs
-            corrections with scripts on SaaS, Marketplace and financial
-            system. Report weakness, find solutions to prevent bugs, and
-            notify developers about necessary corrections by Jiras. Data
-            report creation and analysis based on Support and Customer
-            Success actions and needs.
+            Cras consequat purus eget augue euismod dictum. Ut odio ligula, dignissim vel molestie id, auctor nec felis. Nullam elementum sapien sed rutrum suscipit. Donec congue libero ipsum, eget lacinia diam bibendum sed. Nulla fringilla dapibus dapibus. Aenean tempus, velit a sollicitudin hendrerit, tortor magna cursus metus, eu egestas lectus dolor sit amet augue. Donec euismod euismod molestie. Sed sed massa lacus. Aliquam pulvinar, metus vitae elementum volutpat, magna ex feugiat diam, vitae laoreet diam purus non dolor. In vitae eros dolor.
           </p>
           <p class="timeline__item-paragraph">
-            Helped to stablish a data implementation process improving
-            support side actions, reducing +16 hours of work and ensuring
-            scalability to the service.
+            Quisque justo purus, pretium eu mauris sed, pellentesque posuere nisl. Ut eros eros, interdum eget nibh vitae, dictum sollicitudin mi. Donec ac auctor quam.
           </p>
         </div>
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
-            LATAM Customer Success Analyst<span> - Doctoralia Brasil</span>
+            Job Position<span> - Company</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Curitiba, Brazil. <span>April, 2019 - September, 2019</span>
+            Country, city. <span>April, 2019 - September, 2019</span>
           </h4>
           <p class="timeline__item-paragraph">
-            Assist health professionals from Chile by phone and email. Made
-            usability training and helping them with platform issues,
-            setting the environment for new clients and keeping track of
-            their needs. Follow client's engagement and guarantee the best
-            usage from the system, generating best results and helping them
-            to achieve their goals.
+            Quisque pellentesque rutrum elit vel vestibulum. Aenean viverra eros at arcu congue, non efficitur nisl consectetur. Curabitur ut eleifend lacus. Nunc ligula felis, suscipit et bibendum at, volutpat eget lectus. Cras non urna quis nisi ultrices varius a vel purus. Nunc in congue est. Donec porttitor dapibus sem non condimentum. In congue fringilla ante eget pellentesque. Curabitur condimentum efficitur lorem, in viverra ante facilisis a.
           </p>
         </div>
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
-            Trilingual Call Center agent<span> - Sykes Brasil</span>
+            Job Position<span> - Company</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Curitiba, Brazil. <span>September, 2018 - April, 2019</span>
+            Country, city. <span>September, 2018 - April, 2019</span>
           </h4>
           <p class="timeline__item-paragraph">
-            Manage corporate cards request in English, Portuguese and
-            Spanish. Credit card limit raises requests, account information
-            and client needs. Receive and follow client's request, managing
-            their information following all companies process.
+            Donec nec varius massa, et placerat urna. Aliquam aliquet quis nulla a tempor. Curabitur ex ante, accumsan non dolor sed, porta faucibus justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
           </p>
         </div>
       </div>
@@ -225,28 +196,23 @@ const languages = {
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
-            Systems Analysis and Development
+            Course Name
           </h3>
           <h4 class="timeline__item-subtitle">
-            Unicesumar. <span>January, 2021 - August, 2022</span>
+            University. <span>January, 2021 - August, 2022</span>
           </h4>
           <p class="timeline__item-paragraph">
-            2,5 years tech graduation, passing through the main issues and
-            skills for a developer, including system requisites, programming
-            languages, UI and many others topics.
+            Donec pellentesque rhoncus eros. Morbi porta purus odio, quis bibendum ante euismod non. Quisque auctor blandit elementum.
           </p>
         </div>
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
-          <h3 class="timeline__item-title">journalism</h3>
+          <h3 class="timeline__item-title">Course Name</h3>
           <h4 class="timeline__item-subtitle">
-            Uni. Metodista. <span>January, 2013 - December, 2017</span>
+            University. <span>January, 2013 - December, 2017</span>
           </h4>
           <p class="timeline__item-paragraph">
-            4 years bachelor graduation on Journalism and social
-            comunication, where I won the best tesis prize from the
-            graduation year with a photo-journalism book about ancient
-            culture on Argentina's northeast.
+            Duis rhoncus ultricies hendrerit. Maecenas fringilla dui nec leo consectetur, a commodo felis gravida. Nulla facilisi. Mauris et odio ut mi pretium hendrerit. Nam id pellentesque nunc.
           </p>
         </div>
       </div>
@@ -259,84 +225,84 @@ const languages = {
     </div>
     <div class="skills">
       <div class="skill">
-        <h3 class="skill__title">HTML</h3>
+        <h3 class="skill__title">Skill 1</h3>
         <p class="skill__percentage">100%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">CSS</h3>
+        <h3 class="skill__title">Skill 2</h3>
         <p class="skill__percentage">100%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">JavaScript</h3>
+        <h3 class="skill__title">Skill 3</h3>
         <p class="skill__percentage">100%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">PHP</h3>
+        <h3 class="skill__title">Skill 4</h3>
         <p class="skill__percentage">50%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">SQL</h3>
+        <h3 class="skill__title">Skill 5</h3>
         <p class="skill__percentage">75%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">Wordpress</h3>
+        <h3 class="skill__title">Skill 6</h3>
         <p class="skill__percentage">50%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">Excel</h3>
+        <h3 class="skill__title">Skill 7</h3>
         <p class="skill__percentage">100%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">Git</h3>
+        <h3 class="skill__title">Skill 8</h3>
         <p class="skill__percentage">75%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">Adobe Illustrator</h3>
+        <h3 class="skill__title">Skill 9</h3>
         <p class="skill__percentage">90%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">English</h3>
+        <h3 class="skill__title">Skill 10</h3>
         <p class="skill__percentage">100%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">Portuguese</h3>
+        <h3 class="skill__title">Skill 11</h3>
         <p class="skill__percentage">100%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">Spanish</h3>
+        <h3 class="skill__title">Skill 12</h3>
         <p class="skill__percentage">100%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
@@ -353,28 +319,25 @@ const languages = {
       <div class="card">
         <img class="card__image" src="./images/Around-the-U.S.jpg" />
         <div class="card__content">
-          <a href="https://github.com/arthurfms/web_project_4" target="_blank"
-            ><h3 class="card__title">Around The U.S.</h3></a
+          <a href="#" target="_blank"
+            ><h3 class="card__title">Project 1</h3></a
           >
           <p class="card__description">
-            Bootcamp project to develop a web page with different cards that
-            allow the user to change the name and job position, and to add a
-            new card. The project includes handling popups and form
-            validation with JS.
+            Pellentesque vel consectetur felis, ac faucibus velit. Nullam facilisis lorem vitae elit euismod euismod. Donec in arcu orci. Nulla dictum, tellus sodales hendrerit mattis
           </p>
           <p class="card__skills-title">Used Stack:</p>
           <div class="card__skills">
             <div class="card__skill">
-              <p>HTML</p>
+              <p>Stack 1</p>
             </div>
             <div class="card__skill">
-              <p>CSS</p>
+              <p>Stack 2</p>
             </div>
             <div class="card__skill">
-              <p>JavaScript</p>
+              <p>Stack 3</p>
             </div>
             <div class="card__skill">
-              <p>BEM Methodology</p>
+              <p>Stack 4</p>
             </div>
           </div>
         </div>
@@ -382,23 +345,22 @@ const languages = {
       <div class="card">
         <img class="card__image" src="./images/De Pátria para Pátria.jpg" />
         <div class="card__content">
-          <a href="https://arthurfms.github.io/web_project_3_ptbr/" target="_blank"
-            ><h3 class="card__title">From Homeland to Homeland</h3></a
+          <a href="#" target="_blank"
+            ><h3 class="card__title">Project 2</h3></a
           >
           <p class="card__description">
-            Responsive page bootcamp project, here we used CSS responsive
-            techniques to make a page work smoothly in different devices
+            Vestibulum vehicula tincidunt velit nec accumsan. Donec massa ante, dignissim at accumsan vitae, placerat sed purus.
           </p>
           <p class="card__skills-title">Used Stack:</p>
           <div class="card__skills">
             <div class="card__skill">
-              <p>HTML</p>
+              <p>Stack 1</p>
             </div>
             <div class="card__skill">
-              <p>CSS</p>
+              <p>Stack 2</p>
             </div>
             <div class="card__skill">
-              <p>BEM Methodology</p>
+              <p>Stack 3</p>
             </div>
           </div>
         </div>
@@ -409,24 +371,22 @@ const languages = {
           src="./images/Aprendendo a Aprender2.jpg"
         />
         <div class="card__content">
-          <a href="https://arthurfms.github.io/web_project_1_ptbr/" target="_blank"
-            ><h3 class="card__title">Learning How to Learn</h3></a
+          <a href="#" target="_blank"
+            ><h3 class="card__title">Project 3</h3></a
           >
           <p class="card__description">
-            Landing page project about learning techniques. The project
-            included CSS media animations and itens display, also HTML from
-            basics to advanced.
+            Quisque sem eros, pretium vitae ullamcorper ut, vestibulum sed mauris. Etiam tempus auctor elementum. Fusce dui tellus, egestas sed libero et, porttitor pharetra arcu.
           </p>
           <p class="card__skills-title">Used Stack:</p>
           <div class="card__skills">
             <div class="card__skill">
-              <p>HTML</p>
+              <p>Stack 1</p>
             </div>
             <div class="card__skill">
-              <p>CSS</p>
+              <p>Stack 2</p>
             </div>
             <div class="card__skill">
-              <p>BEM Methodology</p>
+              <p>Stack 3</p>
             </div>
           </div>
         </div>
@@ -439,27 +399,26 @@ const languages = {
       <div class="slideshow__button slideshow__button_backwards"></div>
       <div class="slideshow__button slideshow__button_forwards"></div>
       <div class="slide">
-        <h3 class="slide__title">Web Development Bootcamp</h3>
+        <h3 class="slide__title">Course Name</h3>
         <h4 class="slide__subtitle">
-          Practicum by Yandex. FEBRUARY, 2022 - JANUARY, 2023
+          School Name. FEBRUARY, 2022 - JANUARY, 2023
         </h4>
         <span class="slide__line"></span>
         <p class="slide__description">
-          10 months Web Development bootcamp, foccusing on all frontend
-          technologies, programming languages and metodologies.
+          Nam dignissim lacus lectus, a consectetur orci auctor quis. Donec tristique felis vitae urna dignissim, a interdum justo dignissim. Morbi lacinia condimentum neque, vitae suscipit felis gravida accumsan.
         </p>
         <div class="slide__skills">
           <div class="slide__skill">
-            <p>HTML</p>
+            <p>Skill 1</p>
           </div>
           <div class="slide__skill">
-            <p>CSS</p>
+            <p>Skill 2</p>
           </div>
           <div class="slide__skill">
-            <p>JavaScript</p>
+            <p>Skill 3</p>
           </div>
           <div class="slide__skill">
-            <p>BEM Methodology</p>
+            <p>Skill 4</p>
           </div>
         </div>
       </div>
@@ -477,29 +436,29 @@ const languages = {
             <p>Phone:</p>
             <span>
               <a
-                href="https://api.whatsapp.com/send?phone=5511971071806"
+                href="#"
                 target="_blank"
-                >+55 11 97107 1806</a
+                >+00 9 999 999 999</a
               >
             </span>
           </li>
           <li class="list__item">
             <p>Email:</p>
             <span>
-              <a href="mailto:arthurfms@yahoo.com" target="_blank"
-                >arthurfms@yahoo.com</a
+              <a href="mailto:" target="_blank"
+                >johndoe@notarealemail.com</a
               >
             </span>
           </li>
           <li class="list__item">
             <div class="social-icons">
               <a
-                href="https://www.linkedin.com/in/arthur-fms/"
+                href="https://www.linkedin.com"
                 target="_blank"
               >
                 <img src="./images/linkedin_w.svg" alt="LinkedIn icon" />
               </a>
-              <a href="https://github.com/arthurfms" target="_blank">
+              <a href="https://github.com" target="_blank">
                 <img src="./images/github_w.svg" alt="GitHub icon" />
               </a>
             </div>
@@ -559,7 +518,7 @@ const languages = {
     </div>
   </section>
   <section class="footer">
-      <p class="footer__copyright">&copy; Arthur Fernandes Menezes Santos - 2022</p>
+      <p class="footer__copyright">&copy; Arthur Fernandes Menezes Santos - 2025</p>
   </section>
   <div class="share">
     <div class="share__icon">
@@ -623,7 +582,7 @@ const languages = {
     <img
       class="header__image"
       src="./images/profile__image.jpg"
-      alt="Foto de perfil de Arthur Fernandes"
+      alt="Foto de perfil"
     />
     <div class="header__content">
       <div class="header__title">
@@ -633,7 +592,7 @@ const languages = {
       <ul class="list">
         <li class="list__item">
           <p>Nacionalidade:</p>
-          <span>brasileira</span>
+          <span>País</span>
         </li>
         <li class="list__item">
           <p>Idade:</p>
@@ -643,29 +602,29 @@ const languages = {
           <p>Telefone:</p>
           <span>
             <a
-              href="https://api.whatsapp.com/send?phone=5511971071806"
+              href="#"
               target="_blank"
-              >+55 11 97107 1806</a
+              >+00 9 999 999 999</a
             >
           </span>
         </li>
         <li class="list__item">
           <p>E-mail:</p>
           <span>
-            <a href="mailto:arthurfms@yahoo.com" target="_blank"
-              >arthurfms@yahoo.com</a
+            <a href="mailto:" target="_blank"
+              >johndoe@notarealemail.com</a
             >
           </span>
         </li>
         <li class="list__item">
           <div class="social-icons">
             <a
-              href="https://www.linkedin.com/in/arthur-fms/"
+              href="https://www.linkedin.com"
               target="_blank"
             >
               <img src="./images/linkedin_w.svg" alt="Icone do LinkedIn" />
             </a>
-            <a href="https://github.com/arthurfms" target="_blank">
+            <a href="https://github.com" target="_blank">
               <img src="./images/github_w.svg" alt="Icone do GitHub" />
             </a>
           </div>
@@ -681,9 +640,7 @@ const languages = {
       <div class="typing"></div>
     </div>
     <p class="about__paragraph">
-      Graduado em Análise e Desenvolvimento de Sistemas na Unicesumar e em Jornalismo, capaz de criar páginas responsivas do zero,
-      desde o design, até desenhos de layouts e programação. Tenho experiência trabalhando com manipulação de dados, análise
-      de dados e suporte técnico, trabalhei em grandes equipes e ambientes multiculturais.
+      Vivamus eu neque in nunc vestibulum dapibus in ullamcorper massa. Ut vestibulum posuere congue. Praesent non mi vitae nisl convallis cursus sagittis sit amet mauris. Vivamus commodo augue et purus posuere, a ullamcorper risus efficitur.
     </p>
   </section>
   <section class="work-experience" id="work-experience">
@@ -696,88 +653,76 @@ const languages = {
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
-            Desenvolvedor Frontend<span> - InboundCycle</span>
+            Posição<span> - Empresa</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Brasil. <span>Agosto, 2022 - Atualmente</span>
+            País, cidade. <span>Agosto, 2022 - Atualmente</span>
           </h4>
           <p class="timeline__item-paragraph">
-            Criar e realizar alterações nas páginas dos clientes seguindo os padrões da empresa e melhores práticas de desenvolvimento. Utilizando HTML, CSS, JavaScript e PHP para desenvolver páginas web, Wordpress e Hubspot, gerenciando bases de dados, hospedagens e servidores para gerar backups e atualizações para cada cliente.
+            Aliquam sit amet tempus urna, ac porta mauris. Nam a lacus est. Praesent sed augue a mi vehicula feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec suscipit lorem varius enim hendrerit posuere vitae id dui. Mauris eget mauris vitae tellus pretium sollicitudin consectetur nec diam. Nullam egestas lectus nec velit sagittis tempor.
           </p>
         </div>
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
-            Data Implementation Specialist<span> - Doctoralia España</span>
+            Posição<span> - Empresa</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Barcelona, Espanha. <span>Maio, 2021 - Agosto, 2022</span>
+            País, cidade. <span>Maio, 2021 - Agosto, 2022</span>
           </h4>
           <p class="timeline__item-paragraph">
-            Gerenciamento e manipulação de bases de dados de grande porte para gerar formatos
-            específicos de dados, necessários para a implementação de novos clientes. Organizar
-            e realizar a gestão do processo garantindo a proteção dos dados e qualidade das
-            informações no sistema da empresa. Contactaras diferentes equipes envolvidas,
-            mantendo o processo fluindo e garantindo que cada passo ocorra conforme os padrões
-            internos, realizando também treinamentos de novos membros da equipe.
+            Maecenas sodales volutpat turpis. Suspendisse lobortis at nunc vel facilisis. Nam sed mattis lacus. Etiam consequat quis mauris a ullamcorper. Proin non magna sed enim porttitor semper. Mauris vitae nisl a sem placerat molestie. Morbi ipsum mi, venenatis nec aliquet non, porta ut lacus. Nulla at elit facilisis, congue erat id, auctor quam. Praesent convallis sem at quam maximus semper. Sed feugiat quam a libero scelerisque ultrices. Etiam luctus ligula sit amet porta fermentum.
           </p>
         </div>
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
-            Analista de Dados<span> - Doctoralia Brasil</span>
+            Posição<span> - Empresa</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Curitiba, Brasil. <span>Março, 2021 - Maio, 2021</span>
+            País, cidade. <span>Março, 2021 - Maio, 2021</span>
           </h4>
           <p class="timeline__item-paragraph">
-            Coletar dados para otimizar operações de marketing e geração de leads, atualizar e
-            manter workflows funcionando para correta captação de dados. Controle e manutenção
-            da operação, atualização de metas e KPIs e comissionamento de equipes.
+            Quisque pellentesque rutrum elit vel vestibulum. Aenean viverra eros at arcu congue, non efficitur nisl consectetur. Curabitur ut eleifend lacus. Nunc ligula felis, suscipit et bibendum at, volutpat eget lectus. Cras non urna quis nisi ultrices varius a vel purus. Nunc in congue est. Donec porttitor dapibus sem non condimentum. In congue fringilla ante eget pellentesque.
           </p>
         </div>
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
-            Analista de Suporte<span> - Doctoralia Brasil</span>
+            Posição<span> - Empresa</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Curitiba, Brasil. <span>Setembro, 2019 - Março, 2021</span>
+            País, cidade. <span>Setembro, 2019 - Março, 2021</span>
           </h4>
           <p class="timeline__item-paragraph">
-            Prestar auxílio para colaboradores da empresa e usuários com dúvidas e correções de
-            bugs via script no sistema, Marketplace e CRM financeiro. Reportar erros de sistema e
-            buscar soluções para prevenção de falhas, notificando desenvolvedores sobre correções
-            necessárias por meio de Jiras. Gerar relatórios de dados sobre a atuação e demanda de
-            Suporte utilizando MySQL e DataStudio.        
+            Cras consequat purus eget augue euismod dictum. Ut odio ligula, dignissim vel molestie id, auctor nec felis. Nullam elementum sapien sed rutrum suscipit. Donec congue libero ipsum, eget lacinia diam bibendum sed. Nulla fringilla dapibus dapibus. Aenean tempus, velit a sollicitudin hendrerit, tortor magna cursus metus, eu egestas lectus dolor sit amet augue. Donec euismod euismod molestie. Sed sed massa lacus. Aliquam pulvinar, metus vitae elementum volutpat, magna ex feugiat diam, vitae laoreet diam purus non dolor. In vitae eros dolor.
+          </p>
+          <p class="timeline__item-paragraph">
+            Quisque justo purus, pretium eu mauris sed, pellentesque posuere nisl. Ut eros eros, interdum eget nibh vitae, dictum sollicitudin mi. Donec ac auctor quam.
           </p>
         </div>
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
-            Analista de Customer Success Latam<span> - Doctoralia Brasil</span>
+            Posição<span> - Empresa</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Curitiba, Brasil. <span>Abril, 2019 - Setembro, 2019</span>
+            País, cidade. <span>Abril, 2019 - Setembro, 2019</span>
           </h4>
           <p class="timeline__item-paragraph">
-            Assessorar, por meio de telefone e email, profissionais da área da saúde do Chile, buscando
-            o sucesso do cliente na plataforma. Realizar treinamentos e auxílios relacionados ao uso
-            das ferramentas pelos profissionais.
+            Quisque pellentesque rutrum elit vel vestibulum. Aenean viverra eros at arcu congue, non efficitur nisl consectetur. Curabitur ut eleifend lacus. Nunc ligula felis, suscipit et bibendum at, volutpat eget lectus. Cras non urna quis nisi ultrices varius a vel purus. Nunc in congue est. Donec porttitor dapibus sem non condimentum. In congue fringilla ante eget pellentesque. Curabitur condimentum efficitur lorem, in viverra ante facilisis a.
           </p>
         </div>
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
-            Agente de Atendimento Trilingue<span> - Sykes Brasil</span>
+            Posição<span> - Empresa</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Curitiba, Brasil. <span>Setembro, 2018 - Abril, 2019</span>
+            País, cidade. <span>Setembro, 2018 - Abril, 2019</span>
           </h4>
           <p class="timeline__item-paragraph">
-            Assistência ao cliente de cartões de crédito corporativos em português, inglês e
-            espanhol. Aumentos de limite, informações de conta online, auxílio em cadastramentos
-            e alterações de informações do cliente.
+            Donec nec varius massa, et placerat urna. Aliquam aliquet quis nulla a tempor. Curabitur ex ante, accumsan non dolor sed, porta faucibus justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
           </p>
         </div>
       </div>
@@ -793,23 +738,23 @@ const languages = {
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
-            Análise e Desenvolvimento de Sistemas
+            Nome do Curso
           </h3>
           <h4 class="timeline__item-subtitle">
-            Unicesumar. <span>Janeiro, 2021 - Agosto, 2022</span>
+            Universidade. <span>Janeiro, 2021 - Agosto, 2022</span>
           </h4>
           <p class="timeline__item-paragraph">
-            Tecnólogo de 2 anos e meio, tratando os principais temas do desenvolvimento de software, incluindo requisitos de sistemas, linguagens de programação, UI e muitos outros pontos relevantes para um desenvolvedor.
+            Donec pellentesque rhoncus eros. Morbi porta purus odio, quis bibendum ante euismod non. Quisque auctor blandit elementum.
           </p>
         </div>
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
-          <h3 class="timeline__item-title">jornalismo</h3>
+          <h3 class="timeline__item-title">Nome do Curso</h3>
           <h4 class="timeline__item-subtitle">
-            Uni. Metodista. <span>Janeiro, 2013 - Dezembro, 2017</span>
+            Universidade. <span>Janeiro, 2013 - Dezembro, 2017</span>
           </h4>
           <p class="timeline__item-paragraph">
-            Bacharelado de 4 anos em Jornalismo e comunicação social, onde recebí o prêmio de melhor TCC do ano de graduação, com a produção de um livro de fotojornalismo sobre cultura aborígene do noroeste argentino.
+            Duis rhoncus ultricies hendrerit. Maecenas fringilla dui nec leo consectetur, a commodo felis gravida. Nulla facilisi. Mauris et odio ut mi pretium hendrerit. Nam id pellentesque nunc.
           </p>
         </div>
       </div>
@@ -822,84 +767,84 @@ const languages = {
     </div>
     <div class="skills">
       <div class="skill">
-        <h3 class="skill__title">HTML</h3>
+        <h3 class="skill__title">Habilidade 1</h3>
         <p class="skill__percentage">100%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">CSS</h3>
+        <h3 class="skill__title">Habilidade 2</h3>
         <p class="skill__percentage">100%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">JavaScript</h3>
+        <h3 class="skill__title">Habilidade 3</h3>
         <p class="skill__percentage">100%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">PHP</h3>
+        <h3 class="skill__title">Habilidade 4</h3>
         <p class="skill__percentage">50%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">SQL</h3>
+        <h3 class="skill__title">Habilidade 5</h3>
         <p class="skill__percentage">75%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">Wordpress</h3>
+        <h3 class="skill__title">Habilidade 6</h3>
         <p class="skill__percentage">50%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">Excel</h3>
+        <h3 class="skill__title">Habilidade 7</h3>
         <p class="skill__percentage">100%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">Git</h3>
+        <h3 class="skill__title">Habilidade 8</h3>
         <p class="skill__percentage">75%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">Adobe Illustrator</h3>
+        <h3 class="skill__title">Habilidade 9</h3>
         <p class="skill__percentage">90%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">Inglês</h3>
+        <h3 class="skill__title">Habilidade 10</h3>
         <p class="skill__percentage">100%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">Português</h3>
+        <h3 class="skill__title">Habilidade 11</h3>
         <p class="skill__percentage">100%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">Espanhol</h3>
+        <h3 class="skill__title">Habilidade 12</h3>
         <p class="skill__percentage">100%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
@@ -916,25 +861,25 @@ const languages = {
       <div class="card">
         <img class="card__image" src="./images/Around-the-U.S.jpg" />
         <div class="card__content">
-          <a href="https://github.com/arthurfms/web_project_4" target="_blank"
-            ><h3 class="card__title">Around The U.S.</h3></a
+          <a href="#" target="_blank"
+            ><h3 class="card__title">Projeto 1</h3></a
           >
           <p class="card__description">
-            Projeto de página responsiva com cartões onde permite que o usuário edite o nome e ocupação, também permite adição de novos cartões. O projeto foi desenvolvido em um Bootcamp e inclui abertura e fechamento de popups e outras funções em JavaScript.
+            Pellentesque vel consectetur felis, ac faucibus velit. Nullam facilisis lorem vitae elit euismod euismod. Donec in arcu orci. Nulla dictum, tellus sodales hendrerit mattis
           </p>
-          <p class="card__skills-title">Habilidades:</p>
+          <p class="card__skills-title">Habilidades utilizadas:</p>
           <div class="card__skills">
             <div class="card__skill">
-              <p>HTML</p>
+              <p>Stack 1</p>
             </div>
             <div class="card__skill">
-              <p>CSS</p>
+              <p>Stack 2</p>
             </div>
             <div class="card__skill">
-              <p>JavaScript</p>
+              <p>Stack 3</p>
             </div>
             <div class="card__skill">
-              <p>Metodologia BEM</p>
+              <p>Stack 4</p>
             </div>
           </div>
         </div>
@@ -942,22 +887,22 @@ const languages = {
       <div class="card">
         <img class="card__image" src="./images/De Pátria para Pátria.jpg" />
         <div class="card__content">
-          <a href="https://arthurfms.github.io/web_project_3_ptbr/" target="_blank"
-            ><h3 class="card__title">De Pátria para Pátria</h3></a
+          <a href="#" target="_blank"
+            ><h3 class="card__title">Projeto 2</h3></a
           >
           <p class="card__description">
-            Página responsiva desenvolvida durante Bootcamp utilizando técnicas CSS para fazer transições e animações de forma fluída.
+            Vestibulum vehicula tincidunt velit nec accumsan. Donec massa ante, dignissim at accumsan vitae, placerat sed purus.
           </p>
-          <p class="card__skills-title">Habilidades:</p>
+          <p class="card__skills-title">Habilidades utilizadas:</p>
           <div class="card__skills">
             <div class="card__skill">
-              <p>HTML</p>
+              <p>Stack 1</p>
             </div>
             <div class="card__skill">
-              <p>CSS</p>
+              <p>Stack 2</p>
             </div>
             <div class="card__skill">
-              <p>Metodologia BEM</p>
+              <p>Stack 3</p>
             </div>
           </div>
         </div>
@@ -968,22 +913,22 @@ const languages = {
           src="./images/Aprendendo a Aprender2.jpg"
         />
         <div class="card__content">
-          <a href="https://arthurfms.github.io/web_project_1_ptbr/" target="_blank"
-            ><h3 class="card__title">Aprendendo a Aprender</h3></a
+          <a href="#" target="_blank"
+            ><h3 class="card__title">Projeto 3</h3></a
           >
           <p class="card__description">
-            Landing page sobre técnicas de aprendizagem. O projeto incluiu animações em CSS, display e conceitos de HTML.
+            Quisque sem eros, pretium vitae ullamcorper ut, vestibulum sed mauris. Etiam tempus auctor elementum. Fusce dui tellus, egestas sed libero et, porttitor pharetra arcu.
           </p>
-          <p class="card__skills-title">Habilidades:</p>
+          <p class="card__skills-title">Habilidades utilizadas:</p>
           <div class="card__skills">
             <div class="card__skill">
-              <p>HTML</p>
+              <p>Stack 1</p>
             </div>
             <div class="card__skill">
-              <p>CSS</p>
+              <p>Stack 2</p>
             </div>
             <div class="card__skill">
-              <p>Metodologia BEM</p>
+              <p>Stack 3</p>
             </div>
           </div>
         </div>
@@ -996,26 +941,26 @@ const languages = {
       <div class="slideshow__button slideshow__button_backwards"></div>
       <div class="slideshow__button slideshow__button_forwards"></div>
       <div class="slide">
-        <h3 class="slide__title">Bootcamp de Desenvolvimento WEB</h3>
+        <h3 class="slide__title">Nome do Curso</h3>
         <h4 class="slide__subtitle">
-          Practicum by Yandex. FEVEREIRO, 2022 - JANEIRO, 2023
+          Instituição. FEVEREIRO, 2022 - JANEIRO, 2023
         </h4>
         <span class="slide__line"></span>
         <p class="slide__description">
-          Bootcamp de 10 meses sobre desenvolvimento WEB, focando em todas as tecnologias, linguagens de programação e metodologias utilizadas no Frontend.
+          Quisque sem eros, pretium vitae ullamcorper ut, vestibulum sed mauris. Etiam tempus auctor elementum. Fusce dui tellus, egestas sed libero et, porttitor pharetra arcu.
         </p>
         <div class="slide__skills">
           <div class="slide__skill">
-            <p>HTML</p>
+            <p>Habilidade 1</p>
           </div>
           <div class="slide__skill">
-            <p>CSS</p>
+            <p>Habilidade 2</p>
           </div>
           <div class="slide__skill">
-            <p>JavaScript</p>
+            <p>Habilidade 3</p>
           </div>
           <div class="slide__skill">
-            <p>Metodologia BEM</p>
+            <p>Habilidade 4</p>
           </div>
         </div>
       </div>
@@ -1033,29 +978,29 @@ const languages = {
             <p>Phone:</p>
             <span>
               <a
-                href="https://api.whatsapp.com/send?phone=5511971071806"
+                href="#"
                 target="_blank"
-                >+55 11 97107 1806</a
+                >+00 9 999 999 999</a
               >
             </span>
           </li>
           <li class="list__item">
             <p>E-mail:</p>
             <span>
-              <a href="mailto:arthurfms@yahoo.com" target="_blank"
-                >arthurfms@yahoo.com</a
+              <a href="mailto:" target="_blank"
+                >johndoe@notarealemail.com</a
               >
             </span>
           </li>
           <li class="list__item">
             <div class="social-icons">
               <a
-                href="https://www.linkedin.com/in/arthur-fms/"
+                href="https://www.linkedin.com"
                 target="_blank"
               >
                 <img src="./images/linkedin_w.svg" alt="LinkedIn icon" />
               </a>
-              <a href="https://github.com/arthurfms" target="_blank">
+              <a href="https://github.com" target="_blank">
                 <img src="./images/github_w.svg" alt="GitHub icon" />
               </a>
             </div>
@@ -1115,7 +1060,7 @@ const languages = {
     </div>
   </section>
   <section class="footer">
-    <p class="footer__copyright">&copy; Arthur Fernandes Menezes Santos - 2022</p>
+    <p class="footer__copyright">&copy; Arthur Fernandes Menezes Santos - 2025</p>
   </section>
   <div class="share">
     <div class="share__icon">
@@ -1179,7 +1124,7 @@ const languages = {
     <img
       class="header__image"
       src="./images/profile__image.jpg"
-      alt="foto de perfil de Arthur Fernandes"
+      alt="foto de perfil "
     />
     <div class="header__content">
       <div class="header__title">
@@ -1189,7 +1134,7 @@ const languages = {
       <ul class="list">
         <li class="list__item">
           <p>Nacionalidad:</p>
-          <span>brazileño</span>
+          <span>País</span>
         </li>
         <li class="list__item">
           <p>Edad:</p>
@@ -1199,29 +1144,29 @@ const languages = {
           <p>Teléfono:</p>
           <span>
             <a
-              href="https://api.whatsapp.com/send?phone=5511971071806"
+              href="#"
               target="_blank"
-              >+55 11 97107 1806</a
+              >+00 9 999 999 999</a
             >
           </span>
         </li>
         <li class="list__item">
           <p>Correo:</p>
           <span>
-            <a href="mailto:arthurfms@yahoo.com" target="_blank"
-              >arthurfms@yahoo.com</a
+            <a href="mailto:" target="_blank"
+              >johndoe@notarealemail.com</a
             >
           </span>
         </li>
         <li class="list__item">
           <div class="social-icons">
             <a
-              href="https://www.linkedin.com/in/arthur-fms/"
+              href="https://www.linkedin.com"
               target="_blank"
             >
               <img src="./images/linkedin_w.svg" alt="Icono de LinkedIn" />
             </a>
-            <a href="https://github.com/arthurfms" target="_blank">
+            <a href="https://github.com" target="_blank">
               <img src="./images/github_w.svg" alt="Icono de GitHub" />
             </a>
           </div>
@@ -1237,9 +1182,7 @@ const languages = {
       <div class="typing"></div>
     </div>
     <p class="about__paragraph">
-      Recibido en Análisis y Desarrollo de Software en la universidad Unicesumar (Brazil) y Periodismo, puedo crear aplicaciones desde
-      cero, desde el diseño hasta la programación. Tengo experiencia con manipulación de datos, análisis de datos y soporte
-      tecnico, trabajé en grandes equipos y ambientes multiculturales.
+      Vestibulum tristique finibus consequat. Duis dictum justo id sem interdum, id fringilla diam semper. Aenean magna ligula, fermentum ut maximus non, porta tincidunt nulla. Etiam tortor neque, ultrices quis scelerisque sit amet, mollis commodo turpis. Maecenas eu nisl tristique, molestie nibh euismod, auctor urna.
     </p>
   </section>
   <section class="work-experience" id="work-experience">
@@ -1252,93 +1195,76 @@ const languages = {
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
-            Desarrollador Frontend<span> - InboundCycle</span>
+            Posición<span> - Empresa</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Brazil. <span>Agosto, 2022 - Actualmente</span>
+            País, cuidad. <span>Agosto, 2022 - Actualmente</span>
           </h4>
           <p class="timeline__item-paragraph">
-            Crear y realizar mantenimiento en páginas de clientes siguiendo todos los estándares de la empresa y mejores prácticas de desarrollo de software. Usando HTML, CSS, JavaScript y PHP para desarrollar páginas web, Wordpress y Hubspot, manejando bases de datos, hospedajes y servidores para hacer backups y actualizaciones para cada cliente.
+            Aliquam sit amet tempus urna, ac porta mauris. Nam a lacus est. Praesent sed augue a mi vehicula feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec suscipit lorem varius enim hendrerit posuere vitae id dui. Mauris eget mauris vitae tellus pretium sollicitudin consectetur nec diam. Nullam egestas lectus nec velit sagittis tempor.
           </p>
         </div>
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
-            Data Implementation Specialist<span> - Doctoralia España</span>
+            Posición<span> - Empresa</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Barcelona, España. <span>Mayo, 2021 - Agosto, 2022</span>
+            País, cuidad. <span>Mayo, 2021 - Agosto, 2022</span>
           </h4>
           <p class="timeline__item-paragraph">
-            Gestionar y manipular bases con gran cantidad de datos para generar archivos de
-            formato específicos, necesarios para implementación de nuevos clientes.
-            Ordenación y mantenimiento de procesos garantizando la calidad de las informaciones
-            en el sistema y la protección de datos. Contacto con los equipos relacionados con los
-            procedimientos y manutención del proceso para que todo salga conforme los estándares
-            de la empresa y realizando entrenamiento de nuevos empleados del equipo.
+            Maecenas sodales volutpat turpis. Suspendisse lobortis at nunc vel facilisis. Nam sed mattis lacus. Etiam consequat quis mauris a ullamcorper. Proin non magna sed enim porttitor semper. Mauris vitae nisl a sem placerat molestie. Morbi ipsum mi, venenatis nec aliquet non, porta ut lacus. Nulla at elit facilisis, congue erat id, auctor quam. Praesent convallis sem at quam maximus semper. Sed feugiat quam a libero scelerisque ultrices. Etiam luctus ligula sit amet porta fermentum.
           </p>
         </div>
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
-            Analista de Datos<span> - Doctoralia Brasil</span>
+            Posición<span> - Empresa</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Curitiba, Brazil. <span>Marzo, 2021 - Mayo, 2021</span>
+            País, cuidad. <span>Marzo, 2021 - Mayo, 2021</span>
           </h4>
           <p class="timeline__item-paragraph">
-            Hacer coleta de datos para optimizar la operación de marketing, generación de contactos
-            y DP Phone, actualizar y mantener la flujos de datos para la correcta captación. Control y
-            mantenimiento de operación, actualización de objetivos, KPI y pagos del equipo.
+            Quisque pellentesque rutrum elit vel vestibulum. Aenean viverra eros at arcu congue, non efficitur nisl consectetur. Curabitur ut eleifend lacus. Nunc ligula felis, suscipit et bibendum at, volutpat eget lectus. Cras non urna quis nisi ultrices varius a vel purus. Nunc in congue est. Donec porttitor dapibus sem non condimentum. In congue fringilla ante eget pellentesque.
           </p>
         </div>
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
-            Analista de Soporte<span> - Doctoralia Brasil</span>
+            Posición<span> - Empresa</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Curitiba, Brazil. <span>Septiembre, 2019 - Marzo, 2021</span>
+            País, cuidad. <span>Septiembre, 2019 - Marzo, 2021</span>
           </h4>
           <p class="timeline__item-paragraph">
-            Proveer soporte a los empleados y usuarios , hacer corrección de errores del sistema
-            de SaaS, Marketplace y Financiero. Reportar debilidades, encontrar soluciones para
-            prevención de errores y notificar desarrolladores sobre la necesidad de correcciones por
-            medio de Jiras. Crear relatórios de análisis de datos sobre el Soporte y sobre la operación
-            de Customer Success.
+            Cras consequat purus eget augue euismod dictum. Ut odio ligula, dignissim vel molestie id, auctor nec felis. Nullam elementum sapien sed rutrum suscipit. Donec congue libero ipsum, eget lacinia diam bibendum sed. Nulla fringilla dapibus dapibus. Aenean tempus, velit a sollicitudin hendrerit, tortor magna cursus metus, eu egestas lectus dolor sit amet augue. Donec euismod euismod molestie. Sed sed massa lacus. Aliquam pulvinar, metus vitae elementum volutpat, magna ex feugiat diam, vitae laoreet diam purus non dolor. In vitae eros dolor.
           </p>
           <p class="timeline__item-paragraph">
-            He trabajado directamente con el equipo de desarrollo para incrementar acciones de
-            soporte en las migraciones de nuevos clientes, disminuyendo el tiempo de respuesta de
-            más de 20 horas de trabajo para 4 horas.
+            Quisque justo purus, pretium eu mauris sed, pellentesque posuere nisl. Ut eros eros, interdum eget nibh vitae, dictum sollicitudin mi. Donec ac auctor quam.
           </p>
         </div>
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
-            Analista de Customer Success LATAM<span> - Doctoralia Brasil</span>
+            Posición<span> - Empresa</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Curitiba, Brazil. <span>Abril, 2019 - Septiembre, 2019</span>
+            País, cuidad. <span>Abril, 2019 - Septiembre, 2019</span>
           </h4>
           <p class="timeline__item-paragraph">
-            Asesorar profesionales de la salud de Chile por teléfono y correo. Hacer entrenamientos
-            y auxiliar con problemas en la plataforma, configurar el sistema para nuevos clientes y
-            rastrear sus necessidades.
+            Quisque pellentesque rutrum elit vel vestibulum. Aenean viverra eros at arcu congue, non efficitur nisl consectetur. Curabitur ut eleifend lacus. Nunc ligula felis, suscipit et bibendum at, volutpat eget lectus. Cras non urna quis nisi ultrices varius a vel purus. Nunc in congue est. Donec porttitor dapibus sem non condimentum. In congue fringilla ante eget pellentesque. Curabitur condimentum efficitur lorem, in viverra ante facilisis a.
           </p>
         </div>
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
-            Agente de Atención al Cliente Trilingüe<span> - Sykes Brasil</span>
+            Posición<span> - Empresa</span>
           </h3>
           <h4 class="timeline__item-subtitle">
-            Curitiba, Brazil. <span>Septiembre, 2018 - Abril, 2019</span>
+            País, cuidad. <span>Septiembre, 2018 - Abril, 2019</span>
           </h4>
           <p class="timeline__item-paragraph">
-            Manejar las solicitudes de los clientes en Inglés, Español y Portugués. Cambio del límite
-            de cuentas, actualización de informaciones cadastrales, atención al cliente general y a
-            las cuentas corporativas.
+            Donec nec varius massa, et placerat urna. Aliquam aliquet quis nulla a tempor. Curabitur ex ante, accumsan non dolor sed, porta faucibus justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
           </p>
         </div>
       </div>
@@ -1354,23 +1280,25 @@ const languages = {
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
           <h3 class="timeline__item-title">
-            Analisis y Desarrollo de Software
+            Nombre del Curso
           </h3>
           <h4 class="timeline__item-subtitle">
-            Unicesumar. <span>Enero, 2021 - Agosto, 2022</span>
+            Universidad. <span>Enero, 2021 - Agosto, 2022</span>
           </h4>
           <p class="timeline__item-paragraph">
-            Gradución de 2 años y medio, sobre todas las habilidades de desarrollo de software, requisitos de sistemas, lenguages de programación, UI y otros topicos relacionados.
+            Donec pellentesque rhoncus eros. Morbi porta purus odio, quis bibendum ante euismod non. Quisque auctor blandit elementum.
           </p>
         </div>
         <div class="timeline__item">
           <span class="timeline__item-dot"></span>
-          <h3 class="timeline__item-title">Periodismo</h3>
+          <h3 class="timeline__item-title">
+            Nombre del Curso
+          </h3>
           <h4 class="timeline__item-subtitle">
-            Uni. Metodista. <span>Enero, 2013 - Diciembre, 2017</span>
+            Universidad. <span>Enero, 2013 - Diciembre, 2017</span>
           </h4>
           <p class="timeline__item-paragraph">
-            4 años de graduación en Periodismo y comunicación social, donde he recibido el premio de mejor tesis de mi año de graduación, con un libro de fotoperiodismo sobre la cultura aborígen del noroeste argentino.
+            Duis rhoncus ultricies hendrerit. Maecenas fringilla dui nec leo consectetur, a commodo felis gravida. Nulla facilisi. Mauris et odio ut mi pretium hendrerit. Nam id pellentesque nunc.
           </p>
         </div>
       </div>
@@ -1383,84 +1311,84 @@ const languages = {
     </div>
     <div class="skills">
       <div class="skill">
-        <h3 class="skill__title">HTML</h3>
+        <h3 class="skill__title">Habilidad 1</h3>
         <p class="skill__percentage">100%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">CSS</h3>
+        <h3 class="skill__title">Habilidad 2</h3>
         <p class="skill__percentage">100%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">JavaScript</h3>
+        <h3 class="skill__title">Habilidad 3</h3>
         <p class="skill__percentage">100%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">PHP</h3>
+        <h3 class="skill__title">Habilidad 4</h3>
         <p class="skill__percentage">50%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">SQL</h3>
+        <h3 class="skill__title">Habilidad 5</h3>
         <p class="skill__percentage">75%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">Wordpress</h3>
+        <h3 class="skill__title">Habilidad 6</h3>
         <p class="skill__percentage">50%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">Excel</h3>
+        <h3 class="skill__title">Habilidad 7</h3>
         <p class="skill__percentage">100%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">Git</h3>
+        <h3 class="skill__title">Habilidad 8</h3>
         <p class="skill__percentage">75%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">Adobe Illustrator</h3>
+        <h3 class="skill__title">Habilidad 9</h3>
         <p class="skill__percentage">90%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">Inglés</h3>
+        <h3 class="skill__title">Habilidad 10</h3>
         <p class="skill__percentage">100%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">Portugués</h3>
+        <h3 class="skill__title">Habilidad 11</h3>
         <p class="skill__percentage">100%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
         </div>
       </div>
       <div class="skill">
-        <h3 class="skill__title">Español</h3>
+        <h3 class="skill__title">Habilidad 12</h3>
         <p class="skill__percentage">100%</p>
         <div class="skill-bar">
           <span class="skill-bar__progress"></span>
@@ -1477,25 +1405,25 @@ const languages = {
       <div class="card">
         <img class="card__image" src="./images/Around-the-U.S.jpg" />
         <div class="card__content">
-          <a href="https://github.com/arthurfms/web_project_4" target="_blank"
-            ><h3 class="card__title">Around The U.S.</h3></a
+          <a href="#" target="_blank"
+            ><h3 class="card__title">Proyecto 1</h3></a
           >
           <p class="card__description">
-            Página creada cómo proyecto en un Bootcamp, dónde el usuario puede cambiar sus datos de perfil y agregar nuevas imágenes. El proyecto incluye abrir y cerrar popup a través de JavaScript y verificación de formularios.
+            Pellentesque vel consectetur felis, ac faucibus velit. Nullam facilisis lorem vitae elit euismod euismod. Donec in arcu orci. Nulla dictum, tellus sodales hendrerit mattis
           </p>
-          <p class="card__skills-title">Habilidades:</p>
+          <p class="card__skills-title">Habilidades usadas:</p>
           <div class="card__skills">
             <div class="card__skill">
-              <p>HTML</p>
+              <p>Stack 1</p>
             </div>
             <div class="card__skill">
-              <p>CSS</p>
+              <p>Stack 2</p>
             </div>
             <div class="card__skill">
-              <p>JavaScript</p>
+              <p>Stack 3</p>
             </div>
             <div class="card__skill">
-              <p>Metodología BEM</p>
+              <p>Stack 4</p>
             </div>
           </div>
         </div>
@@ -1503,22 +1431,22 @@ const languages = {
       <div class="card">
         <img class="card__image" src="./images/De Pátria para Pátria.jpg" />
         <div class="card__content">
-          <a href="https://arthurfms.github.io/web_project_3_ptbr/" target="_blank"
-            ><h3 class="card__title">De País a País</h3></a
+          <a href="#" target="_blank"
+            ><h3 class="card__title">Proyecto 2</h3></a
           >
           <p class="card__description">
-            Página responsiva dónde he utilizado tecnicas CSS para hacer con que la página funcione en cualquier tamaño de pantalla y haga una buena transición entre ellas.
+            Vestibulum vehicula tincidunt velit nec accumsan. Donec massa ante, dignissim at accumsan vitae, placerat sed purus.
           </p>
-          <p class="card__skills-title">Habilidades:</p>
+          <p class="card__skills-title">Habilidades usadas:</p>
           <div class="card__skills">
             <div class="card__skill">
-              <p>HTML</p>
+              <p>Stack 1</p>
             </div>
             <div class="card__skill">
-              <p>CSS</p>
+              <p>Stack 2</p>
             </div>
             <div class="card__skill">
-              <p>Metodología BEM</p>
+              <p>Stack 3</p>
             </div>
           </div>
         </div>
@@ -1529,22 +1457,22 @@ const languages = {
           src="./images/Aprendendo a Aprender2.jpg"
         />
         <div class="card__content">
-          <a href="https://arthurfms.github.io/web_project_1_ptbr/" target="_blank"
-            ><h3 class="card__title">Aprendiendo a Aprender</h3></a
+          <a href="#" target="_blank"
+            ><h3 class="card__title">Proyecto 3</h3></a
           >
           <p class="card__description">
-            Página sobre tecnicas de aprendizaje. El proyecto incluye animaciones CSS y caracteristicas de elementos, también incluye HTML desde el basico al más avanzado.
+            Quisque sem eros, pretium vitae ullamcorper ut, vestibulum sed mauris. Etiam tempus auctor elementum. Fusce dui tellus, egestas sed libero et, porttitor pharetra arcu.
           </p>
-          <p class="card__skills-title">Habilidades:</p>
+          <p class="card__skills-title">Habilidades usadas:</p>
           <div class="card__skills">
             <div class="card__skill">
-              <p>HTML</p>
+              <p>Stack 1</p>
             </div>
             <div class="card__skill">
-              <p>CSS</p>
+              <p>Stack 2</p>
             </div>
             <div class="card__skill">
-              <p>Metodología BEM</p>
+              <p>Stack 3</p>
             </div>
           </div>
         </div>
@@ -1557,26 +1485,26 @@ const languages = {
       <div class="slideshow__button slideshow__button_backwards"></div>
       <div class="slideshow__button slideshow__button_forwards"></div>
       <div class="slide">
-        <h3 class="slide__title">Bootcamp de Desarrollo WEB</h3>
+        <h3 class="slide__title">Nombre del Curso</h3>
         <h4 class="slide__subtitle">
-          Practicum by Yandex. FEBRERO, 2022 - ENERO, 2023
+          Institución. FEBRERO, 2022 - ENERO, 2023
         </h4>
         <span class="slide__line"></span>
         <p class="slide__description">
-          Curso de 10 meses en el formato Bootcamp, con enfoque en todas las habilidades, tecnologías, lenguages de programación y metedologías utilizadas en el desarrollo web.
+          Maecenas fringilla dui nec leo consectetur, a commodo felis gravida. Nulla facilisi. Mauris et odio ut mi pretium hendrerit. Nam id pellentesque nunc.
         </p>
         <div class="slide__skills">
           <div class="slide__skill">
-            <p>HTML</p>
+            <p>Habilidad 1</p>
           </div>
           <div class="slide__skill">
-            <p>CSS</p>
+            <p>Habilidad 2</p>
           </div>
           <div class="slide__skill">
-            <p>JavaScript</p>
+            <p>Habilidad 3</p>
           </div>
           <div class="slide__skill">
-            <p>Metodología BEM</p>
+            <p>Habilidad 4</p>
           </div>
         </div>
       </div>
@@ -1594,29 +1522,29 @@ const languages = {
             <p>Teléfono:</p>
             <span>
               <a
-                href="https://api.whatsapp.com/send?phone=5511971071806"
+                href="#"
                 target="_blank"
-                >+55 11 97107 1806</a
+                >+00 9 999 999 999</a
               >
             </span>
           </li>
           <li class="list__item">
             <p>Correo:</p>
             <span>
-              <a href="mailto:arthurfms@yahoo.com" target="_blank"
-                >arthurfms@yahoo.com</a
+              <a href="mailto:" target="_blank"
+                >johndoe@notarealemail.com</a
               >
             </span>
           </li>
           <li class="list__item">
             <div class="social-icons">
               <a
-                href="https://www.linkedin.com/in/arthur-fms/"
+                href="https://www.linkedin.com"
                 target="_blank"
               >
                 <img src="./images/linkedin_w.svg" alt="LinkedIn icon" />
               </a>
-              <a href="https://github.com/arthurfms" target="_blank">
+              <a href="https://github.com" target="_blank">
                 <img src="./images/github_w.svg" alt="GitHub icon" />
               </a>
             </div>
@@ -1676,7 +1604,7 @@ const languages = {
     </div>
   </section>
   <section class="footer">
-    <p class="footer__copyright">&copy; Arthur Fernandes Menezes Santos - 2022</p>
+    <p class="footer__copyright">&copy; Arthur Fernandes Menezes Santos - 2025</p>
   </section>
   <div class="share">
     <div class="share__icon">
@@ -1702,106 +1630,118 @@ const languages = {
 };
 
 const resumes = {
-  en: "https://www.arthurfernandes.me/documents/Arthur%20Fernandes_EN.pdf",
-  pt: "https://www.arthurfernandes.me/documents/Arthur%20Fernandes_PT.pdf",
-  es: "https://www.arthurfernandes.me/documents/Arthur%20Fernandes_ES.pdf",
+  en: "https://www.arthurfernandes.me/documents/johndoe_resume.pdf",
+  pt: "https://www.arthurfernandes.me/documents/johndoe_resume.pdf",
+  es: "https://www.arthurfernandes.me/documents/johndoe_resume.pdf",
 };
 
 const slidesContent = {
   en: [
     {
-      title: "Web Development Bootcamp",
-      subtitle: "Practicum by Yandex. FEBRUARY, 2022 - JANUARY, 2023",
+      title: "Course Name",
+      subtitle: "School. FEBRUARY, 2022 - JANUARY, 2023",
       description:
-        "10 months Web Development bootcamp, foccusing on all frontend technologies, programming languages and methodologies. The course is separated in sprints, trying to generate a real world development enviroment.",
-      skills: ["HTML", "CSS", "JavaScript", "BEM Methodology", "React"],
+        "Quisque sem eros, pretium vitae ullamcorper ut, vestibulum sed mauris. Etiam tempus auctor elementum. Fusce dui tellus, egestas sed libero et, porttitor pharetra arcu.",
+      skills: ["Skill 1", "Skill 2", "Skill 3", "Skill 4", "Skill 5"],
     },
     {
-      title: "Frontend Engineering",
-      subtitle: "EBAC. JANUARY, 2022 - JANUARY, 2023",
+      title: "Course Name",
+      subtitle: "School. JANUARY, 2022 - JANUARY, 2023",
       description:
-        "A year long course about all frontend engineering framework, passing throughout web design, frontend programming and different profession frameworks.",
+        "Vestibulum vehicula tincidunt velit nec accumsan. Donec massa ante, dignissim at accumsan vitae, placerat sed purus.",
       skills: [
-        "HTML",
-        "CSS",
-        "Sass",
-        "Bootstrap",
-        "JavaScript",
-        "JQuery",
-        "React",
-        "Ajax",
+        "Skill 1",
+        "Skill 2",
+        "Skill 3",
+        "Skill 4",
+        "Skill 5",
+        "Skill 6",
+        "Skill 7",
+        "Skill 8",
       ],
     },
     {
-      title: "Java Object-Oriented Development",
-      subtitle: "Universidade Estadual do Ceará. MAY, 2020 - SEPTEMBER, 2020",
+      title: "Course Name",
+      subtitle: "School. MAY, 2020 - SEPTEMBER, 2020",
       description:
-        "2 courses with two months each about Java development, foccusing on Web Applications and Object-Oriented programming.",
-      skills: ["Java"],
+        "Donec eget fringilla lorem. Mauris scelerisque nibh eu ipsum porttitor, a tincidunt nibh ultricies. Sed at ligula et augue varius scelerisque.",
+      skills: ["Skill 1"],
     },
   ],
   pt: [
     {
-      title: "Desenvolvimento WEB Bootcamp",
-      subtitle: "Practicum by Yandex. FEVEREIRO, 2022 - JANEIRO, 2023",
+      title: "Nome do Curso",
+      subtitle: "Instituição. FEVEREIRO, 2022 - JANEIRO, 2023",
       description:
-        "Bootcamp de 10 meses sobre desenvolvimento WEB, focando em todas as tecnologias, linguagens de programação e metodologias utilizadas no Frontend.",
-      skills: ["HTML", "CSS", "JavaScript", "BEM Methodology", "React"],
-    },
-    {
-      title: "Engenharia Frontend",
-      subtitle: "EBAC. JANEIRO, 2022 - JANEIRO, 2023",
-      description:
-        "Curso de um ano sobre engenharia frontend, abordando temas como design responsivo, programação e diferentes frameworks utilizados na profissão.",
+        "Quisque sem eros, pretium vitae ullamcorper ut, vestibulum sed mauris. Etiam tempus auctor elementum. Fusce dui tellus, egestas sed libero et, porttitor pharetra arcu.",
       skills: [
-        "HTML",
-        "CSS",
-        "Sass",
-        "Bootstrap",
-        "JavaScript",
-        "JQuery",
-        "React",
-        "Ajax",
+        "Habilidade 1",
+        "Habilidade 2",
+        "Habilidade 3",
+        "Habilidade 4",
+        "Habilidade 5",
       ],
     },
     {
-      title: "Desenvolvimento Orientado a Objeto com Java",
-      subtitle: "Universidade Estadual do Ceará. MAIO, 2020 - SETEMBRO, 2020",
+      title: "Nome do Curso",
+      subtitle: "Instituição. JANEIRO, 2022 - JANEIRO, 2023",
       description:
-        "2 cursos de dois meses de duração cada sobre desenvolvimento com Java, focando em aplicações web e programação orientada a objetos.",
-      skills: ["Java"],
+        "Vestibulum vehicula tincidunt velit nec accumsan. Donec massa ante, dignissim at accumsan vitae, placerat sed purus.",
+      skills: [
+        "Habilidade 1",
+        "Habilidade 2",
+        "Habilidade 3",
+        "Habilidade 4",
+        "Habilidade 5",
+        "Habilidade 6",
+        "Habilidade 7",
+        "Habilidade 8",
+      ],
+    },
+    {
+      title: "Nome do Curso",
+      subtitle: "Instituição. MAIO, 2020 - SETEMBRO, 2020",
+      description:
+        "Donec eget fringilla lorem. Mauris scelerisque nibh eu ipsum porttitor, a tincidunt nibh ultricies. Sed at ligula et augue varius scelerisque.",
+      skills: ["Habilidade 1"],
     },
   ],
   es: [
     {
-      title: "Web Development Bootcamp",
-      subtitle: "Practicum by Yandex. FEBRUARY, 2022 - JANUARY, 2023",
+      title: "Nombre del Curso",
+      subtitle: "Institución. FEBRERO, 2022 - ENERO, 2023",
       description:
-        "Bootcamp de 10 meses sobre desarrollo WEB, con enfoque en todas las tecnologías, lenguage de programación y metodologías utilizadas en el Frontend.",
-      skills: ["HTML", "CSS", "JavaScript", "BEM Methodology", "React"],
-    },
-    {
-      title: "Frontend Engineering",
-      subtitle: "EBAC. JANUARY, 2022 - JANUARY, 2023",
-      description:
-        "Curso de un año de duración sobre engenieria frontend, tratando temas cómo diseño responsivo, programación y distintos frameworks utilizados en la profesión.",
+        "Quisque sem eros, pretium vitae ullamcorper ut, vestibulum sed mauris. Etiam tempus auctor elementum. Fusce dui tellus, egestas sed libero et, porttitor pharetra arcu.",
       skills: [
-        "HTML",
-        "CSS",
-        "Sass",
-        "Bootstrap",
-        "JavaScript",
-        "JQuery",
-        "React",
-        "Ajax",
+        "Habilidad 1",
+        "Habilidad 2",
+        "Habilidad 3",
+        "Habilidad 4",
+        "Habilidad 5",
       ],
     },
     {
-      title: "Desarrollo Orientado a Objeto con Java",
-      subtitle: "Universidade Estadual do Ceará. MAY, 2020 - SEPTEMBER, 2020",
+      title: "Nombre del Curso",
+      subtitle: "Institución. ENERO, 2022 - ENERO, 2023",
       description:
-        "2 cursos de dos meses cada uno sobre desarrollo con Java, con enfoque en aplicaciones web y programación orientada a objetos.",
-      skills: ["Java"],
+        "Vestibulum vehicula tincidunt velit nec accumsan. Donec massa ante, dignissim at accumsan vitae, placerat sed purus.",
+      skills: [
+        "Habilidad 1",
+        "Habilidad 2",
+        "Habilidad 3",
+        "Habilidad 4",
+        "Habilidad 5",
+        "Habilidad 6",
+        "Habilidad 7",
+        "Habilidad 8",
+      ],
+    },
+    {
+      title: "Nombre del Curso",
+      subtitle: "Institución. MAYO, 2020 - SEPTIEMBRE, 2020",
+      description:
+        "Donec eget fringilla lorem. Mauris scelerisque nibh eu ipsum porttitor, a tincidunt nibh ultricies. Sed at ligula et augue varius scelerisque.",
+      skills: ["Habilidad 1"],
     },
   ],
 };

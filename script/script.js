@@ -254,7 +254,7 @@ window.onload = function () {
 
     //Typewriter
 
-    const typingText = "Arthur Fernandes";
+    const typingText = "John Doe";
     const element = document.querySelector("h1");
     typeWriter();
 
@@ -672,7 +672,7 @@ window.onload = function () {
           let url = window.URL || window.webkitURL;
           link = url.createObjectURL(blob);
           let a = document.createElement("a");
-          a.setAttribute("download", "Arthur Fernandes - CV.pdf");
+          a.setAttribute("download", "John Doe - CV.pdf");
           a.setAttribute("href", link);
           document.body.appendChild(a);
           a.click();
@@ -687,5 +687,4 @@ window.onload = function () {
     definingTheme();
     reseteThemeLg();
   }
-
 };
